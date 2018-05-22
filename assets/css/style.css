@@ -223,43 +223,43 @@
         transform: translate3d(0, -0.5rem, 0);
     }
     
-    .lore.lore-hover:hover .icon.icon-primary.icon-circle {
+    .lore.lore-hover:hover .icon.icon-orange.icon-circle {
         box-shadow: 0px 15px 30px 0px rgba(249, 99, 50, 0.35);
     }
     
-    .lore.lore-hover:hover .icon.icon-lore.icon-circle {
+    .lore.lore-hover:hover .icon.icon-blue.icon-circle {
         box-shadow: 0px 15px 35px 0px rgba(44, 168, 255, 0.35);
     }
     
-    .lore.lore-hover:hover .icon.icon-success.icon-circle {
+    .lore.lore-hover:hover .icon.icon-green.icon-circle {
         box-shadow: 0px 15px 35px 0px rgba(24, 206, 15, 0.35);
     }
     
-    .lore.lore-hover:hover .icon.icon-warning.icon-circle {
+    .lore.lore-hover:hover .icon.icon-yellow.icon-circle {
         box-shadow: 0px 15px 35px 0px rgba(255, 178, 54, 0.35);
     }
     
-    .lore.lore-hover:hover .icon.icon-danger.icon-circle {
+    .lore.lore-hover:hover .icon.icon-red.icon-circle {
         box-shadow: 0px 15px 35px 0px rgba(255, 54, 54, 0.35);
     }
     
-    .lore.lore-hover:hover .icon.icon-lore+.lore-title {
+    .lore.lore-hover:hover .icon.icon-blue+.lore-title {
         color: #2CA8FF;
     }
     
-    .lore.lore-hover:hover .icon.icon-warning+.lore-title {
+    .lore.lore-hover:hover .icon.icon-yellow+.lore-title {
         color: #FFB236;
     }
     
-    .lore.lore-hover:hover .icon.icon-danger+.lore-title {
+    .lore.lore-hover:hover .icon.icon-red+.lore-title {
         color: #FF3636;
     }
     
-    .lore.lore-hover:hover .icon.icon-primary+.lore-title {
+    .lore.lore-hover:hover .icon.icon-orange+.lore-title {
         color: #f96332;
     }
     
-    .lore.lore-hover:hover .icon.icon-success+.lore-title {
+    .lore.lore-hover:hover .icon.icon-green+.lore-title {
         color: #18ce0f;
     }
     
@@ -383,43 +383,43 @@
         transform: translate3d(0, -0.5rem, 0);
     }
     
-    .lore.lore-hover:hover .icon.icon-primary.icon-circle {
+    .lore.lore-hover:hover .icon.icon-orange.icon-circle {
         box-shadow: 0px 15px 30px 0px rgba(249, 99, 50, 0.35);
     }
     
-    .lore.lore-hover:hover .icon.icon-lore.icon-circle {
+    .lore.lore-hover:hover .icon.icon-blue.icon-circle {
         box-shadow: 0px 15px 35px 0px rgba(44, 168, 255, 0.35);
     }
     
-    .lore.lore-hover:hover .icon.icon-success.icon-circle {
+    .lore.lore-hover:hover .icon.icon-green.icon-circle {
         box-shadow: 0px 15px 35px 0px rgba(24, 206, 15, 0.35);
     }
     
-    .lore.lore-hover:hover .icon.icon-warning.icon-circle {
+    .lore.lore-hover:hover .icon.icon-yellow.icon-circle {
         box-shadow: 0px 15px 35px 0px rgba(255, 178, 54, 0.35);
     }
     
-    .lore.lore-hover:hover .icon.icon-danger.icon-circle {
+    .lore.lore-hover:hover .icon.icon-red.icon-circle {
         box-shadow: 0px 15px 35px 0px rgba(255, 54, 54, 0.35);
     }
     
-    .lore.lore-hover:hover .icon.icon-lore+.lore-title {
+    .lore.lore-hover:hover .icon.icon-blue+.lore-title {
         color: #2CA8FF;
     }
     
-    .lore.lore-hover:hover .icon.icon-warning+.lore-title {
+    .lore.lore-hover:hover .icon.icon-yellow+.lore-title {
         color: #FFB236;
     }
     
-    .lore.lore-hover:hover .icon.icon-danger+.lore-title {
+    .lore.lore-hover:hover .icon.icon-red+.lore-title {
         color: #FF3636;
     }
     
-    .lore.lore-hover:hover .icon.icon-primary+.lore-title {
+    .lore.lore-hover:hover .icon.icon-orange+.lore-title {
         color: #f96332;
     }
     
-    .lore.lore-hover:hover .icon.icon-success+.lore-title {
+    .lore.lore-hover:hover .icon.icon-green+.lore-title {
         color: #18ce0f;
     }
     
@@ -492,43 +492,43 @@
         overflow: hidden;
     }
     
-    .icon.icon-primary {
+    .icon.icon-orange {
         color: #f96332;
     }
     
-    .icon.icon-primary.icon-circle {
+    .icon.icon-orange.icon-circle {
         box-shadow: 0px 9px 30px -6px rgba(249, 99, 50, 0.3);
     }
     
-    .icon.icon-lore {
+    .icon.icon-blue {
         color: #2CA8FF;
     }
     
-    .icon.icon-lore.icon-circle {
+    .icon.icon-blue.icon-circle {
         box-shadow: 0px 9px 30px -6px rgba(44, 168, 255, 0.3);
     }
     
-    .icon.icon-success {
+    .icon.icon-green {
         color: #18ce0f;
     }
     
-    .icon.icon-success.icon-circle {
+    .icon.icon-green.icon-circle {
         box-shadow: 0px 9px 30px -6px rgba(24, 206, 15, 0.3);
     }
     
-    .icon.icon-warning {
+    .icon.icon-yellow {
         color: #FFB236;
     }
     
-    .icon.icon-warning.icon-circle {
+    .icon.icon-yellow.icon-circle {
         box-shadow: 0px 9px 30px -6px rgba(255, 178, 54, 0.3);
     }
     
-    .icon.icon-danger {
+    .icon.icon-red {
         color: #FF3636;
     }
     
-    .icon.icon-danger.icon-circle {
+    .icon.icon-red.icon-circle {
         box-shadow: 0px 9px 30px -6px rgba(255, 54, 54, 0.3);
     }
     
