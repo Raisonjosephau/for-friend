@@ -1389,7 +1389,6 @@
 }
 
 .btn:hover,
-.btn:focus,
 .btn:active,
 .btn.active,
 .btn:active:focus,
@@ -1400,7 +1399,6 @@
 .show>.btn.dropdown-toggle:focus,
 .show>.btn.dropdown-toggle:hover,
 .navbar .navbar-nav>a.btn:hover,
-.navbar .navbar-nav>a.btn:focus,
 .navbar .navbar-nav>a.btn:active,
 .navbar .navbar-nav>a.btn.active,
 .navbar .navbar-nav>a.btn:active:focus,
@@ -1440,7 +1438,6 @@
 .btn[disabled].active,
 fieldset[disabled] .btn,
 fieldset[disabled] .btn:hover,
-fieldset[disabled] .btn:focus,
 fieldset[disabled] .btn.focus,
 fieldset[disabled] .btn:active,
 fieldset[disabled] .btn.active,
@@ -1464,7 +1461,6 @@ fieldset[disabled] .btn.active,
 .navbar .navbar-nav>a.btn[disabled].active,
 fieldset[disabled] .navbar .navbar-nav>a.btn,
 fieldset[disabled] .navbar .navbar-nav>a.btn:hover,
-fieldset[disabled] .navbar .navbar-nav>a.btn:focus,
 fieldset[disabled] .navbar .navbar-nav>a.btn.focus,
 fieldset[disabled] .navbar .navbar-nav>a.btn:active,
 fieldset[disabled] .navbar .navbar-nav>a.btn.active {
@@ -1496,10 +1492,8 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .btn.btn-link:hover,
-.btn.btn-link:focus,
 .btn.btn-link:active,
 .navbar .navbar-nav>a.btn.btn-link:hover,
-.navbar .navbar-nav>a.btn.btn-link:focus,
 .navbar .navbar-nav>a.btn.btn-link:active {
     background-color: transparent;
     color: #979797;
@@ -1508,9 +1502,8 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .btn:hover,
-.btn:focus,
 .navbar .navbar-nav>a.btn:hover,
-.navbar .navbar-nav>a.btn:focus {
+{
     opacity: 1;
     filter: alpha(opacity=100);
     outline: 0 !important;
@@ -1596,17 +1589,23 @@ fieldset[disabled] .navbar .navbar-nav>a.btn.active {
 }
 
 .btn-primary:hover,
-.btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
-.btn-primary:active:focus,
 .btn-primary:active:hover,
-.btn-primary.active:focus,
 .btn-primary.active:hover,
 .show>.btn-primary.dropdown-toggle,
-.show>.btn-primary.dropdown-toggle:focus,
 .show>.btn-primary.dropdown-toggle:hover {
     background-color: #4f4f4f;
+    color: #FFFFFF;
+    box-shadow: none;
+}
+
+.btn-primary:focus,
+.btn-primary:focus,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    background-color: #3a3a3a;
     color: #FFFFFF;
     box-shadow: none;
 }
@@ -3650,7 +3649,6 @@ body {
 }
 
 .navbar .navbar-nav .nav-item.active .nav-link:not(.btn),
-.navbar .navbar-nav .nav-item .nav-link:not(.btn):focus,
 .navbar .navbar-nav .nav-item .nav-link:not(.btn):hover,
 .navbar .navbar-nav .nav-item .nav-link:not(.btn):active {
     background-color: rgba(255, 255, 255, 0.2);
@@ -3716,7 +3714,6 @@ body {
 }
 
 .navbar.bg-white:not(.navbar-transparent) .nav-item.active .nav-link:not(.btn),
-.navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):focus,
 .navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):hover,
 .navbar.bg-white:not(.navbar-transparent) .nav-item .nav-link:not(.btn):active {
     background-color: rgba(222, 222, 222, 0.3);
@@ -5147,7 +5144,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .index-page .page-header {
-    height: 125vh;
+    height: 100vh;
 }
 
 .index-page .page-header .container>.content-center {
