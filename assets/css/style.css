@@ -152,7 +152,6 @@
         background: rgba(255, 255, 255, .975);
         transform: translateY(-100%);
         transition: all .6s cubic-bezier(.86, 0, .07, 1);
-        box-shadow: 0 0 25px rgba(40, 47, 60, .05), 0 20px 25px rgba(40, 47, 60, .05), 0 3px 4px rgba(40, 47, 60, .05)
     }
     
     .sticky-header.active {
@@ -364,134 +363,6 @@
         overflow: hidden;
     }
     
-    .lore {
-        max-width: 360px;
-        margin: 0 auto;
-        padding: 70px 0 30px;
-        text-align: center;
-    }
-    
-    .lore.lore-hover .lore-title {
-        transition: color .4s;
-    }
-    
-    .lore.lore-hover:hover .icon {
-        -webkit-transform: translate3d(0, -0.5rem, 0);
-        -moz-transform: translate3d(0, -0.5rem, 0);
-        -o-transform: translate3d(0, -0.5rem, 0);
-        -ms-transform: translate3d(0, -0.5rem, 0);
-        transform: translate3d(0, -0.5rem, 0);
-    }
-    
-    .lore.lore-hover:hover .icon.icon-orange.icon-circle {
-        box-shadow: 0px 15px 30px 0px rgba(249, 99, 50, 0.35);
-    }
-    
-    .lore.lore-hover:hover .icon.icon-blue.icon-circle {
-        box-shadow: 0px 15px 35px 0px rgba(44, 168, 255, 0.35);
-    }
-    
-    .lore.lore-hover:hover .icon.icon-green.icon-circle {
-        box-shadow: 0px 15px 35px 0px rgba(24, 206, 15, 0.35);
-    }
-    
-    .lore.lore-hover:hover .icon.icon-yellow.icon-circle {
-        box-shadow: 0px 15px 35px 0px rgba(255, 178, 54, 0.35);
-    }
-    
-    .lore.lore-hover:hover .icon.icon-red.icon-circle {
-        box-shadow: 0px 15px 35px 0px rgba(255, 54, 54, 0.35);
-    }
-    
-    .lore.lore-hover:hover .icon.icon-blue+.lore-title {
-        color: #2CA8FF;
-    }
-    
-    .lore.lore-hover:hover .icon.icon-yellow+.lore-title {
-        color: #FFB236;
-    }
-    
-    .lore.lore-hover:hover .icon.icon-red+.lore-title {
-        color: #FF3636;
-    }
-    
-    .lore.lore-hover:hover .icon.icon-orange+.lore-title {
-        color: #f96332;
-    }
-    
-    .lore.lore-hover:hover .icon.icon-green+.lore-title {
-        color: #18ce0f;
-    }
-    
-    .lore .icon {
-        color: #888888;
-        transition: transform .4s, box-shadow .4s;
-    }
-    
-    .lore .icon>i {
-        font-size: 3em;
-    }
-    
-    .lore .icon.icon-circle {
-        max-width: 80px;
-        width: 80px;
-        height: 80px;
-        margin: 0 auto;
-        border-radius: 50%;
-        box-shadow: 0px 9px 35px -6px rgba(0, 0, 0, 0.3);
-        font-size: 0.7142em;
-        background-color: #FFFFFF;
-        position: relative;
-    }
-    
-    .lore .icon.icon-circle i {
-        line-height: 2.7;
-    }
-    
-    .lore .lore-title {
-        margin: 25px 0 15px;
-        padding: 0 15px;
-        color: #2c2c2c;
-    }
-    
-    .lore p {
-        color: #888888;
-        padding: 0 15px;
-        font-size: 1.1em;
-    }
-    
-    .lore-horizontal {
-        text-align: left !important;
-    }
-    
-    .lore-horizontal .icon {
-        float: left;
-        margin-top: 23px;
-        margin-right: 10px;
-    }
-    
-    .lore-horizontal .icon>i {
-        font-size: 2em;
-    }
-    
-    .lore-horizontal .icon.icon-circle {
-        width: 65px;
-        height: 65px;
-        max-width: 65px;
-        margin-top: 8px;
-    }
-    
-    .lore-horizontal .icon.icon-circle i {
-        display: table;
-        margin: 0 auto;
-        line-height: 3.5;
-        font-size: 1.9em;
-    }
-    
-    .lore-horizontal .description {
-        overflow: hidden;
-    }
-    
     .icon.icon-orange {
         color: #f96332;
     }
@@ -555,4 +426,36 @@
     
     .text-shadow-3 {
         text-shadow: 1px 1px 1px #888;
+    }
+    
+    h5.description {
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    
+    h4.description {
+        font-size: 20px;
+    }
+    
+    .offers.card .card-header {
+        border-bottom: 1px solid #18ce0f;
+        text-align: center;
+        font-weight: 600;
+        background: #fff;
+    }
+    
+    .offers.card .card-header .card-title {
+        font-weight: 600;
+        background: #fff;
+        font-size: 1.12em;
+        margin: 0px;
+    }
+    
+    .offers.card {
+        box-shadow: -2px 3px 3px -2px rgba(0, 0, 0, 0.2);
+        background: #fefefe;
+    }
+    
+    .offers.card table tbody td {
+        border: none;
     }
