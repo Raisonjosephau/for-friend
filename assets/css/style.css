@@ -592,6 +592,7 @@ $yellow: #f1c40f; */
     text-transform: uppercase;
     line-height: 35px;
     padding-left: 22px;
+    text-decoration: none;
 }
 
 .package_price {
@@ -731,4 +732,82 @@ $yellow: #f1c40f; */
     .index-page .page-header {
         height: 100vh;
     }
+}
+
+
+/* dsdf */
+
+.card {
+    border: 0;
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card .info {
+    padding: 40px 0 40px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.card .rounded {
+    border-radius: 0.1875rem;
+}
+
+.card.card-price-tag .card-header {
+    background-color: transparent;
+    border-bottom: 0;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+}
+
+.card.card-price-tag .card-image {
+    position: relative;
+}
+
+.card.card-price-tag .card-footer {
+    padding: 0;
+    margin-top: 15px;
+    background-color: transparent;
+    border: 0;
+}
+
+.card.card-price-tag .card-footer div {
+    display: inline-block;
+}
+
+.card.card-price-tag .card-footer .stats.stats-right {
+    float: right;
+    line-height: 30px;
+}
+
+.card.card-price-tag .card-footer .stats span:first-child {
+    margin-right: 30px;
+}
+
+.card.card-price-tag .card-title {
+    line-height: 1.5em;
+}
+
+.price_tag {
+    position: absolute;
+    left: 0;
+    top: 27px;
+    width: auto;
+    height: 33px;
+    background: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    color: #444444;
+    text-transform: uppercase;
+    line-height: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
 }
