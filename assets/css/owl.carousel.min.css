@@ -88,14 +88,7 @@
 
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
-    background: 0 0;
-    color: inherit;
-    border: none;
-    padding: 0!important;
-    font: inherit;
-    font-size: 2em;
-    margin-left: 10px;
-    margin-right: 10px;
+    display: none
 }
 
 .owl-carousel button.owl-dot {
@@ -108,13 +101,14 @@
 
 .owl-dots .owl-dot {
     display: inline-block;
-    zoom: 1
+    zoom: 1;
 }
 
 .owl-dots .owl-dot span {
     width: 10px;
     height: 10px;
-    margin: 5px 7px;
+    margin: 0px 7px;
+    margin-top: -20px;
     background: #D6D6D6;
     display: block;
     -webkit-backface-visibility: visible;
