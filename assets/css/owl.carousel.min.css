@@ -81,6 +81,20 @@
     user-select: none
 }
 
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel button.owl-dot {
+    background: 0 0;
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+}
+
+.owl-carousel .owl-nav {
+    margin-top: -10px;
+}
+
 .owl-carousel .owl-nav,
 .owl-carousel .owl-dots {
     text-align: center
@@ -88,15 +102,9 @@
 
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
-    display: none
-}
-
-.owl-carousel button.owl-dot {
-    background: 0 0;
-    color: inherit;
-    border: none;
-    padding: 0!important;
-    font: inherit;
+    font-size: 40px;
+    margin: 8px;
+    margin-top: 0px;
 }
 
 .owl-dots .owl-dot {

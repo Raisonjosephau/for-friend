@@ -845,6 +845,13 @@ a:hover {
     .index-page .page-header {
         height: 90vh;
     }
+    .owl-carousel .owl-nav button.owl-next,
+    .owl-carousel .owl-nav button.owl-prev {
+        display: none;
+    }
+    .owl-carousel .owl-dots {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 768px) {
