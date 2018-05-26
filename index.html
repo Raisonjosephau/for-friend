@@ -735,6 +735,8 @@
                 $('.sticky-header').removeClass('navbar-transparent ');
             $(window).resize(function() {
                 width = $(window).width();
+                if (width < 768)
+                    $('.sticky-header').removeClass('navbar-transparent ');
                 headerManage();
             });
             $('#sd').datepicker({});
