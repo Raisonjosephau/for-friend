@@ -241,6 +241,11 @@
         color: #323232;
         font-size: 15px;
     }
+    .navbar.navbar-transparent .collapse.navbar-collapse .navbar-nav .nav-item .nav-link,
+    .navbar.navbar-transparent .collapse.navbar-collapse .navbar-nav .nav-item .nav-link .now-ui-icons,
+    .navbar.navbar-transparent .collapse.navbar-collapse .navbar-nav .nav-item .nav-link .fa {
+        color: #323232;
+    }
 }
 
 .sidebar-collapse .navbar-collapse:before {

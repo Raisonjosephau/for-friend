@@ -1054,7 +1054,7 @@
                 }
 
                 // Creative Tim - we added a div inside each td for design purposes
-                html.push('<td class="' + clsName.join(' ') + '"' + (tooltip ? ' title="' + tooltip + '"' : '') + (this.o.dateCells ? ' data-date="' + prevMonth.getTime().toString() + '"' : '') + '><div>' + prevMonth.getUTCDate() + '</div></td>');
+                html.push('<td class="' + clsName.join(' ') + '"' + (tooltip ? ' title="' + tooltip + '"' : '') + (this.o.dateCells ? ' data-date="' + prevMonth.getTime().toString() + '"' : '') + '><div class="divday">' + prevMonth.getUTCDate() + '</div></td>');
                 tooltip = null;
                 if (weekDay === this.o.weekEnd) {
                     html.push('</tr>');
@@ -1206,7 +1206,7 @@
 
             if (!target.hasClass('disabled')) {
                 // Clicked on a day
-                if (target.hasClass('day')) {
+                if (target.hasClass('divday')) {
                     day = Number(target.text());
                     year = this.viewDate.getUTCFullYear();
                     month = this.viewDate.getUTCMonth();
