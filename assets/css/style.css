@@ -171,6 +171,49 @@
     transition: all .6s cubic-bezier(.86, 0, .07, 1);
 }
 
+.navbar .collapse.navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: #323232;
+    font-weight: 600;
+    font-size: 12px;
+    text-shadow: .3px .4px .3px #bbb;
+}
+
+.navbar .collapse.navbar-collapse .navbar-nav .nav-item .nav-link .now-ui-icons {
+    font-size: 15px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.navbar .collapse.navbar-collapse .navbar-nav .nav-item .nav-link .fa {
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.navbar .collapsing.navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: #323232;
+    font-weight: 600;
+    font-size: 12px;
+    text-shadow: .4px .5px .4px #bbb;
+}
+
+.navbar .navbar-translate a.navbar-brand {
+    color: #323232;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.navbar .navbar-brand:focus {
+    background: none;
+}
+
+.navbar.navbar-transparent .collapse.navbar-collapse .navbar-nav .nav-item .nav-link,
+.navbar.navbar-transparent .collapse.navbar-collapse .navbar-nav .nav-item .nav-link .now-ui-icons,
+.navbar.navbar-transparent .collapse.navbar-collapse .navbar-nav .nav-item .nav-link .fa {
+    text-shadow: none;
+    color: white;
+}
+
 @media screen and (max-width: 991px) {
     .section-navbars .navbar-collapse {
         display: none !important;
@@ -195,7 +238,7 @@
         color: #000000;
     }
     .navbar .collapsing.navbar-collapse .navbar-nav .nav-item .nav-link {
-        color: #212121;
+        color: #323232;
         font-size: 15px;
     }
 }
@@ -475,32 +518,32 @@ h4.description {
     border: none;
 }
 
-.contactus-2 {
+.contact-form {
     padding: 0;
     position: relative;
 }
 
-.contactus-2 .card-contact {
+.contact-form .card-contact {
     max-width: 560px;
     margin: 80px 0 80px 150px;
 }
 
-.contactus-2 .card-contact .info {
+.contact-form .card-contact .info {
     padding: 0;
     margin: 0;
 }
 
-.contactus-2 .map {
+.contact-form .map {
     width: 100%;
     height: 100%;
     position: absolute;
 }
 
-.contactus-2 .info-horizontal .icon {
+.contact-form .info-horizontal .icon {
     margin-top: 28px;
 }
 
-.contactus-2 .info-horizontal .icon>i {
+.contact-form .info-horizontal .icon>i {
     font-size: 2.2em;
     max-width: 45px;
 }
@@ -525,7 +568,7 @@ h4.description {
     color: #3a3a3a;
 }
 
-.contactus-2 .map {
+.contact-form .map {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -672,23 +715,6 @@ $yellow: #f1c40f; */
 
 /* dsdf */
 
-.card {
-    border: 0;
-    border-radius: 0.25rem;
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    margin-bottom: 30px;
-    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
-}
-
-.card .info {
-    padding: 40px 0 40px;
-    text-align: center;
-    position: relative;
-    z-index: 2;
-}
-
 .card.card-price-tag .card-header {
     background-color: transparent;
     border-bottom: 0;
@@ -705,6 +731,12 @@ $yellow: #f1c40f; */
 
 .card.card-price-tag .card-image {
     position: relative;
+}
+
+.card.card-price-tag .card-body .card-description {
+    font-weight: 500;
+    font-size: 1em;
+    color: #323232;
 }
 
 .card.card-price-tag .card-footer {
@@ -793,6 +825,14 @@ a:hover {
     }
 }
 
+#package canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 
@@ -803,7 +843,7 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-    .contactus-2 .card-contact {
+    .contact-form .card-contact {
         max-width: inherit;
         margin: 0;
         margin-top: 15px;
