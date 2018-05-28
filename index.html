@@ -23,96 +23,177 @@
 </head>
 
 <body class="index-page sidebar-collapse">
+
+    <!-- Indo header -->
     <!-- Navbar -->
-    <div id="home"></div>
-    <nav class="navbar navbar-expand-lg bg-white navbar-transparent fixed-top sticky-header active">
-        <div class="container">
-            <div class="navbar-translate">
-                <a class="navbar-brand" href="#home">
-                    <h6 style="line-height: 0; margin:0; padding:0">Carpse</h6>
-                </a>
-                <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="navigations" style="position:absolute; top :0; z-index:10000; width:100%">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-6 d-md-block d-none">
+                        <p>Contact us on +420 777 555 333 or hello@universal.com.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex justify-content-md-end justify-content-between">
+                            <ul class="list-inline contact-info d-block d-md-none">
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-phone"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                            <div class="login"><a href="#" data-toggle="modal" data-target="#login-modal" class="login-btn"><i class="fa fa-sign-in"></i><span class="d-none d-md-inline-block">Sign In</span></a><a href="customer-register.html" class="signup-btn"><i class="fa fa-user"></i><span class="d-none d-md-inline-block">Sign Up</span></a></div>
+                            <ul class="social-custom list-inline">
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href="#"><i class="fa fa-envelope"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-white navbar-transparent sticky-header active" id="stick-nav">
+            <div class="container">
+                <div class="navbar-translate">
+                    <a class="navbar-brand" href="#home">
+                        <h6 style="line-height: 0; margin:0; padding:0">Carpse</h6>
+                    </a>
+                    <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-bar bar1"></span>
                         <span class="navbar-toggler-bar bar2"></span>
                         <span class="navbar-toggler-bar bar3"></span>
                     </button>
-            </div>
-            <div class="collapse navbar-collapse justify-content-end" id="navigation">
-                <ul class="navbar-nav">
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navigation">
+                    <ul class="navbar-nav">
 
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Elements <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <div class="row">
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Elements <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <div class="row">
 
-                                <!-- Basic -->
-                                <div class="col-lg-6 mb-sm-30">
-                                    <li class="dropdown-header">Basic</li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="../../elements/typography.html" target="_blank"><i class="fa fa-font"></i> Typography</a></li>
-                                    <li><a href="../../elements/buttons.html" target="_blank"><i class="fa fa-bold"></i> Buttons</a></li>
-                                    <li><a href="../../elements/forms.html" target="_blank"><i class="fa fa-send"></i> Forms</a></li>
-                                    <li><a href="../../elements/grid.html" target="_blank"><i class="fa fa-th"></i> Grid</a></li>
-                                    <li><a href="../../elements/alerts.html" target="_blank"><i class="fa fa-info-circle"></i> Alerts</a></li>
-                                    <li><a href="../../elements/labels.html" target="_blank"><i class="fa fa-tags"></i> Labels</a></li>
-                                    <li><a href="../../elements/progress-bars.html" target="_blank"><i class="fa fa-tasks"></i> Progress Bars</a></li>
-                                    <li><a href="../../http_/fortawesome.github.io/Font-Awesome/icons/index.html" target="_blank"><i class="fa fa-flag"></i> Font Awesome</a></li>
-                                    <li><a href="../../elements/line-icons-page.html" target="_blank"><i class="fa fa-flag-o"></i> Line Icons</a></li>
-                                    <li><a href="../../elements/linea-icons-page.html" target="_blank"><i class="fa fa-flag-o"></i> Line Icons 2</a></li>
+                                    <!-- Basic -->
+                                    <div class="col-lg-6 mb-sm-30">
+                                        <li class="dropdown-header">Basic</li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="../../elements/typography.html" target="_blank"><i class="fa fa-font"></i> Typography</a></li>
+                                        <li><a href="../../elements/buttons.html" target="_blank"><i class="fa fa-bold"></i> Buttons</a></li>
+                                        <li><a href="../../elements/forms.html" target="_blank"><i class="fa fa-send"></i> Forms</a></li>
+                                        <li><a href="../../elements/grid.html" target="_blank"><i class="fa fa-th"></i> Grid</a></li>
+                                        <li><a href="../../elements/alerts.html" target="_blank"><i class="fa fa-info-circle"></i> Alerts</a></li>
+                                        <li><a href="../../elements/labels.html" target="_blank"><i class="fa fa-tags"></i> Labels</a></li>
+                                        <li><a href="../../elements/progress-bars.html" target="_blank"><i class="fa fa-tasks"></i> Progress Bars</a></li>
+                                        <li><a href="../../http_/fortawesome.github.io/Font-Awesome/icons/index.html" target="_blank"><i class="fa fa-flag"></i> Font Awesome</a></li>
+                                        <li><a href="../../elements/line-icons-page.html" target="_blank"><i class="fa fa-flag-o"></i> Line Icons</a></li>
+                                        <li><a href="../../elements/linea-icons-page.html" target="_blank"><i class="fa fa-flag-o"></i> Line Icons 2</a></li>
+                                    </div>
+
+                                    <!-- Layout -->
+                                    <div class="col-lg-6 mb-sm-30">
+                                        <li class="dropdown-header">Layout</li>
+                                        <li role="separator" class="divider"></li>
+                                        <li><a href="../../elements/headers.html" target="_blank"><i class="fa fa-header"></i> Headers</a></li>
+                                        <li><a href="../../elements/footers.html" target="_blank"><i class="fa fa-leaf"></i> Footers</a></li>
+                                        <li><a href="../../elements/features.html" target="_blank"><i class="fa fa-star"></i> Features <span class="label label-warning">Hot</span></a></li>
+                                        <li><a href="../../elements/cta.html" target="_blank"><i class="fa fa-link"></i> CTA</a></li>
+                                        <li><a href="../../elements/counters.html" target="_blank"><i class="fa fa-circle-o-notch"></i> Counters</a></li>
+                                        <li><a href="../../elements/pricing.html" target="_blank"><i class="fa fa-dollar"></i> Pricing</a></li>
+                                        <li><a href="../../elements/team.html" target="_blank"><i class="fa fa-users"></i> Team</a></li>
+                                        <li><a href="../../elements/testimonials.html" target="_blank"><i class="fa fa-comment"></i> Testimonials</a></li>
+                                        <li><a href="../../elements/hover.html" target="_blank"><i class="fa fa-image"></i> Hover</a></li>
+                                        <li><a href="../../elements/tables.html" target="_blank"><i class="fa fa-table"></i> Tables <span class="label label-red">New</span></a></li>
+                                    </div>
+
                                 </div>
+                                <!-- / .row -->
+                            </ul>
+                            <!-- / .dropdown-menu -->
+                        </li>
 
-                                <!-- Layout -->
-                                <div class="col-lg-6 mb-sm-30">
-                                    <li class="dropdown-header">Layout</li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="../../elements/headers.html" target="_blank"><i class="fa fa-header"></i> Headers</a></li>
-                                    <li><a href="../../elements/footers.html" target="_blank"><i class="fa fa-leaf"></i> Footers</a></li>
-                                    <li><a href="../../elements/features.html" target="_blank"><i class="fa fa-star"></i> Features <span class="label label-warning">Hot</span></a></li>
-                                    <li><a href="../../elements/cta.html" target="_blank"><i class="fa fa-link"></i> CTA</a></li>
-                                    <li><a href="../../elements/counters.html" target="_blank"><i class="fa fa-circle-o-notch"></i> Counters</a></li>
-                                    <li><a href="../../elements/pricing.html" target="_blank"><i class="fa fa-dollar"></i> Pricing</a></li>
-                                    <li><a href="../../elements/team.html" target="_blank"><i class="fa fa-users"></i> Team</a></li>
-                                    <li><a href="../../elements/testimonials.html" target="_blank"><i class="fa fa-comment"></i> Testimonials</a></li>
-                                    <li><a href="../../elements/hover.html" target="_blank"><i class="fa fa-image"></i> Hover</a></li>
-                                    <li><a href="../../elements/tables.html" target="_blank"><i class="fa fa-table"></i> Tables <span class="label label-red">New</span></a></li>
-                                </div>
 
-                            </div>
-                            <!-- / .row -->
-                        </ul>
-                        <!-- / .dropdown-menu -->
-                    </li>
-                    <!-- / Elements -->
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">
+                                Day Excursions</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#daye">
+                                    Fort Kochi Ethnic Tour
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="#daye">
+                                    Muziris Cultural Tour
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="#daye">
+                                    Muziris Cultural Tour
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="#daye">
+                                    Vintage Ride
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="#daye">
+                                    A day in the backwater
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="#daye">
+                                    Muziris on a boat
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="#daye"> 
+                                    A day with the Mannan
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="#daye"> 
+                                    Birding in Kumarakom
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="#daye"> 
+                                    Life Around Temple
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="#daye"> 
+                                    Life of Backwaters on a Bicycle
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="#daye"> 
+                                    Muse of Aymanam
+                                </a>
+                                </li>
+                                <li>
+                                    <a href="#daye"> 
+                                    Beyond Kovalam
+                                </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#package">
+                                <i class="now-ui-icons files_paper"></i>
+                                <p>Packages</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="tel:++918089608979">
+                                <i class="fa fa-phone" style="margin-right:-8px; font-size:18px"></i>
+                                <p>+91 8089 608 979</p>
+                            </a>
+                        </li>
 
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Blog <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="../blog/blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                            <li><a href="../blog/blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                            <li><a href="../blog/blog-2col.html">Blog 2 Columns</a></li>
-                            <li><a href="../blog/blog-3col.html">Blog 3 Columns</a></li>
-                            <li><a href="../blog/blog-masonry-2col.html">Blog Masonry 2 Columns</a></li>
-                            <li><a href="../blog/blog-masonry-3col.html">Blog Masonry 3 Columns</a></li>
-                            <li><a href="../blog/blog-post.html">Blog Single</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#package">
-                            <i class="now-ui-icons files_paper"></i>
-                            <p>Packages</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tel:++918089608979">
-                            <i class="fa fa-phone" style="margin-right:-8px; font-size:18px"></i>
-                            <p>+91 8089 608 979</p>
-                        </a>
-                    </li>
-
-                </ul>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
     <!-- End Navbar -->
 
     <div class="wrapper">
@@ -1043,6 +1124,9 @@
             headerManage();
             $(".carousel").carousel();
             var lastScrollTop = 0;
+            var header = document.getElementById("stick-nav");
+            var sticky = header.offsetTop;
+
             $(window).scroll(function(event) {
                 var st = $(this).scrollTop();
                 var upscroll;
@@ -1055,7 +1139,18 @@
                     $('.sticky-header').addClass('active');
                 }
                 lastScrollTop = st;
+                myFunction();
+
+
             });
+
+            function myFunction() {
+                if (window.pageYOffset >= sticky) {
+                    $('#stick-nav').addClass("fixed-top");
+                } else {
+                    $('#stick-nav').removeClass("fixed-top");
+                }
+            }
 
             function headerManage(currentScroll) {
                 if (currentScroll > offset) {
@@ -1304,4 +1399,4 @@
 
 </body>
 
-</html>
+</html
