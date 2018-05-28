@@ -39,17 +39,62 @@
             </div>
             <div class="collapse navbar-collapse justify-content-end" id="navigation">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <i class="now-ui-icons ui-1_check"></i>
-                            <p>Gallery</p>
-                        </a>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Elements <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <div class="row">
+
+                                <!-- Basic -->
+                                <div class="col-lg-6 mb-sm-30">
+                                    <li class="dropdown-header">Basic</li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../../elements/typography.html" target="_blank"><i class="fa fa-font"></i> Typography</a></li>
+                                    <li><a href="../../elements/buttons.html" target="_blank"><i class="fa fa-bold"></i> Buttons</a></li>
+                                    <li><a href="../../elements/forms.html" target="_blank"><i class="fa fa-send"></i> Forms</a></li>
+                                    <li><a href="../../elements/grid.html" target="_blank"><i class="fa fa-th"></i> Grid</a></li>
+                                    <li><a href="../../elements/alerts.html" target="_blank"><i class="fa fa-info-circle"></i> Alerts</a></li>
+                                    <li><a href="../../elements/labels.html" target="_blank"><i class="fa fa-tags"></i> Labels</a></li>
+                                    <li><a href="../../elements/progress-bars.html" target="_blank"><i class="fa fa-tasks"></i> Progress Bars</a></li>
+                                    <li><a href="../../http_/fortawesome.github.io/Font-Awesome/icons/index.html" target="_blank"><i class="fa fa-flag"></i> Font Awesome</a></li>
+                                    <li><a href="../../elements/line-icons-page.html" target="_blank"><i class="fa fa-flag-o"></i> Line Icons</a></li>
+                                    <li><a href="../../elements/linea-icons-page.html" target="_blank"><i class="fa fa-flag-o"></i> Line Icons 2</a></li>
+                                </div>
+
+                                <!-- Layout -->
+                                <div class="col-lg-6 mb-sm-30">
+                                    <li class="dropdown-header">Layout</li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="../../elements/headers.html" target="_blank"><i class="fa fa-header"></i> Headers</a></li>
+                                    <li><a href="../../elements/footers.html" target="_blank"><i class="fa fa-leaf"></i> Footers</a></li>
+                                    <li><a href="../../elements/features.html" target="_blank"><i class="fa fa-star"></i> Features <span class="label label-warning">Hot</span></a></li>
+                                    <li><a href="../../elements/cta.html" target="_blank"><i class="fa fa-link"></i> CTA</a></li>
+                                    <li><a href="../../elements/counters.html" target="_blank"><i class="fa fa-circle-o-notch"></i> Counters</a></li>
+                                    <li><a href="../../elements/pricing.html" target="_blank"><i class="fa fa-dollar"></i> Pricing</a></li>
+                                    <li><a href="../../elements/team.html" target="_blank"><i class="fa fa-users"></i> Team</a></li>
+                                    <li><a href="../../elements/testimonials.html" target="_blank"><i class="fa fa-comment"></i> Testimonials</a></li>
+                                    <li><a href="../../elements/hover.html" target="_blank"><i class="fa fa-image"></i> Hover</a></li>
+                                    <li><a href="../../elements/tables.html" target="_blank"><i class="fa fa-table"></i> Tables <span class="label label-red">New</span></a></li>
+                                </div>
+
+                            </div>
+                            <!-- / .row -->
+                        </ul>
+                        <!-- / .dropdown-menu -->
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <i class="now-ui-icons ui-1_check"></i>
-                            <p>Download</p>
-                        </a>
+                    <!-- / Elements -->
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">Blog <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../blog/blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                            <li><a href="../blog/blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                            <li><a href="../blog/blog-2col.html">Blog 2 Columns</a></li>
+                            <li><a href="../blog/blog-3col.html">Blog 3 Columns</a></li>
+                            <li><a href="../blog/blog-masonry-2col.html">Blog Masonry 2 Columns</a></li>
+                            <li><a href="../blog/blog-masonry-3col.html">Blog Masonry 3 Columns</a></li>
+                            <li><a href="../blog/blog-post.html">Blog Single</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#package">
@@ -187,7 +232,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col text-center">
-                            <br/><br/><br/>
+                            <br/>
                             <h1 class="section_title text-shadow-2" style="font-weight: 300">The best we have</h1>
                         </div>
                     </div><br>
@@ -982,11 +1027,11 @@
             var offset = 150;
             var currentScroll = $(this).scrollTop();
             var width = $(window).width();
-            if (width < 768)
+            if (width < 991)
                 $('.sticky-header').removeClass('navbar-transparent ');
             $(window).resize(function() {
                 width = $(window).width();
-                if (width < 768)
+                if (width < 991)
                     $('.sticky-header').removeClass('navbar-transparent ');
                 headerManage();
             });
@@ -1002,10 +1047,10 @@
                 var st = $(this).scrollTop();
                 var upscroll;
                 headerManage(st);
-                if (st > lastScrollTop && st > 600 && width > 768) {
+                if (st > lastScrollTop && st > 600 && width > 991) {
                     // downscroll code
                     $('.sticky-header').removeClass('active');
-                } else if (width > 768) {
+                } else if (width > 991) {
                     // upscroll code
                     $('.sticky-header').addClass('active');
                 }
@@ -1015,9 +1060,9 @@
             function headerManage(currentScroll) {
                 if (currentScroll > offset) {
                     $('.sticky-header').removeClass('navbar-transparent ');
-                } else if (currentScroll < offset && width > 768) {
+                } else if (currentScroll < offset && width > 991) {
                     $('.sticky-header').addClass('navbar-transparent ');
-                } else if (width > 768)
+                } else if (width > 991)
                     $('.sticky-header').addClass('navbar-transparent ');
             }
 
@@ -1091,15 +1136,8 @@
                     }
                 }
             });
+            $('.collapse.navbar-collapse .navbar-nav .nav-item.dropdown.mega-fw .dropdown-menu').addClass("sd");
 
-            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-                anchor.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    document.querySelector(this.getAttribute('href')).scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                });
-            });
         });
     </script>
     <script type="text/javascript">
