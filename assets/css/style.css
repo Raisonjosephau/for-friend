@@ -154,19 +154,19 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .lore.lore-hover:hover .icon.icon-blue.icon-circle {
-    box-shadow: 0px 18px 35px 0px rgba(44, 159, 241, 0.35);
+    box-shadow: 0px 14px 35px 0px rgba(44, 159, 241, 0.35);
 }
 
 .lore.lore-hover:hover .icon.icon-green.icon-circle {
-    box-shadow: 0px 18px 35px 0px rgba(28, 218, 18, 0.35);
+    box-shadow: 0px 14px 35px 0px rgba(28, 218, 18, 0.35);
 }
 
 .lore.lore-hover:hover .icon.icon-yellow.icon-circle {
-    box-shadow: 0px 18px 35px 0px rgba(255, 242, 54, 0.35);
+    box-shadow: 0px 14px 35px 0px rgba(255, 242, 54, 0.35);
 }
 
 .lore.lore-hover:hover .icon.icon-red.icon-circle {
-    box-shadow: 0px 18px 35px 0px rgba(245, 49, 49, 0.35);
+    box-shadow: 0px 14px 35px 0px rgba(245, 49, 49, 0.35);
 }
 
 .lore.lore-hover:hover .icon.icon-blue+.lore-title {
@@ -292,7 +292,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .icon.icon-blue.icon-circle {
-    box-shadow: 0px 18px 35px 0px rgba(44, 159, 241, 0.35);
+    box-shadow: 0px 9px 30px -6px rgba(44, 168, 255, 0.3);
 }
 
 .icon.icon-green {
@@ -300,7 +300,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .icon.icon-green.icon-circle {
-    box-shadow: 0px 18px 35px 0px rgba(28, 218, 18, 0.35);
+    box-shadow: 0px 9px 30px -6px rgba(22, 211, 12, 0.3);
 }
 
 .icon.icon-yellow {
@@ -308,7 +308,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .icon.icon-yellow.icon-circle {
-    box-shadow: 0px 18px 35px 0px rgba(255, 242, 54, 0.35);
+    box-shadow: 0px 9px 30px -6px rgba(242, 255, 54, 0.3);
 }
 
 .icon.icon-red {
@@ -316,7 +316,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .icon.icon-red.icon-circle {
-    box-shadow: 0px 18px 35px 0px rgba(245, 49, 49, 0.35);
+    box-shadow: 0px 9px 30px -6px rgba(243, 52, 52, 0.3);
 }
 
 .icon.icon-white {
@@ -827,6 +827,11 @@ img {
     box-shadow: 2px 5px 5px #E2E2E2;
 }
 
+.btn-call i.fa {
+    font-size: 24px;
+    margin-top: 3px
+}
+
 .btn-call:hover,
 .btn-call:focus,
 .btn-call:active,
@@ -845,6 +850,11 @@ img {
 
 .btn-call:hover {
     box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.17);
+}
+
+.btn-whatsapp {
+    border-color: #2ecc71"
+
 }
 
 
