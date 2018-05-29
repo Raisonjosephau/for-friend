@@ -3,20 +3,14 @@ $(document).ready(function() {
     var offset = 150;
     var currentScroll = $(this).scrollTop();
     var width = $(window).width();
-    if (width < 991)
-        $('.sticky-header').removeClass('navbar-transparent ');
     $(window).resize(function() {
         width = $(window).width();
-        if (width < 991)
-            $('.sticky-header').removeClass('navbar-transparent ');
-        headerManage();
     });
     $(".hover").mouseleave(
         function() {
             $(this).removeClass("hover");
         }
     );
-    headerManage();
     $(".carousel").carousel();
     var lastScrollTop = 0;
     var header = document.getElementById("stick-nav");
@@ -25,7 +19,6 @@ $(document).ready(function() {
     $(window).scroll(function(event) {
         var st = $(this).scrollTop();
         var upscroll;
-        headerManage(st);
         if (st > lastScrollTop && st > 600 && width > 991) {
             // downscroll code
             $('.sticky-header').removeClass('active');
@@ -46,18 +39,6 @@ $(document).ready(function() {
             $('#stick-nav').removeClass("fixed-top");
         }
     }
-
-    function headerManage(currentScroll) {
-        if (currentScroll > offset) {
-            $('.sticky-header').removeClass('navbar-transparent');
-        } else if (currentScroll < offset && width > 991) {
-            $('.sticky-header').addClass('navbar-transparent ');
-        } else if (width > 991)
-            $('.sticky-header').addClass('navbar-transparent ');
-    }
-
-
-
 
     var myShuffle = new Shuffle(document.querySelector('.grid'), {
         itemSelector: '.grid-item',
