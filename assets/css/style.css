@@ -67,7 +67,7 @@ textarea::-webkit-scrollbar-thumb {
     color: #000000;
 }
 
-.navbar .navbar-translate a.navbar-brand {
+.navbar .navbar-translate a.navbar-brand h6 {
     color: #323232;
     font-weight: 500;
     font-size: 21px;
@@ -1112,6 +1112,16 @@ label {
     height: 120px;
     width: 120px;
 }
+
+
+/*  */
+
+.content-center h4.description {
+    color: #fff;
+}
+
+
+/*  */
 
 @media only screen and (max-width: 520px) {
     .index-page .page-header {
