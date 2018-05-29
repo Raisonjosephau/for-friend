@@ -824,7 +824,6 @@ img {
 
 .btn-call {
     background-color: #2ecc71;
-    box-shadow: 2px 5px 5px #E2E2E2;
 }
 
 .btn-call i.fa {
@@ -1024,14 +1023,19 @@ img {
 .top-bar {
     background: #555;
     color: #fff;
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding: 10px 0;
+    font-weight: 500;
 }
 
 .top-bar.top-bar-light {
     background: #fff;
     color: #555;
     border-bottom: 1px solid #ddd;
+}
+
+.top-bar a {
+    color: #fff;
 }
 
 .top-bar.top-bar-light a.login-btn,
@@ -1046,27 +1050,11 @@ img {
 
 .top-bar p {
     margin-bottom: 0;
-    font-size: 0.75rem;
+    font-size: 1.05rem;
 }
 
 .top-bar ul {
     margin-bottom: 0;
-}
-
-.top-bar a.login-btn,
-.top-bar a.signup-btn {
-    color: #eee;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    text-decoration: none !important;
-    font-size: 0.75rem;
-    font-weight: 700;
-    margin-right: 10px;
-}
-
-.top-bar a.login-btn i,
-.top-bar a.signup-btn i {
-    margin-right: 10px;
 }
 
 .top-bar ul.social-custom {
@@ -1076,22 +1064,28 @@ img {
 .top-bar ul.social-custom li {
     padding: 0;
     margin: 0;
+    font-size: 1rem;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
 }
 
 .top-bar ul.social-custom a {
     text-decoration: none !important;
-    font-size: 0.7rem;
-    width: 26px;
-    height: 26px;
-    line-height: 26px;
-    color: #999;
-    text-align: center;
-    border-radius: 50%;
-    margin: 0;
+    color: #fff;
+    z-index: 1;
 }
 
+.top-bar ul.social-custom a.active,
 .top-bar ul.social-custom a:hover {
-    background: #4fbfa8;
+    background: #2ecc71;
+}
+
+.top-bar ul.social-custom li:hover {
+    background: #2ecc71;
     color: #fff;
 }
 

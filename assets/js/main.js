@@ -49,7 +49,7 @@ $(document).ready(function() {
 
     function headerManage(currentScroll) {
         if (currentScroll > offset) {
-            $('.sticky-header').removeClass('navbar-transparent ');
+            $('.sticky-header').removeClass('navbar-transparent');
         } else if (currentScroll < offset && width > 991) {
             $('.sticky-header').addClass('navbar-transparent ');
         } else if (width > 991)
