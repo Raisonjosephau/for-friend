@@ -635,7 +635,7 @@ label {
     overflow: hidden;
 }
 
-img {
+.column img {
     display: block;
     width: 100%;
     max-width: none;
@@ -1098,7 +1098,20 @@ img {
 }
 
 
-/*  */
+/* Testimonial */
+
+.team-player h4.title {
+    font-weight: 400;
+}
+
+.team-player .category {
+    font-weight: 500;
+}
+
+.team-player img {
+    height: 120px;
+    width: 120px;
+}
 
 @media only screen and (max-width: 520px) {
     .index-page .page-header {
