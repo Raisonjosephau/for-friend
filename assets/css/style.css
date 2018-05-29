@@ -1208,10 +1208,10 @@ label {
 
 @media only screen and (min-width: 1200px) {
     .carousel-indicators {
-        bottom: 220px;
+        bottom: 70px;
     }
     .carousel-caption {
-        bottom: 260px;
+        bottom: 80px;
     }
     .index-page .page-header {
         height: 100vh;
