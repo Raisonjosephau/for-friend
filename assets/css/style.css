@@ -1098,7 +1098,15 @@ img {
 }
 
 
-/*  */
+/* Testimonial */
+
+.team-player h4.title {
+    font-weight: 400;
+}
+
+.team-player .category {
+    font-weight: 500;
+}
 
 @media only screen and (max-width: 520px) {
     .index-page .page-header {
