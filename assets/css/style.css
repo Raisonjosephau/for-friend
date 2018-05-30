@@ -440,8 +440,9 @@ h4.description {
 
 .carousel-caption.left {
     top: 0;
-    left: 15%;
-    bottom: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
     widows: 100%;
     height: 100%;
 }
@@ -1316,6 +1317,14 @@ figure.sideways:hover>div::before {
     figure.sideways p {
         font-size: 1em;
     }
+    .carousel-title {
+        font-size: 1.8em;
+    }
+    h4.description.carousel-description {
+        font-size: .9em;
+        margin: 0px;
+        padding: 0px;
+    }
 }
 
 
@@ -1323,7 +1332,14 @@ figure.sideways:hover>div::before {
 
 @media only screen and (min-width: 520px) {
     .index-page .page-header {
-        height: 65vh;
+        height: 30vh;
+    }
+    .carousel-title {
+        font-size: 2.2em;
+    }
+    h4.description.carousel-description {
+        font-size: 1.2em;
+        margin: 0px;
     }
 }
 
@@ -1344,7 +1360,13 @@ figure.sideways:hover>div::before {
 
 @media only screen and (min-width: 600px) {
     .index-page .page-header {
-        height: 75vh;
+        height: 20vh;
+    }
+    .carousel-title {
+        font-size: 2.5em;
+    }
+    h4.description.carousel-description {
+        font-size: 1.2em;
     }
 }
 
@@ -1353,7 +1375,7 @@ figure.sideways:hover>div::before {
 
 @media only screen and (min-width: 768px) {
     .index-page .page-header {
-        height: 90vh;
+        height: 62vh;
     }
     .owl-carousel .owl-nav button.owl-next,
     .owl-carousel .owl-nav button.owl-prev {
@@ -1366,6 +1388,14 @@ figure.sideways:hover>div::before {
         -ms-flex: 50%;
         flex: 50%;
         max-width: 50%;
+    }
+    .carousel-title {
+        font-size: 2.8em;
+        padding: 10px;
+    }
+    h4.description.carousel-description {
+        font-size: 1.3em;
+        padding: 10px;
     }
 }
 
@@ -1386,6 +1416,9 @@ figure.sideways:hover>div::before {
         height: 40%;
         margin: auto;
     }
+    .index-page .page-header {
+        height: 52vh;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1402,19 +1435,19 @@ figure.sideways:hover>div::before {
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
-    .carousel-indicators {
-        bottom: 40px;
-    }
-    .carousel-caption {
-        bottom: 60px;
-    }
     .index-page .page-header {
-        height: 100vh;
+        height: 72vh;
     }
     .column {
         -ms-flex: 25%;
         flex: 25%;
         max-width: 25%;
+    }
+    .carousel-title {
+        font-size: 3.8em;
+    }
+    h4.description.carousel-description {
+        font-size: 1.7em;
     }
 }
 
@@ -1431,4 +1464,27 @@ figure.sideways:hover>div::before {
     .index-page .page-header {
         height: 86vh;
     }
+}
+
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+    width: 48%;
+}
+
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+    background-image: none;
+}
+
+.carousel .carousel-control-prev .fa,
+.carousel .carousel-control-next .fa {
+    display: none;
+}
+
+.carousel .carousel-control-prev {
+    cursor: url("../img/arrow-left.png"), url("../img/arrow-left.cur"), default !important;
+}
+
+.carousel .carousel-control-next {
+    cursor: url("../img/arrow-right.png"), url("../img/arrow-right.cur"), default !important;
 }
