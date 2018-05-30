@@ -19,7 +19,7 @@ $(document).ready(function() {
     $(window).scroll(function(event) {
         var st = $(this).scrollTop();
         var upscroll;
-        if (st > lastScrollTop && st > 600 && width > 991) {
+        if (st > lastScrollTop && st > 650 && width > 991) {
             // downscroll code
             $('.sticky-header').removeClass('active');
         } else if (width > 991) {

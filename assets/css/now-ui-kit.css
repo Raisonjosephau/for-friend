@@ -3751,7 +3751,11 @@ body {
 }
 
 .bg-white {
-    background-color: #FFFFFF !important;
+    background: #DCE35B;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DCE35B, #2ecc71);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DCE35B, #2ecc71);
 }
 
 .dropdown-menu {
@@ -5147,7 +5151,8 @@ Created using IcoMoon - icomoon.io
 }
 
 .index-page .page-header {
-    height: 100vh;
+    height: 86vh;
+    margin-top: 14vh
 }
 
 .index-page .page-header .container>.content-center {
@@ -5156,7 +5161,7 @@ Created using IcoMoon - icomoon.io
 
 .index-page .page-header .category-absolute {
     position: absolute;
-    top: 100vh;
+    top: 60vh;
     margin-top: -60px;
     padding: 0 15px;
     width: 100%;
@@ -5511,7 +5516,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .page-header {
-    height: 100vh;
+    height: 86vh;
     max-height: 1050px;
     padding: 0;
     color: #FFFFFF;
