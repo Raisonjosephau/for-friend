@@ -29,7 +29,6 @@ $(document).ready(function() {
         lastScrollTop = st;
         myFunction();
 
-
     });
 
     function myFunction() {
