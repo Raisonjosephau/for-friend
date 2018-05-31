@@ -1,0 +1,32 @@
+.category {
+    font-weight: 500;
+    font-size: 1.32em;
+    text-transform: none;
+}
+
+.main-price {
+    font-weight: 300;
+}
+
+.carousel.product {
+    margin: -120px 0px 0px;
+}
+
+.outer {
+    position: relative;
+}
+
+.outer:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 150%;
+}
+
+.outer>.inner {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
