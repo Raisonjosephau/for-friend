@@ -1,0 +1,55 @@
+{
+    "101": {
+        "id": "5b0f8de115ca7b6d367a4f19",
+        "pakagename": "FortKochi",
+        "days": "1",
+        "isDayExcursion": true,
+        "wallpaper": "chinnavala.jpg",
+        "slider": [
+            "stfrancise.jpg",
+            "chinnavalap.jpg",
+            "stea_boilers.jpg",
+            "palace.jpg"
+        ],
+        "destinations": [{
+                "name": "St Francis Church",
+                "desc": "Known to be India’s first European church, it curiously transformed from a Roman Catholic Church during Portuguese rule (in 1503) to a Dutch Reformist Church (in 1664) to, finally, an Anglican Church (in 1804). Popular as the resting ground of Vasco da Gama, who was buried here in 1524, it attracts hundreds of tourists from all over the world; even though his remains were sent to Lisbon 14 years later.",
+                "image": "church.jpg"
+            },
+            {
+                "name": "Princess Street",
+                "desc": "A few steps from the Basilica, the Princess Street is one of the oldest streets in Fort Kochi, and houses many examples of Colonial architecture. At the northern end is the now abandoned Koder Warehouse, followed by a number of homestays and boutiques set in Colonial-era villas. Loafer’s Corner, a meeting spot at the intersection of Princess Street, Peter Celli Street and Bastion Street, offers an excellent view of the whole street.",
+                "image": "street.jpg"
+            },
+            {
+                "name": "Old Colonial Houses",
+                "desc": "Fort Kochi is dotted with old Colonial-style houses, most of which are in good condition and have been converted into hotels. While Fort Kochi was significantly reduced in size under the Dutch, they took care to maintain the primary buildings. A number of the surviving warehouses, with wide, buttressed walls, possess distinctly Dutch aesthetics.",
+                "image": "house_collage.jpg"
+            }
+        ],
+        "price": {
+            "min_price": "39",
+            "price_measure": "$",
+            "prices": [{
+                    "members": 1,
+                    "price": 60
+                },
+                {
+                    "members": 2,
+                    "price": 53
+                },
+                {
+                    "members": "3-5",
+                    "price": 40
+                },
+                {
+                    "members": "5>",
+                    "price": 35
+                }
+            ]
+        },
+        "picture_path": "./assets/img/fort/",
+        "greeting": "Hello, Susanne Gonzales! You have 5 unread messages.",
+        "favoriteFruit": "apple"
+    }
+}

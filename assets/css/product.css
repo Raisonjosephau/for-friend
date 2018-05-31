@@ -9,7 +9,19 @@
 }
 
 .carousel.product {
-    margin: -120px 0px 0px;
+    margin: -150px 0px 0px;
+    z-index: 1;
+}
+
+p.quotes {
+    margin: -10px 0px 0px;
+    z-index: 0;
+    text-align: justify;
+}
+
+small.author {
+    text-transform: none;
+    font-style: italic;
 }
 
 .outer {
