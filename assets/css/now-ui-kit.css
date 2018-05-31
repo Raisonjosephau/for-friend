@@ -5567,7 +5567,8 @@ Created using IcoMoon - icomoon.io
 }
 
 .page-header.page-header-small {
-    height: 50vh;
+    margin-top: 14vh;
+    height: 60vh;
     max-height: 440px;
 }
 
