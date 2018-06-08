@@ -69,10 +69,10 @@ h1.title {
     font-size: 4.5em
 }
 
-p,
 p.card-description {
     font-weight: 400;
-    color: #777777
+    color: #777777;
+    font-size: 1.2em;
 }
 
 .card-title {
