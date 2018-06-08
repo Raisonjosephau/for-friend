@@ -424,19 +424,6 @@
 
 /* Price card ends */
 
-a:hover {
-    text-decoration: none;
-}
-
-a:focus {
-    outline: 0px;
-}
-
-label {
-    font-weight: 400;
-    font-size: 15px;
-}
-
 
 /* Dropdown */
 

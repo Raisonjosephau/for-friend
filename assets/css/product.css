@@ -43,3 +43,50 @@ small.author {
     left: 0;
     border: 0;
 }
+
+.parallax {
+    /* The image used */
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cam-army {
+    background: url("../img/fort/cheenavala.jpg") no-repeat center center;
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-clip: text;
+}
+
+.cam-army h1 {
+    font-size: 6rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+
+.cam-army h1.sec {
+    font-size: 8.5rem;
+}
+
+.cam-army h2 {
+    font-size: 6.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 0;
+}
+
+.cam-army h2.sec {
+    font-size: 6.4rem;
+}

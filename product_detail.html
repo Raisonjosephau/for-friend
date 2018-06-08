@@ -185,12 +185,12 @@
     <!-- End Navbar -->
     <div class="wrapper">
         <div class="page-header page-header-small  clear-filter">
-            <div class="page-header-image" style="background-image:url('./assets/img/fort/cheenavala1.jpg')">
+            <div class="page-header-image parallax" style="background-image:url('./assets/img/fort/cheenavala1.jpg')">
             </div>
             <div class="container">
-                <div class="content-center">
+                <div class="content-center cam-army">
                     <br>
-                    <h1 class="title">FortKochi</h1>
+                    <h1 class="title" style="color: transparent">FortKochi</h1>
                 </div>
             </div>
         </div>
@@ -226,7 +226,7 @@
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
-                                <button type="button" class="btn btn-success btn-icon btn-round btn-sm" name="button">
+                                <button type="button" class="btn btn-success btn-icon btn-round btn-sm carousel-control-prev" name="button" href="#productCarousel" role="button" data-slide="prev">
                                             <i class="now-ui-icons arrows-1_minimal-left"  style="font-size:12px; margin-top:2px; margin-left:-2px"></i> 
                                         </button>
                             </a>
@@ -244,7 +244,7 @@
                         </p>
 
                     </div>
-                    <div class="col-md-6 ml-auto mr-auto">
+                    <div class="col-md-12 col-lg-6 col-xl-6 ml-auto mr-auto">
                         <h2 class="title text-shadow-1" style="font-weight: 500">Fort Kochi</h2>
                         <h5 class="category">Explore and Experrience The Real Life of Cochin</h5>
                         Strats from
@@ -265,24 +265,50 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a class="text-shadow-0" data-toggle="collapse" data-parent="#accordion" href="#details">
-                                        More Details
-                                        <i class="now-ui-icons arrows-1_minimal-down"></i>
+                        <!-- Nav tabs -->
+                        <div class="card card-plain">
+                            <ul class="nav nav-tabs justify-content-around" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#home" role="tab" aria-expanded="true">
+                                        Economic
                                     </a>
-                                </h4>
-                            </div>
-                            <div id="details" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat.
-                                    </p>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#profile" role="tab" aria-expanded="false">
+                                         Standard
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#messages" role="tab" aria-expanded="false">
+                                        Luxury
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#settings" role="tab">
+                                        Dulex
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="card-body">
+                                <!-- Tab panes -->
+                                <div class="tab-content text-justify">
+                                    <div class="tab-pane active" id="home" role="tabpanel" aria-expanded="true">
+                                        <p>the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
+                                    </div>
+                                    <div class="tab-pane" id="profile" role="tabpanel" aria-expanded="false">
+                                        <p> to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
+                                    </div>
+                                    <div class="tab-pane" id="messages" role="tabpanel" aria-expanded="false">
+                                        <p>the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
+                                    </div>
+                                    <div class="tab-pane" id="settings" role="tabpanel">
+                                        <p>
+                                            68$
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 <h4 class="panel-title">
@@ -298,6 +324,30 @@
                                     </p>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="separator separator-primary"></div>
+        <div class="section section-about-us">
+            <div class="container">
+                <div class="section-story-overview">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="image-container image-left" style="background-image: url('./assets/img/bg1.jpg')">
+
+                                <!-- First image on the left side -->
+                                <p class="blockquote blockquote-primary quotes">"Over the span of the satellite record, Arctic sea ice has been declining significantly, while sea ice in the Antarctichas increased very slightly"
+                                    <br>
+                                    <br>
+                                    <small>-NOAA</small>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <!-- First image on the right side, above the article -->
+                            <div class="image-container image-right" style="background-image: url('./assets/img/bg1.jpg')"></div>
                         </div>
                     </div>
                 </div>
@@ -333,7 +383,7 @@
         $(window).scroll(function(event) {
             var st = $(this).scrollTop();
             var upscroll;
-            if (st > lastScrollTop && st > 650 && width > 991) {
+            if (st > lastScrollTop && st > 420 && width > 991) {
                 // downscroll code
                 $('.sticky-header').removeClass('active');
             } else if (width > 991) {
@@ -352,13 +402,7 @@
                 $('#stick-nav').removeClass("fixed-top");
             }
         }
-        $('.panel-collapse').on('show.bs.collapse', function() {
-            $(this).siblings('.panel-heading').addClass('active');
-        });
 
-        $('.panel-collapse').on('hide.bs.collapse', function() {
-            $(this).siblings('.panel-heading').removeClass('active');
-        });
     });
 </script>
 
