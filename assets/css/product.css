@@ -56,37 +56,26 @@ small.author {
 }
 
 .cam-army {
-    background: url("../img/fort/cheenavala.jpg") no-repeat center center;
-    background-size: 100%;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    background: url("../img/fort/cheenavala1.jpg");
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     background-clip: text;
+    width: 100%;
 }
 
-.cam-army h1 {
-    font-size: 6rem;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 800;
-    margin: 0;
-    padding: 0;
+h1.title {
+    font-size: 4.5em
 }
 
-.cam-army h1.sec {
-    font-size: 8.5rem;
+p,
+p.card-description {
+    font-weight: 400;
+    color: #777777
 }
 
-.cam-army h2 {
-    font-size: 6.4rem;
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 800;
-    margin: 0;
-}
-
-.cam-army h2.sec {
-    font-size: 6.4rem;
+.card-title {
+    font-weight: 400;
+    margin-top: 0px
 }

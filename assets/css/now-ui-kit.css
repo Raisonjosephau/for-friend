@@ -3184,6 +3184,8 @@ h6,
 
 p {
     line-height: 1.61em;
+    font-weight: 300;
+    font-size: 1.2em;
 }
 
 .description p,
@@ -5015,7 +5017,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .card .card-body {
-    min-height: 190px;
+    min-height: 90px;
 }
 
 .card[data-background-color="orange"] {
