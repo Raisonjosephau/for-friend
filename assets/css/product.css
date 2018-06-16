@@ -79,7 +79,7 @@ small.author {
 }
 
 p.card-description {
-    font-weight: 400;
+    font-weight: 500;
     color: #777777;
     font-size: 1.2em;
 }
@@ -157,4 +157,11 @@ p.card-description {
 
 .card h4.title {
     font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+    .image-container.image-right {
+        margin-top: 150px;
+        margin-bottom: 20px;
+    }
 }
