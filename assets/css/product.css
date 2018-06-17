@@ -47,7 +47,6 @@ small.author {
 .parallax {
     /* The image used */
     /* Set a specific height */
-    min-height: 500px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -164,4 +163,382 @@ p.card-description {
         margin-top: 150px;
         margin-bottom: 20px;
     }
+}
+
+.td-do-list {
+    padding-top: 2.429rem;
+}
+
+.td-do-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.td-do-list ul li {
+    padding: 1.071rem 0 1.071rem 4rem;
+    position: relative;
+    line-height: 2.14285;
+}
+
+.td-do-list ul li>i {
+    background-image: url(../images/sprites.png);
+    background-repeat: no-repeat;
+    background-position: -108px -108px;
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.td-do-list ul li>i.icon-hotel {
+    background-position: -108px -108px;
+}
+
+.td-do-list ul li>i.icon-foods {
+    background-position: -162px -108px;
+}
+
+.td-do-list ul li>i.icon-drive {
+    background-position: -216px -108px;
+}
+
+.margin_60 {
+    padding-top: 60px;
+    padding-bottom: 60px
+}
+
+ul#tools_2 {
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 0
+}
+
+ul#tools_2 li a,
+{
+    background: #fff;
+    display: block;
+    padding: 15px 15px 15px 55px;
+    border: 1px solid #ededed;
+    margin-bottom: 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    color: #555;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    cursor: pointer
+}
+
+ul#tools_2 li a i {
+    font-size: 26px;
+    position: absolute;
+    left: 15px;
+    top: 13px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #1aa79b;
+    text-align: left
+}
+
+ul#tools_2 li a:hover {
+    padding-left: 60px;
+    color: #ec008c
+}
+
+ul#tools_2 li form button {
+    background: 0 0;
+    border: none;
+    margin: 0;
+    padding: 15px 15px 15px 55px;
+    display: block;
+    width: auto;
+    outline: 0;
+    box-sizing: content-box
+}
+
+ul#tools_2 {
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 0
+}
+
+ul#tools_2 li a,
+ul#tools_2 li form {
+    background: #fff;
+    display: block;
+    padding: 15px 15px 15px 55px;
+    border: 1px solid #ededed;
+    margin-bottom: 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position: relative;
+    color: #555;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    cursor: pointer
+}
+
+ul#tools_2 li form {
+    padding: 0;
+    display: block
+}
+
+ul#tools_2 li a i,
+ul#tools_2 li form i {
+    font-size: 26px;
+    position: absolute;
+    left: 15px;
+    top: 13px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: #1aa79b;
+    text-align: left
+}
+
+ul#tools_2 li a:hover {
+    padding-left: 60px;
+    color: #ec008c
+}
+
+ul#tools_2 li form:hover {
+    color: #ec008c;
+    padding-left: 5px
+}
+
+ul#tools_2 li form button {
+    background: 0 0;
+    border: none;
+    margin: 0;
+    padding: 15px 15px 15px 55px;
+    display: block;
+    width: auto;
+    outline: 0;
+    box-sizing: content-box
+}
+
+@media only screen and (max-width :992px) {
+    .box_home {
+        min-height: inherit
+    }
+    ul#tools_2 {
+        text-align: center
+    }
+    ul#tools_2 li {
+        display: inline-block;
+        font-size: 11px
+    }
+    ul#tools_2 li a,
+    ul#tools_2 li form {
+        min-width: 130px;
+        display: inline-block;
+        text-align: center;
+        padding: 10px 15px;
+        margin-bottom: 4px
+    }
+    ul#tools_2 li a i,
+    ul#tools_2 li form i {
+        font-size: 26px;
+        display: block;
+        position: static;
+        text-align: center;
+        margin-bottom: 5px
+    }
+    ul#tools_2 li a:hover,
+    ul#tools_2 li form:hover {
+        padding: 10px 15px
+    }
+    ul#tools_2 li form button {
+        padding: 0;
+        display: block;
+        margin: auto
+    }
+}
+
+
+/*	# Sidebar
+======================================================*/
+
+@media (max-width: 991px) {
+    .td-sidebar {
+        margin-top: 30px;
+    }
+}
+
+.widget {
+    margin-bottom: 2.143rem;
+    padding: 0px;
+}
+
+.widget-title {
+    color: #ffffff;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background: #3ecc71;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3ecc71, #2ecc71);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3ecc71, #2ecc71);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.widget-title h6 {
+    line-height: normal;
+    display: inline;
+    font-weight: 500 !important;
+}
+
+.widget-title h2 {
+    line-height: normal;
+    margin: 0px;
+    margin-left: 20px;
+    display: inline
+}
+
+.widget-body {
+    padding: 1rem;
+}
+
+
+/* ## Widget Inquire Now */
+
+.widget-inquire_now .widget-body h5 {
+    line-height: 1.64285;
+}
+
+.widget-inquire_now .widget-body span {
+    display: block;
+}
+
+.widget-inquire_now .widget-body .phone-number {
+    font-size: 2.143rem;
+    font-weight: 600;
+}
+
+.widget-inquire_now .widget-body .btn {
+    margin-top: 1rem;
+}
+
+
+/* ## Widget Categories */
+
+.widget_categories {}
+
+.widget_categories ul {
+    list-style: none;
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.widget_categories ul li:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.widget_categories ul li {
+    position: relative;
+    text-align: right;
+    padding: 4px 2.143rem;
+    display: block;
+}
+
+.widget_categories ul li a {
+    float: left;
+    text-align: left;
+    display: inline-block;
+    color: #000;
+}
+
+.widget_categories ul li a:hover {
+    color: #629b1f;
+}
+
+
+/* ---- 27.3 Shop Sidebar - (horizontal) ---- */
+
+
+/* ---- 27.4 Shop Sidebar - (vertical) ---- */
+
+.shop-sidebar-vertical {
+    border-top: 1px solid #f8f8f8;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+
+#position ul li:after,
+#position ul li:first-child:before {
+    font-style: normal;
+    font-weight: 400;
+    top: 1px;
+    font-family: fontello
+}
+
+#position {
+    background-color: #fff;
+    padding: 10px 0;
+    font-size: 13px;
+    border-bottom: 1px solid #ededed
+}
+
+#position ul li:first-child {
+    padding-left: 20px
+}
+
+#position ul li:first-child:before {
+    font-family: 'Nucleo Outline';
+    content: "\ea47";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #888
+}
+
+#position ul {
+    margin: 0;
+    padding: 0;
+    color: #888
+}
+
+#position ul li a {
+    color: #111;
+    opacity: .7
+}
+
+#position ul li a:hover {
+    opacity: 1
+}
+
+#position ul li {
+    display: inline-block;
+    padding-right: 15px;
+    margin-right: 5px;
+    position: relative
+}
+
+#position ul li:after {
+    font-family: 'Nucleo Outline';
+    font-size: 8px;
+    content: "\ea3b";
+    position: absolute;
+    top: 4px;
+    bottom: 10px;
+    right: 0
+}
+
+#position ul li:last-child:after {
+    content: "";
 }
