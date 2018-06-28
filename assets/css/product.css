@@ -702,18 +702,6 @@ ul#tools_2 li form button {
     vertical-align: middle;
 }
 
-@media screen and (max-width: 767px) {
-    .trip-insight .insight-list {
-        display: table;
-        margin: 0 auto;
-    }
-    .sidebar ul {
-        display: flex;
-        align-content: center;
-        margin-left: 15px;
-    }
-}
-
 
 /*used in trip-detail*/
 
@@ -752,4 +740,81 @@ ul#tools_2 li form button {
     -ms-transform: skew(5deg) rotate(5deg);
     -o-transform: skew(5deg) rotate(5deg);
     transform: skew(5deg) rotate(5deg);
+}
+
+.text-color {
+    color: #46a1de;
+    transition-duration: .5s;
+}
+
+.nav-tabs {
+    text-align: center;
+    font-weight: 500;
+    margin: 50px 0 0;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    background: white;
+}
+
+.nav-tabs>.nav-item {
+    background: #fff;
+    padding: 0.6em 0;
+    position: relative;
+    margin: 0 0 0 -4px;
+}
+
+.nav-tabs>.nav-item>.nav-link {
+    border: none;
+    border-radius: 0px;
+}
+
+.nav-tabs>.nav-item>.nav-link.active {
+    border: none;
+    border-radius: 0px;
+}
+
+.nav-tabs>.nav-item>.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    border-radius: 0px;
+    width: 0;
+    height: 2px;
+    transition: width .5s ease-in-out;
+    transform: translate(-50%, 0);
+}
+
+.nav-tabs>.nav-item>.nav-link.active::after {
+    background-color: #2ecc71;
+    width: 100%;
+    height: 2px;
+    transition: width .5s ease-in-out;
+}
+
+.nav-tabs>.nav-item>.nav-link.active:before,
+.nav-tabs>.nav-item>.nav-link.active:after {
+    opacity: 1;
+}
+
+.tab-content>.tab-pane {
+    opacity: 0;
+    transition: opacity .5s ease-in;
+}
+
+.tab-content>.tab-pane.show {
+    opacity: 1;
+}
+
+@media screen and (max-width: 767px) {
+    .trip-insight .insight-list {
+        display: table;
+        margin: 0 auto;
+    }
+    .sidebar ul {
+        display: flex;
+        align-content: center;
+        margin-left: 15px;
+    }
 }
