@@ -455,7 +455,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .text-shadow-black {
-    text-shadow: 1px 1px 1px #323232;
+    text-shadow: 1px 1px 1px #777777;
     font-weight: 300;
 }
 
