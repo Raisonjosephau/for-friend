@@ -787,7 +787,11 @@ ul#tools_2 li form button {
 }
 
 .nav-tabs>.nav-item>.nav-link.active::after {
-    background-color: #2ecc71;
+    background: #DCE35B;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DCE35B, #2ecc71);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DCE35B, #2ecc71);
     width: 100%;
     height: 2px;
     transition: width .5s ease-in-out;
@@ -805,6 +809,10 @@ ul#tools_2 li form button {
 
 .tab-content>.tab-pane.show {
     opacity: 1;
+}
+
+.card-description {
+    text-align: justify;
 }
 
 @media screen and (max-width: 767px) {
