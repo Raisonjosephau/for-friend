@@ -214,165 +214,12 @@ p.card-description {
     padding-bottom: 60px
 }
 
-ul#tools_2 {
-    list-style: none;
-    margin: 0 0 20px;
-    padding: 0
-}
-
-ul#tools_2 li a,
-{
-    background: #fff;
-    display: block;
-    padding: 15px 15px 15px 55px;
-    border: 1px solid #ededed;
-    margin-bottom: 8px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    position: relative;
-    color: #555;
-    -moz-transition: all .3s;
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
-    cursor: pointer
-}
-
-ul#tools_2 li a i {
-    font-size: 26px;
-    position: absolute;
-    left: 15px;
-    top: 13px;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    color: #1aa79b;
-    text-align: left
-}
-
-ul#tools_2 li a:hover {
-    padding-left: 60px;
-    color: #ec008c
-}
-
-ul#tools_2 li form button {
-    background: 0 0;
-    border: none;
-    margin: 0;
-    padding: 15px 15px 15px 55px;
-    display: block;
-    width: auto;
-    outline: 0;
-    box-sizing: content-box
-}
-
-ul#tools_2 {
-    list-style: none;
-    margin: 0 0 20px;
-    padding: 0
-}
-
-ul#tools_2 li a,
-ul#tools_2 li form {
-    background: #fff;
-    display: block;
-    padding: 15px 15px 15px 55px;
-    border: 1px solid #ededed;
-    margin-bottom: 8px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    position: relative;
-    color: #555;
-    -moz-transition: all .3s;
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
-    cursor: pointer
-}
-
-ul#tools_2 li form {
-    padding: 0;
-    display: block
-}
-
-ul#tools_2 li a i,
-ul#tools_2 li form i {
-    font-size: 26px;
-    position: absolute;
-    left: 15px;
-    top: 13px;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    color: #1aa79b;
-    text-align: left
-}
-
-ul#tools_2 li a:hover {
-    padding-left: 60px;
-    color: #ec008c
-}
-
-ul#tools_2 li form:hover {
-    color: #ec008c;
-    padding-left: 5px
-}
-
-ul#tools_2 li form button {
-    background: 0 0;
-    border: none;
-    margin: 0;
-    padding: 15px 15px 15px 55px;
-    display: block;
-    width: auto;
-    outline: 0;
-    box-sizing: content-box
-}
-
-@media only screen and (max-width :992px) {
-    .box_home {
-        min-height: inherit
-    }
-    ul#tools_2 {
-        text-align: center
-    }
-    ul#tools_2 li {
-        display: inline-block;
-        font-size: 11px
-    }
-    ul#tools_2 li a,
-    ul#tools_2 li form {
-        min-width: 130px;
-        display: inline-block;
-        text-align: center;
-        padding: 10px 15px;
-        margin-bottom: 4px
-    }
-    ul#tools_2 li a i,
-    ul#tools_2 li form i {
-        font-size: 26px;
-        display: block;
-        position: static;
-        text-align: center;
-        margin-bottom: 5px
-    }
-    ul#tools_2 li a:hover,
-    ul#tools_2 li form:hover {
-        padding: 10px 15px
-    }
-    ul#tools_2 li form button {
-        padding: 0;
-        display: block;
-        margin: auto
-    }
-}
-
 #position ul li:after,
 #position ul li:first-child:before {
     font-style: normal;
     font-weight: 400;
     top: 1px;
-    font-family: fontello
+    font-family: "Montserrat"
 }
 
 #position {
@@ -433,106 +280,6 @@ ul#tools_2 li form button {
 
 ._disable-pointer-events {
     pointer-events: none !important;
-}
-
-.amazing-menu {
-    overflow-x: hidden;
-    box-shadow: 0 10px 43px 10px rgba(0, 0, 0, 0.15);
-}
-
-.amazing-menu.-scrolled .menu-item {
-    -webkit-transform: perspective(40rem) translateY(-.5rem) scaleX(.95) rotateX(-40deg);
-    transform: perspective(40rem) translateY(-.5rem) scaleX(.95) rotateX(-40deg);
-}
-
-.menu-item {
-    position: relative;
-    width: 100%;
-    color: #FBFBFB;
-    transition: all 210ms cubic-bezier(.8, .1, .2, .9);
-}
-
-.menu-item:nth-of-type(5n+1) {
-    background: #3E989B;
-}
-
-.menu-item:nth-of-type(5n+2) {
-    background: #6DB465;
-}
-
-.menu-item:nth-of-type(5n+3) {
-    background: #F2C14E;
-}
-
-.menu-item:nth-of-type(5n+4) {
-    background: #F78154;
-}
-
-.menu-item:nth-of-type(5n) {
-    background: #C87694;
-}
-
-.sidebar ul {
-    display: block
-}
-
-.sidebar ul li {
-    margin-top: 20px;
-}
-
-.sidebar .nav-tabs {
-    border: 0;
-}
-
-.sidebar .nav-tabs .nav-item .nav-link {
-    padding: 0 12.5px !important;
-    text-align: center;
-    height: 50px;
-    width: 150px;
-    font-weight: 400;
-    color: #9A9A9A;
-    margin-right: 19px;
-    background-color: rgba(222, 222, 222, 0.3);
-    border-radius: 30px;
-    -moz-transition: all .3s;
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
-}
-
-.nav-pills .nav-item .nav-link.active,
-.nav-pills .nav-item .nav-link.active:focus,
-.nav-pills .nav-item .nav-link.active:hover {
-    box-shadow: 0px 5px 25px 0px #DCE35B;
-    -moz-transition: all .3s;
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease;
-}
-
-.sidebar .nav-tabs>.nav-item>.nav-link.active {
-    color: #FFFFFF;
-    border: 0px;
-    border-radius: 30px;
-}
-
-.sidebar .nav-pills .nav-item .nav-link {
-    background-color: #fff;
-    box-shadow: 0px 5px 15px -6px rgba(0, 0, 0, 0.3);
-}
-
-.nav-pills.nav-pills-success .nav-item .nav-link.active,
-.nav-pills.nav-pills-success .nav-item .nav-link.active:focus,
-.nav-pills.nav-pills-success .nav-item .nav-link.active:hover {
-    background: #DCE35B;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #DCE35B, #2ecc71);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #DCE35B, #2ecc71);
-}
-
-.sidebar .nav-pills .nav-item i {
-    display: inline;
-    font-size: 18px;
-    line-height: 50px;
 }
 
 
@@ -604,149 +351,6 @@ ul#tools_2 li form button {
     padding-right: 40px;
 }
 
-.tab-wrap {
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
-.tab-wrap .affix {
-    position: fixed;
-    top: 69px;
-    z-index: 99;
-    left: 0px;
-    width: 100% !important;
-}
-
-.tab-wrap .nav-tabs {
-    width: 100%;
-    display: -webkit-flex;
-    /* NEW */
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    /* NEW */
-    flex-wrap: wrap;
-    border-bottom: none;
-    border-bottom: 5px solid #395d20;
-}
-
-.tab-wrap .nav-tabs li {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    background: #fff;
-    font-size: 1.6em;
-    text-transform: uppercase;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
-    text-align: center;
-    position: relative;
-}
-
-.tab-wrap .nav-tabs li a {
-    height: 100%;
-    padding: 10px;
-    margin: 0;
-    border-color: transparent;
-    border-right: 0;
-    background: #fff;
-    color: #4b4b4b;
-    font-size: 1.2rem;
-}
-
-.tab-wrap .nav-tabs li a:hover {
-    color: #558B2F;
-}
-
-.tab-wrap .nav-tabs li a:hover:after {
-    content: '';
-    height: 4px;
-    width: 100%;
-    background: #558B2F;
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    z-index: 99;
-}
-
-.tab-wrap .nav-tabs li:first-child {
-    margin-left: 0;
-    border-left: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.tab-wrap .nav-tabs li:last-child {
-    margin-right: 0;
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.tab-wrap .nav-tabs li.active a {
-    color: #558B2F;
-    color: #fff;
-    border: 1px solid #477427;
-    border-bottom: none;
-    background: #558B2F;
-}
-
-.tab-wrap .nav-tabs li.active a:hover {
-    border-right: none;
-}
-
-.tab-wrap .nav-tabs li.active a:hover:after {
-    display: none;
-}
-
-.trip-detail {
-    margin-bottom: 60px;
-    /*For date & price table */
-}
-
-.trip-detail .table td {
-    vertical-align: middle;
-}
-
-
-/*used in trip-detail*/
-
-.paper-effect {
-    background: #fff;
-    padding: 30px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    position: relative;
-}
-
-.paper-effect:before,
-.paper-effect:after {
-    position: absolute;
-    width: 40%;
-    height: 10px;
-    content: ' ';
-    left: 20px;
-    bottom: 22px;
-    background: transparent;
-    -webkit-transform: skew(-5deg) rotate(-5deg);
-    -moz-transform: skew(-5deg) rotate(-5deg);
-    -ms-transform: skew(-5deg) rotate(-5deg);
-    -o-transform: skew(-5deg) rotate(-5deg);
-    transform: skew(-5deg) rotate(-5deg);
-    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
-    -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
-    z-index: -1;
-}
-
-.paper-effect:after {
-    left: auto;
-    right: 20px;
-    -webkit-transform: skew(5deg) rotate(5deg);
-    -moz-transform: skew(5deg) rotate(5deg);
-    -ms-transform: skew(5deg) rotate(5deg);
-    -o-transform: skew(5deg) rotate(5deg);
-    transform: skew(5deg) rotate(5deg);
-}
-
-.text-color {
-    color: #46a1de;
-    transition-duration: .5s;
-}
-
 .nav-tabs {
     text-align: center;
     font-weight: 500;
@@ -813,6 +417,234 @@ ul#tools_2 li form button {
 
 .card-description {
     text-align: justify;
+}
+
+.timeline-vertical ol,
+.timeline-vertical ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-vertical .travel-date {
+    font-size: 1.4rem;
+    color: #3e3e40;
+    font-weight: 300;
+    font-family: Montserrat;
+}
+
+.timeline-vertical .travel-details {
+    padding: 1rem 2rem;
+}
+
+.timeline-vertical .travel-details .connection {
+    position: relative;
+    padding: 2rem 0 2rem 2rem;
+    color: #7c7c7c;
+}
+
+.timeline-vertical .travel-details .connection .content {
+    padding-left: 2rem;
+}
+
+.timeline-vertical .travel-details .connection .content .wait-duration {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
+
+.timeline-vertical .travel-details .connection .content .wait-duration:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    content: "\f554";
+    position: absolute;
+    left: -2rem;
+    font-size: 1.8rem;
+    line-height: 1.6rem;
+    color: #7c7c7c;
+}
+
+.timeline-vertical .travel-details .connection .connection-graph {
+    position: absolute;
+    top: -1rem;
+    bottom: -1rem;
+    left: 1.16rem;
+    width: 2rem;
+}
+
+.timeline-vertical .travel-details .connection .connection-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: .5rem;
+    border: dashed #DCE35B 1px;
+}
+
+.timeline-vertical .travel-details .connection .connection-dot {
+    position: absolute;
+    top: 50%;
+    margin-top: -0.5rem;
+    left: .1rem;
+    background-color: #2ecc71;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 10rem;
+}
+
+.timeline-vertical .travel-details .segment {
+    width: 100%;
+    color: #585858;
+    font-size: 1.3rem;
+    padding: 0 0 0 2rem;
+    position: relative;
+    z-index: 2;
+}
+
+.timeline-vertical .travel-details .segment .origin {
+    margin-bottom: 3rem;
+    color: #757575;
+}
+
+.timeline-vertical .travel-details .segment .destination,
+.timeline-vertical .travel-details .segment .origin {
+    color: #585858;
+}
+
+.timeline-vertical .travel-details .segment .arrival-station,
+.timeline-vertical .travel-details .segment .departure-station {
+    color: #323232;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    display: block;
+}
+
+.timeline-vertical .travel-details .segment .arrival-time,
+.timeline-vertical .travel-details .segment .departure-time {
+    display: inline-block;
+    font-weight: 600;
+    color: #777777;
+    font-size: 1rem;
+}
+
+.timeline-vertical .travel-details .segment .origin .departure-time,
+.timeline-vertical .travel-details .segment .destination .arrival-time {
+    font-weight: 600;
+    color: #777777;
+    font-size: 1rem;
+}
+
+.timeline-vertical .travel-details .segment.first .origin .departure-station,
+.timeline-vertical .travel-details .segment.last .destination .arrival-station {
+    color: #323232;
+    font-weight: 500;
+    font-size: 1.2rem;
+    display: block;
+}
+
+.timeline-vertical .travel-details .segment .transporter-block {
+    padding-left: 3.23077em;
+}
+
+.timeline-vertical .travel-details .segment .destination {
+    margin-top: 3rem;
+    color: #757575;
+}
+
+.timeline-vertical .travel-details .segment .icon-train {
+    height: 2rem;
+    width: 3rem;
+    vertical-align: middle;
+    margin-right: .5rem;
+}
+
+.timeline-vertical .travel-details .segment .wrapper {
+    position: relative;
+    padding-left: 2rem;
+}
+
+.timeline-vertical .travel-details .segment .duration {
+    font-size: 1.2rem;
+    line-height: 1rem;
+    color: #333;
+    padding-left: 1.5rem;
+}
+
+.timeline-vertical .travel-details .segment .duration:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    content: "\f1b9";
+    position: absolute;
+    left: -4rem;
+    font-size: 1.5rem;
+    color: #7c7c7c;
+}
+
+.timeline-vertical .travel-details .segment .duration:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f017";
+    position: absolute;
+    left: 2rem;
+}
+
+.timeline-vertical .travel-details .segment .segment-graph {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 1rem;
+    width: 2rem;
+}
+
+.timeline-vertical .travel-details .segment .segment-graph .line {
+    position: absolute;
+    top: 1rem;
+    bottom: 1rem;
+    left: 9px;
+    width: 3px;
+    background: #DCE35B;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #DCE35B, #2ecc71);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #DCE35B, #2ecc71);
+}
+
+.timeline-vertical .travel-details .segment .segment-graph .train-line {
+    background-color: #cb0044;
+}
+
+.timeline-vertical .travel-details .segment .segment-graph .arrival,
+.timeline-vertical .travel-details .segment .segment-graph .departure {
+    position: absolute;
+    left: 0;
+    width: 2rem;
+    height: 2rem;
+}
+
+.timeline-vertical .travel-details .segment .segment-graph .departure svg,
+.timeline-vertical .travel-details .segment .segment-graph .connection svg,
+.timeline-vertical .travel-details .segment .segment-graph .arrival svg {
+    position: absolute;
+    z-index: 1060;
+    fill: transparent;
+    stroke: #2ecc71;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    background: white;
+}
+
+.travel-details .segment .segment-graph .departure svg circle,
+.travel-details .segment .segment-graph .connection svg circle,
+.travel-details .segment .segment-graph .arrival svg circle {
+    fill: #DCE35B;
+    background: transparent;
+}
+
+.timeline-vertical .travel-details .segment .segment-details .segment-graph .departure {
+    top: 0;
+}
+
+.timeline-vertical .travel-details .segment .segment-details .segment-graph .arrival {
+    bottom: 0;
 }
 
 @media screen and (max-width: 767px) {
