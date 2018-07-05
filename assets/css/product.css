@@ -440,7 +440,7 @@ p.card-description {
 #timeline {
     overflow: auto;
     background: white;
-    height: 610px;
+    height: 512px;
     margin-bottom: -5px;
     padding: 25px;
 }
@@ -742,9 +742,10 @@ ul.itenary-steps li .day-number {
 ul.itenary-steps li .detail {
     margin-left: 136px;
     padding-top: 12.5px;
-    font-size: 14px;
+    font-size: .9rem;
     font-family: Montserrat;
     font-weight: 500;
+    cursor: pointer;
 }
 
 ul.itenary-steps li:after {

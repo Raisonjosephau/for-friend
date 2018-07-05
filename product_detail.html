@@ -20,6 +20,7 @@
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="./assets/css/common.css" rel="stylesheet" />
     <link href="./assets/css/product.css" rel="stylesheet" />
+    <link href="./assets/css/price-list.css" rel="stylesheet" />
 </head>
 
 <body class="landing-page sidebar-collapse">
@@ -265,7 +266,7 @@
                             <div class="card-body" style="margin-top:20px">
                                 <!-- Tab panes -->
                                 <div class="tab-content">
-                                    <div class="tab-pane fade show active" id="homeS" role="tabpanel" aria-expanded="false">
+                                    <div class="tab-pane fade " id="homeS" role="tabpanel" aria-expanded="false">
                                         <h2>Luxury Holidays in Austraila : An Overview</h2>
                                         <p>Amet turpis tristique, nec in aliquet dis amet, proin egestas in tempor, cras et dapibus, lectus pellentesque enim odio elementum eu tincidunt diam a et. Dapibus sed cum, aliquam cras egestas enim elit in mattis?
                                             Scelerisque, ultrices mid! Lorem. Scelerisque? Pid cras, mattis vel.</p>
@@ -279,9 +280,86 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-expanded="false">
-                                        <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities,
-                                            to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
+                                    <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-expanded="false">
+                                        <div id="price-pricing-table" class="price-list">
+                                            <div class="row">
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="price-block">
+                                                        <div class="price-back"></div>
+                                                        <div class="price-title">Basic</div>
+                                                        <div class="price-price">
+                                                            <div class="price-pattern">Free</div><span>Free</span></div>
+                                                        <ul class="price-list">
+                                                            <li>100 emails</li>
+                                                            <li>100 emails</li>
+                                                            <li>100 emails</li>
+                                                            <li>100 emails</li>
+                                                            <li><span class="price-tooltip-show-text"><span class="price-tooltip-show">2 databases</span><span class="price-tooltip price-tooltip-right"><span class="price-tooltip-content"><span class="price-tooltip-heading">For a company</span>
+                                                                <span class="price-tooltip-list"><span><i class="fa fa-calendar-check-o"></i>Free Daily Backup</span><span><i class="fa fa-check"></i>PhpMyAdmin</span><span><i class="fa fa-clock-o"></i>99.99% Uptime</span><span><i class="fa fa-check"></i>Power Redundancy</span><span><i class="fa fa-check"></i>Fast &amp; simple</span><span><i class="fa fa-times"></i>24/7 support</span></span>
+                                                                </span>
+                                                                </span>
+                                                                </span>
+                                                            </li>
+                                                            <li>10GB disk space</li>
+                                                        </ul><a class="price-btn" href="http://swebdeveloper.com/apps/rainbow-responsive-pricing-tables/#">Get it now</a></div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="price-block">
+                                                        <div class="price-back"></div>
+                                                        <div class="price-title">Expert</div>
+                                                        <div class="price-price">
+                                                            <div class="price-pattern">€239</div><span>€239</span></div>
+                                                        <ul class="price-list">
+                                                            <li>500 emails</li>
+                                                            <li><span class="price-tooltip-show-text"><span class="price-tooltip-show">10 databases</span><span class="price-tooltip"><span class="price-tooltip-content"><span class="price-tooltip-heading">For you and your friend</span>
+                                                                <span class="price-tooltip-list price-tooltip-2col"><span><i class="fa fa-calendar-check-o"></i>Free Daily Backup</span><span><i class="fa fa-check"></i>PhpMyAdmin</span><span><i class="fa fa-clock-o"></i>99.99% Uptime</span><span><i class="fa fa-check"></i>Power Redundancy</span><span><i class="fa fa-check"></i>Fast &amp; simple</span><span><i class="fa fa-times"></i>24/7 support</span></span>
+                                                                </span>
+                                                                </span>
+                                                                </span>
+                                                            </li>
+                                                            <li>40GB disk space</li>
+                                                        </ul><a class="price-btn" href="http://swebdeveloper.com/apps/rainbow-responsive-pricing-tables/#">Purchase</a></div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="price-block price-not-available">
+                                                        <div class="price-back"></div>
+                                                        <div class="price-title">Premium</div>
+                                                        <div class="price-price">
+                                                            <div class="price-pattern">£399</div><span>£399</span></div>
+                                                        <ul class="price-list">
+                                                            <li><i class="fa fa-hdd-o" aria-hidden="true"></i> emails<span class="price-tooltip-show-icon"><span class="price-tooltip-show"><i class="fa fa-info-circle"></i></span><span class="price-tooltip"><span class="price-tooltip-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae commodo quam, non auctor dui. Quisque at ipsum at lorem accumsan viverra quis maximus eros.</span></span>
+                                                                </span>
+                                                            </li>
+                                                            <li><span class="price-tooltip-show-text"><span class="price-tooltip-show">20 databases</span><span class="price-tooltip price-tooltip-left"><span class="price-tooltip-content"><span class="price-tooltip-heading">For you and your friend</span>
+                                                                <span class="price-tooltip-list price-tooltip-2col"><span><i class="fa fa-calendar-check-o"></i>Free Daily Backup</span><span><i class="fa fa-check"></i>PhpMyAdmin</span><span><i class="fa fa-clock-o"></i>99.99% Uptime</span><span><i class="fa fa-check"></i>Power Redundancy</span><span><i class="fa fa-check"></i>Fast &amp; simple</span><span><i class="fa fa-times"></i>24/7 support</span></span>
+                                                                </span>
+                                                                </span>
+                                                                </span>
+                                                            </li>
+                                                            <li>100GB disk space</li>
+                                                        </ul><a class="price-btn" href="http://swebdeveloper.com/apps/rainbow-responsive-pricing-tables/#">Purchase</a></div>
+                                                </div>
+                                                <div class="col-lg-3 col-md-6">
+                                                    <div class="price-block">
+                                                        <div class="price-back"></div>
+                                                        <div class="price-title">Enterprise</div>
+                                                        <div class="price-price">
+                                                            <div class="price-pattern">$650</div><span>$650</span></div>
+                                                        <ul class="price-list">
+                                                            <li><i class="fa fa-hdd-o" aria-hidden="true"></i> emails<span class="price-tooltip-show-icon"><span class="price-tooltip-show"><i class="fa fa-info-circle"></i></span><span class="price-tooltip"><span class="price-tooltip-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae commodo quam, non auctor dui. Quisque at ipsum at lorem accumsan viverra quis maximus eros.</span></span>
+                                                                </span>
+                                                            </li>
+                                                            <li><span class="price-tooltip-show-text"><span class="price-tooltip-show">50 databases</span><span class="price-tooltip price-tooltip-left"><span class="price-tooltip-content"><span class="price-tooltip-heading">For a company</span>
+                                                                <span class="price-tooltip-list"><span><i class="fa fa-calendar-check-o"></i>Free Daily Backup</span><span><i class="fa fa-check"></i>PhpMyAdmin</span><span><i class="fa fa-clock-o"></i>99.99% Uptime</span><span><i class="fa fa-check"></i>Power Redundancy</span><span><i class="fa fa-check"></i>Fast &amp; simple</span><span><i class="fa fa-times"></i>24/7 support</span></span>
+                                                                </span>
+                                                                </span>
+                                                                </span>
+                                                            </li>
+                                                            <li>400GB disk space</li>
+                                                        </ul><a class="price-btn" href="http://swebdeveloper.com/apps/rainbow-responsive-pricing-tables/#">Purchase</a></div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="tab-pane fade" id="map" role="tabpanel" aria-expanded="false">
                                         <div class="row">
@@ -476,17 +554,17 @@
             <div id="contactUsMap" class="map" style="overflow: hidden;"> </div>
             <div class="col-lg-4 col-md-5 card" id="timeline">
                 <ul class="itenary-steps">
-                    <li>
+                    <li data-toggle-map="0">
                         <div class="fi fi-plane"></div>
                         <div class="day-number">Day 1</div>
                         <div class="detail">Arrive (1,330m) <br>In City, sightseeing old City</div>
                     </li>
-                    <li>
+                    <li data-toggle-map="5">
                         <i class="fi fi-plane"></i>
                         <div class="day-number">Day 2</div>
                         <div class="detail">Fly to Dhampur from city airport</div>
                     </li>
-                    <li>
+                    <li data-toggle-map="2">
                         <div class="fi fi-car"></div>
                         <div class="day-number">Day 3</div>
                         <div class="detail">Set up Base(2,140m)</div>
@@ -575,7 +653,7 @@
 
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCl7mRwfVc9h46ZNwqKNaWIpbdTWysVQIU"></script>
 
-
+<script src="./assets/js/fortkochi.js" type="text/javascript"></script>
 <script>
     $(document).ready(function() {
 
@@ -599,164 +677,6 @@
 
 
         // When the window has finished loading create our google map below
-        google.maps.event.addDomListener(window, 'load', init);
-
-        function init() {
-            // Basic options for a simple Google Map
-            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-            var mapOptions = {
-                // How zoomed in you want the map to start at (always required)
-                zoom: 18,
-
-                // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(9.979106, 76.2785000004), // New York
-
-                // How you would like to style the map. 
-                // This is where you would paste any style found on Snazzy Maps.
-                styles: [{
-                    "featureType": "water",
-                    "elementType": "geometry",
-                    "stylers": [{
-                        "color": "#e9e9e9"
-                    }, {
-                        "lightness": 17
-                    }]
-                }, {
-                    "featureType": "landscape",
-                    "elementType": "all",
-                    "stylers": [{
-                        "saturation": -100
-                    }, {
-                        "lightness": 45
-                    }, {
-                        "visibility": "on"
-                    }]
-                }, {
-                    "featureType": "road.highway",
-                    "elementType": "geometry.fill",
-                    "stylers": [{
-                        "color": "#ffffff"
-                    }, {
-                        "lightness": 17
-                    }]
-                }, {
-                    "featureType": "road.highway",
-                    "elementType": "geometry.stroke",
-                    "stylers": [{
-                        "color": "#ffffff"
-                    }, {
-                        "lightness": 29
-                    }, {
-                        "weight": 0.2
-                    }]
-                }, {
-                    "featureType": "road.arterial",
-                    "elementType": "geometry",
-                    "stylers": [{
-                        "color": "#ffffff"
-                    }, {
-                        "lightness": 18
-                    }]
-                }, {
-                    "featureType": "road.local",
-                    "elementType": "geometry",
-                    "stylers": [{
-                        "color": "#ffffff"
-                    }, {
-                        "lightness": 16
-                    }]
-                }, {
-                    "featureType": "poi",
-                    "elementType": "geometry",
-                    "stylers": [{
-                        "color": "#f5f5f5"
-                    }, {
-                        "lightness": 21
-                    }]
-                }, {
-                    "featureType": "poi.park",
-                    "elementType": "geometry",
-                    "stylers": [{
-                        "color": "#dedede"
-                    }, {
-                        "lightness": 21
-                    }]
-                }, {
-                    "elementType": "labels.text.stroke",
-                    "stylers": [{
-                        "visibility": "on"
-                    }, {
-                        "color": "#ffffff"
-                    }, {
-                        "lightness": 16
-                    }]
-                }, {
-                    "elementType": "labels.text.fill",
-                    "stylers": [{
-                        "saturation": 36
-                    }, {
-                        "color": "#333333"
-                    }, {
-                        "lightness": 40
-                    }]
-                }, {
-                    "elementType": "labels.icon",
-                    "stylers": [{
-                        "visibility": "on"
-                    }]
-                }, {
-                    "featureType": "transit",
-                    "elementType": "geometry",
-                    "stylers": [{
-                        "color": "#f2f2f2"
-                    }, {
-                        "lightness": 19
-                    }]
-                }, {
-                    "featureType": "administrative",
-                    "elementType": "geometry.fill",
-                    "stylers": [{
-                        "color": "#fefefe"
-                    }, {
-                        "lightness": 20
-                    }]
-                }, {
-                    "featureType": "administrative",
-                    "elementType": "geometry.stroke",
-                    "stylers": [{
-                        "color": "#fefefe"
-                    }, {
-                        "lightness": 17
-                    }, {
-                        "weight": 1.2
-                    }]
-                }]
-            };
-
-            // Get the HTML DOM element that will contain your map 
-            // We are using a div with id="map" seen below in the <body>
-            var mapElement = document.getElementById('contactUsMap');
-            var labels = 'Das';
-            var labelIndex = 0;
-            var contentString = '<div class="marker-map">' + "<h5>Das Holidays</h5>" + "TD West Road, Kochi 682035,<br/>Kochi, Kerala<br/>Phone: 8089 608 979" + ' </div>';
-            var infowindow = new google.maps.InfoWindow({
-                content: contentString
-            });
-            //
-            var map = new google.maps.Map(mapElement, mapOptions); // Let's also add a markerwhile we 're at it 
-            var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(9.979106, 76.27997400000004),
-                map: map,
-                animation: google.maps.Animation.DROP,
-            });
-            marker.addListener('mouseover', function() {
-                infowindow.open(map,
-                    marker);
-            });
-            marker.addListener('mouseout', function() {
-                infowindow.close(map, marker);
-            });
-        }
 
 
         // the body of this function is in assets/js/now-ui-kit.js
