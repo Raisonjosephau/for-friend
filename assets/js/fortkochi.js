@@ -161,13 +161,14 @@ function init() {
     }
 
     var data = [
-        new Location('Chinavala', "The great", 9.96839624, 76.2422419),
-        new Location('St. Francis church', "The great", 9.9660689, 76.2408042),
-        new Location('Dutch Cemetry', "The great", 9.9641985, 76.2383446),
-        new Location('Fort Kochi Beach', "The great", 9.963908, 76.237412),
-        new Location('Prince Street', "The great", 9.9668931, 76.2428051),
-        new Location('Jew Town', "The great", 9.955742, 76.260170),
-        new Location('Mattanchery Palace', "The great", 9.958277, 76.259351)
+        new Location('Fort Kochi Beach', "Chinavala", 9.9637, 76.2375),
+        new Location('St. Francis church', "St Francis Church", 9.9660685, 76.2408039),
+        new Location('Dutch Cemetry', "Dutch Cemetery", 9.9639789, 76.2384805),
+        new Location('Synagogue', "Jewish Synagogue", 9.9574785, 76.2593805),
+        new Location('Princess Street', "The princess Street", 9.9668931, 76.2428051),
+        new Location('Jew Town', "Jew Town Mattancherry", 9.9553412, 76.2602222),
+        new Location('Park', "Subhash Bose Park", 9.9714883, 76.2794095),
+        new Location('Broadway', "Broadway Street Shopping ", 9.9793672, 76.2772516),
     ];
 
 
