@@ -12,15 +12,12 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,200" rel="stylesheet" />
     <!-- CSS Files -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css">
-
 
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="./assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="./assets/css/common.css" rel="stylesheet" />
     <link href="./assets/css/product.css" rel="stylesheet" />
-    <link href="./assets/css/price-list.css" rel="stylesheet" />
 </head>
 
 <body class="landing-page sidebar-collapse">
@@ -54,7 +51,7 @@
                         <h6 style="line-height: 0; margin:0; padding:0; font-weight: 500" class="text-shadow-logo">
                             <span style="color:white">D</span>AS <span style="color:white">HO</span>LIDAYS</h6>
                     </a>
-                    <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-label="Toggle navigation">
+                    <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-bar bar1"></span>
                             <span class="navbar-toggler-bar bar2"></span>
                             <span class="navbar-toggler-bar bar3"></span>
@@ -69,7 +66,7 @@
                             </a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">
                                         Services</a>
                             <ul class="dropdown-menu">
                                 <li>
@@ -105,7 +102,7 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="350" role="button" aria-haspopup="true" aria-expanded="false">
                                     Day Excursions</a>
                             <ul class="dropdown-menu">
                                 <li>
@@ -194,7 +191,7 @@
             </div>
             <div class="container content-center">
                 <br/><br/><br/><br/><br/><br/>
-                <h1 class="title">FortKochi</h1>
+                <h1 class="title">Kerala: Cultural Tour</h1>
             </div>
         </div>
         <div id="position">
@@ -202,7 +199,7 @@
                 <ul>
                     <li><a href="#">Home</a>
                     </li>
-                    <li><a href="#">Day Excursions</a>
+                    <li><a href="#">Packages</a>
                     </li>
                     <li>FortKochi</li>
                 </ul>
@@ -215,21 +212,21 @@
                         <span class="icon-mountain"></span>
                         <div class="txt">
                             <p>Starting at</p>
-                            <h3>5,411 &#8377;</h3>
+                            <h3>10,050 &#8377;</h3>
                         </div>
                     </div>
                     <div class="insight-list">
                         <span class="icon-calendar"></span>
                         <div class="txt">
                             <p>Trip Days</p>
-                            <h3>1 Day</h3>
+                            <h3>5 Days</h3>
                         </div>
                     </div>
                     <div class="insight-list">
                         <span class="icon-tent"></span>
                         <div class="txt">
                             <p>Type</p>
-                            <h3>Excursions</h3>
+                            <h3>Cultural Tour Package</h3>
                         </div>
                     </div>
                 </div>
@@ -248,29 +245,26 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#profile" role="tab">
-                                        <span style="font-size:18px">&#8377;</span> Price List
+                                    <a class="nav-link" data-toggle="tab" href="#profile" role="tab" aria-expanded="false">
+                                        <i class="fa fa-money"></i> Price List
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#maps">
-                                        <i class="fi fi-map"></i> Shedule on Map
+                                    <a class="nav-link" data-toggle="tab" href="#map" role="tab" aria-expanded="false">
+                                        <i class="fa fa-clock-o"></i> Shedule on Map
                                     </a>
                                 </li>
-                                <li class="nav-item gallery">
-                                    <a class="nav-link" href="./assets/img/fort/cheenavala.jpg" title="Fort Kochi Cheenaval" role="button">
-                                        <i class="far fa-images"></i> Gallery
-                                        <a href="./assets/img/fort/beach.JPG" title="Fort Kochi Beach walk way"></a>
-                                        <a href="./assets/img/fort/fort.JPG" title="St. Francis Church"></a>
-                                        <a href="./assets/img/fort/jewtown.jpg" title="The oldest Jew Towin in Asia"></a>
-                                        <a href="./assets/img/fort/cheenavala.jpg" title="Cheenavala"></a>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#set" role="tab" aria-expanded="false">
+                                        <i class="fa fa-clock-o"></i> Shedule on Map
+                                    </a>
                                 </li>
                             </ul>
                             <div class="card-body" style="margin-top:20px">
                                 <!-- Tab panes -->
                                 <div class="tab-content">
-                                    <div class="tab-pane fade show active" id="homeS" role="tabpanel">
-                                        <h2>Luxury Holidays in Austraila : An Overview</h2>
+                                    <div class="tab-pane fade show active" id="homeS" role="tabpanel" aria-expanded="false">
+                                        <h2>Cultural Days in Kerala : An Overview</h2>
                                         <p>Amet turpis tristique, nec in aliquet dis amet, proin egestas in tempor, cras et dapibus, lectus pellentesque enim odio elementum eu tincidunt diam a et. Dapibus sed cum, aliquam cras egestas enim elit in mattis?
                                             Scelerisque, ultrices mid! Lorem. Scelerisque? Pid cras, mattis vel.</p>
                                         <p>porta, quis! Porttitor turpis cras, odio ultricies parturient pulvinar tempor, eu turpis enim dapibus diam tristique cursus egestas quis phasellus montes! Parturient porta purus quis scelerisque? </p>
@@ -283,86 +277,22 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="tab-pane fade" id="profile" role="tabpanel">
-                                        <div id="price-pricing-table" class="price-list">
-                                            <div class="row">
-                                                <div class="col-lg-3 col-md-6">
-                                                    <div class="price-block">
-                                                        <div class="price-back"></div>
-                                                        <div class="price-title">Basic</div>
-                                                        <div class="price-price">
-                                                            <div class="price-pattern">Free</div><span>Free</span></div>
-                                                        <ul class="price-list">
-                                                            <li>100 emails</li>
-                                                            <li>100 emails</li>
-                                                            <li>100 emails</li>
-                                                            <li>100 emails</li>
-                                                            <li><span class="price-tooltip-show-text"><span class="price-tooltip-show">2 databases</span><span class="price-tooltip price-tooltip-right"><span class="price-tooltip-content"><span class="price-tooltip-heading">For a company</span>
-                                                                <span class="price-tooltip-list"><span><i class="fa fa-calendar-check-o"></i>Free Daily Backup</span><span><i class="fa fa-check"></i>PhpMyAdmin</span><span><i class="fa fa-clock-o"></i>99.99% Uptime</span><span><i class="fa fa-check"></i>Power Redundancy</span><span><i class="fa fa-check"></i>Fast &amp; simple</span><span><i class="fa fa-times"></i>24/7 support</span></span>
-                                                                </span>
-                                                                </span>
-                                                                </span>
-                                                            </li>
-                                                            <li>10GB disk space</li>
-                                                        </ul><a class="price-btn" href="http://swebdeveloper.com/apps/rainbow-responsive-pricing-tables/#">Get it now</a></div>
-                                                </div>
-                                                <div class="col-lg-3 col-md-6">
-                                                    <div class="price-block">
-                                                        <div class="price-back"></div>
-                                                        <div class="price-title">Expert</div>
-                                                        <div class="price-price">
-                                                            <div class="price-pattern">€239</div><span>€239</span></div>
-                                                        <ul class="price-list">
-                                                            <li>500 emails</li>
-                                                            <li><span class="price-tooltip-show-text"><span class="price-tooltip-show">10 databases</span><span class="price-tooltip"><span class="price-tooltip-content"><span class="price-tooltip-heading">For you and your friend</span>
-                                                                <span class="price-tooltip-list price-tooltip-2col"><span><i class="fa fa-calendar-check-o"></i>Free Daily Backup</span><span><i class="fa fa-check"></i>PhpMyAdmin</span><span><i class="fa fa-clock-o"></i>99.99% Uptime</span><span><i class="fa fa-check"></i>Power Redundancy</span><span><i class="fa fa-check"></i>Fast &amp; simple</span><span><i class="fa fa-times"></i>24/7 support</span></span>
-                                                                </span>
-                                                                </span>
-                                                                </span>
-                                                            </li>
-                                                            <li>40GB disk space</li>
-                                                        </ul><a class="price-btn" href="http://swebdeveloper.com/apps/rainbow-responsive-pricing-tables/#">Purchase</a></div>
-                                                </div>
-                                                <div class="col-lg-3 col-md-6">
-                                                    <div class="price-block price-not-available">
-                                                        <div class="price-back"></div>
-                                                        <div class="price-title">Premium</div>
-                                                        <div class="price-price">
-                                                            <div class="price-pattern">£399</div><span>£399</span></div>
-                                                        <ul class="price-list">
-                                                            <li><i class="fa fa-hdd-o" aria-hidden="true"></i> emails<span class="price-tooltip-show-icon"><span class="price-tooltip-show"><i class="fa fa-info-circle"></i></span><span class="price-tooltip"><span class="price-tooltip-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae commodo quam, non auctor dui. Quisque at ipsum at lorem accumsan viverra quis maximus eros.</span></span>
-                                                                </span>
-                                                            </li>
-                                                            <li><span class="price-tooltip-show-text"><span class="price-tooltip-show">20 databases</span><span class="price-tooltip price-tooltip-left"><span class="price-tooltip-content"><span class="price-tooltip-heading">For you and your friend</span>
-                                                                <span class="price-tooltip-list price-tooltip-2col"><span><i class="fa fa-calendar-check-o"></i>Free Daily Backup</span><span><i class="fa fa-check"></i>PhpMyAdmin</span><span><i class="fa fa-clock-o"></i>99.99% Uptime</span><span><i class="fa fa-check"></i>Power Redundancy</span><span><i class="fa fa-check"></i>Fast &amp; simple</span><span><i class="fa fa-times"></i>24/7 support</span></span>
-                                                                </span>
-                                                                </span>
-                                                                </span>
-                                                            </li>
-                                                            <li>100GB disk space</li>
-                                                        </ul><a class="price-btn" href="http://swebdeveloper.com/apps/rainbow-responsive-pricing-tables/#">Purchase</a></div>
-                                                </div>
-                                                <div class="col-lg-3 col-md-6">
-                                                    <div class="price-block">
-                                                        <div class="price-back"></div>
-                                                        <div class="price-title">Enterprise</div>
-                                                        <div class="price-price">
-                                                            <div class="price-pattern">$650</div><span>$650</span></div>
-                                                        <ul class="price-list">
-                                                            <li><i class="fa fa-hdd-o" aria-hidden="true"></i> emails<span class="price-tooltip-show-icon"><span class="price-tooltip-show"><i class="fa fa-info-circle"></i></span><span class="price-tooltip"><span class="price-tooltip-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae commodo quam, non auctor dui. Quisque at ipsum at lorem accumsan viverra quis maximus eros.</span></span>
-                                                                </span>
-                                                            </li>
-                                                            <li><span class="price-tooltip-show-text"><span class="price-tooltip-show">50 databases</span><span class="price-tooltip price-tooltip-left"><span class="price-tooltip-content"><span class="price-tooltip-heading">For a company</span>
-                                                                <span class="price-tooltip-list"><span><i class="fa fa-calendar-check-o"></i>Free Daily Backup</span><span><i class="fa fa-check"></i>PhpMyAdmin</span><span><i class="fa fa-clock-o"></i>99.99% Uptime</span><span><i class="fa fa-check"></i>Power Redundancy</span><span><i class="fa fa-check"></i>Fast &amp; simple</span><span><i class="fa fa-times"></i>24/7 support</span></span>
-                                                                </span>
-                                                                </span>
-                                                                </span>
-                                                            </li>
-                                                            <li>400GB disk space</li>
-                                                        </ul><a class="price-btn" href="http://swebdeveloper.com/apps/rainbow-responsive-pricing-tables/#">Purchase</a></div>
-                                                </div>
+                                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-expanded="false">
+                                        <p> I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus. I think that’s a responsibility that I have, to push possibilities,
+                                            to show people, this is the level that things could be at. I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. </p>
+                                    </div>
+                                    <div class="tab-pane fade" id="map" role="tabpanel" aria-expanded="false">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                            </div>
+                                            <div class="col-lg-8">
                                             </div>
                                         </div>
+
+                                    </div>
+                                    <div class="tab-pane fade" id="set" role="tabpanel" aria-expanded="false">
+                                        <p>I think that’s a responsibility that I have, to push possibilities, to show people, this is the level that things could be at. So when you get something that has the name Kanye West on it, it’s supposed to be pushing
+                                            the furthest possibilities. I will be the leader of a company that ends up being worth billions of dollars, because I got the answers. I understand culture. I am the nucleus.</p>
                                     </div>
                                 </div>
                             </div>
@@ -401,45 +331,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card card-plain card-blog">
-                            <div class="row">
-                                <div class="col-md-10 ml-auto mr-auto col-lg-7" style="padding-left:30px">
-                                    <h4 class="title text-shadow-0">Dutch Cemetery
-                                    </h4>
-                                    <p class="card-description">
-                                        The 282-year-old Dutch Cemetery in Fort Kochi is the oldest European cemetery in India. Old cemetery for the Dutch settlers and colonists from the 17th to 18th century. Interesting and quiet site for exploring the Fort Cochin history. Consecrated in 1724,
-                                        the cemetery has 104 tombs of Europeans, mostly Dutch, who colonised Kerala. Now belongs to CSI Church.
 
-                                    </p><br><br>
-                                </div>
-                                <div class="col-md-10 ml-auto mr-auto col-lg-5" style="padding-right:30px">
-                                    <div class="card-image">
-                                        <img class="img" src="assets/img/fort/dutchcemetry-thumb.jpg">
-                                        <div class="colored-shadow" style="background: url('assets/img/fort/dutchcemetry-thumb.jpg'); opacity: 1;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class=" card card-plain card-blog">
-                            <div class="row">
-                                <div class="col-md-10 ml-auto mr-auto col-lg-5" style="padding-left:30px">
-                                    <div class="card-image">
-                                        <img class="img" src="assets/img/fort/jewtown-thumb.jpg">
-                                        <div class="colored-shadow" style="background: url('assets/img/fort/jewtown-thumb.jpg'); opacity: 1; "></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-10 ml-auto mr-auto col-lg-7" style="padding-right:30px">
-                                    <br>
-                                    <h4 class="title text-shadow-0">Jew Town and Mattencherry
-                                    </h4>
-                                    <p class="card-description">
-
-                                        Cochin Jews are the oldest group of Jews in India, with possible roots claimed to date to the time of King Solomon. Although the population of the Jewish community is fairly low now, they have still preserved whatever remains of their heritage here.
-
-                                    </p><br><br><br><br>
-                                </div>
-                            </div>
-                        </div>
                         <div class="card card-plain card-blog">
                             <div class="row">
                                 <div class="col-md-10 ml-auto mr-auto col-lg-7" style="padding-left:30px">
@@ -463,16 +355,15 @@
                             <div class="row">
                                 <div class="col-md-10 ml-auto mr-auto col-lg-5" style="padding-left:30px">
                                     <div class="card-image">
-                                        <img class="img rounded img-raised rounded" src="assets/img/fort/church-thumb.jpg">
+                                        <img class="img rounded img-raised rounded" src="assets/img/idukki/MUNNAR2.JPG">
                                         <div class="colored-shadow" style="background: url('assets/img/fort/church-thumb.jpg'); opacity: 1; "></div>
                                     </div>
                                 </div>
                                 <div class="col-md-10 ml-auto mr-auto col-lg-7" style="padding-right:30px">
-                                    <h4 class="title text-shadow-0">St. Francis Church
+                                    <h4 class="title text-shadow-0">Munnar
                                     </h4>
                                     <p class="card-description">
-                                        Popularly known as the first European church in India, St Francis Church has undergone several transformations throughout its lifetime, each transformation consistent with the visiting nation to the city. First, it changed to a Roman Catholic Church under
-                                        the Portuguese rule and then to a Dutch Reformist Church under the Dutch. Finally, it worked as an Anglican Church under the English.
+                                        The idyllic hill station Munnar - famous for its tea estates, exotic lush greenery and craggy peaks, is located in the Western Ghats, in the state of Kerala. It serves as the commercial centre for some of the world’s largest tea estates.
                                     </p><br><br>
                                 </div>
                             </div>
@@ -481,17 +372,17 @@
                             <div class="row">
                                 <div class="col-md-10 ml-auto mr-auto col-lg-7" style="padding-left:30px">
                                     <br>
-                                    <h4 class="title text-shadow-0">Fort Kochi Beach
+                                    <h4 class="title text-shadow-0">Kumarakom
                                     </h4>
                                     <p class="card-description">
-                                        Among the several Kerala beaches, Fort Kochi beach deserves a special mention for its golden sands and tranquil waters. It is something you cannot afford to miss while on your visit to Fort Kochi. The best time to plan your visit to Fort Kochi beach is
-                                        around New Year's Eve.
+                                        The tourist village of Kumarakom is relaxed and refined, featuring lush flowery landscapes and a multicoloured plethora of bird species, best enjoyed at the Kumarakom Bird Sanctuary. Glide along an intricate web of lagoons, lakes and rivers on a fully-staffed
+                                        private houseboat.
                                     </p>
                                     <br><br><br><br>
                                 </div>
                                 <div class="col-md-10 ml-auto mr-auto col-lg-5" style="padding-right:30px">
                                     <div class="card-image">
-                                        <img class="img" src="assets/img/fort/beach-thumb.JPG">
+                                        <img class="img" src="assets/img/idukki/kumarakom.jpg">
                                         <div class="colored-shadow" style="background: url('assets/img/fort/beach-thumb.jpg'); opacity: 1; "></div>
                                     </div>
                                 </div>
@@ -501,37 +392,18 @@
                             <div class="row">
                                 <div class="col-md-10 ml-auto mr-auto col-lg-5" style="padding-left:30px">
                                     <div class="card-image">
-                                        <img class="img" src="assets/img/fort/koonankurish-thumb.jpg">
+                                        <img class="img" src="assets/img/tvm/Trivandrum.jpg">
                                         <div class="colored-shadow" style="background: url('assets/img/fort/koonankurish-thumb.jpg'); opacity: 1;"></div>
                                     </div>
                                 </div>
                                 <div class="col-md-10 ml-auto mr-auto col-lg-7" style="padding-right:30px">
-                                    <h4 class="title text-shadow-0">Koonan Cross Church
+                                    <h4 class="title text-shadow-0">Thiruvananthapuram
                                     </h4>
                                     <p class="card-description">
-                                        The St. George Orthodox Koonan Kurish Old Syrian Church at Mattancherry town of Cochin better known as the Koonan Kurishu Pally entered the annals of history following the oath taken by St Thomas Christians of Kerala protesting against the the attempt
-                                        to impose the hegemony of the Roman Church by the Portuguese.
+                                        Trivandrum is famous for its enchanting tourist spots including internationally renowned beaches like Kovalam, historic monuments with Gothic architecture, lakes / backwaters, unexplored mountain ranges etc. Sri Padmanabha Swamy Temple, Napier Museum,
+                                        Kanakakkunnu Palace, Science and Technology Museum, Kowdiar Palace, St. Joseph's Cathedral, Thiruvananthapuram Zoo, Happyland Amusement Park, etc. are some of the tourist attractions in the city.
                                     </p>
                                     <br><br><br><br>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card card-plain card-blog">
-                            <div class="row">
-                                <div class="col-md-10 ml-auto mr-auto col-lg-7" style="padding-left:30px">
-                                    <h4 class="title text-shadow-0">Princess Street
-                                    </h4>
-                                    <p class="card-description">
-                                        Loafer’s Corner, popularly known as Princess Street, is an ideal place in Kochi, where an amalgamation of old and new times can be seen. One of the oldest streets in Fort Kochi, it is dotted with European-style houses, lending it an old-world feel. This
-                                        vibrant street is the hangout place for social party-loving locals of the area.
-                                        <br><br><br><br>
-                                    </p>
-                                </div>
-                                <div class="col-md-10 ml-auto mr-auto col-lg-5" style="padding-right:30px">
-                                    <div class="card-image">
-                                        <img class="img img-raised rounded" src="assets/img/fort/Princess_street-thumb.jpg">
-                                        <div class="colored-shadow" style="background: url('assets/img/fort/Princess_street-thumb.jpg'); opacity: 1;"></div>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -539,63 +411,135 @@
                 </div>
             </div>
         </div>
-        <div class="contact-form" id="maps">
+        <div class="contact-form" id="contactus">
             <div id="contactUsMap" class="map" style="overflow: hidden;"> </div>
-            <div class="col-lg-4 col-md-5 card" id="timeline">
-                <ul class="itenary-steps">
-                    <li data-toggle-map="0">
-                        <div class="fi fi-plane"></div>
-                        <div class="day-number">6:00 AM</div>
-                        <div class="detail">
-                            <p>Fort Kochi Beach <br>Sun rise, Sea bath, Chinese net and many more</p>
-                        </div>
-                    </li>
-                    <li data-toggle-map="1">
-                        <i class="fi fi-plane"></i>
-                        <div class="day-number">9:30 AM</div>
-                        <div class="detail">St. Francis Cruise<br>One of the oldest Church in Kerala</div>
-                    </li>
-                    <li data-toggle-map="2">
-                        <div class="fi fi-car"></div>
-                        <div class="day-number">11:00 AM</div>
-                        <div class="detail">Dutch Cemetery</div>
-                    </li>
-                    <li data-toggle-map="3">
-                        <div class="fi fi-bicycle"></div>
-                        <div class="day-number">12:15 PM</div>
-                        <div class="detail">Move to Mattancherry, The Jew streets</div>
-                    </li>
-                    <li data-toggle-map="4">
-                        <div class="icon-none"></div>
-                        <div class="day-number">2:00 PM</div>
-                        <div class="detail">Synagogue in Mattancherry will lead your mind and soul to wisdom</div>
-                    </li>
-                    <li data-toggle-map="5">
-                        <div class="fas fa-walking"></div>
-                        <div class="day-number">3:00 PM</div>
-                        <div class="detail">Visit the famous Coonan Cross Church</div>
-                    </li>
-                    <li data-toggle-map="6">
-                        <div class="icon-tent"></div>
-                        <div class="day-number">4:00 PM</div>
-                        <div class="detail">Wander through the Princess street and feel the soul of Kochi</div>
-                    </li>
-                    <li>
-                        <div class="icon-none"></div>
-                        <div class="day-number">6:00 PM</div>
-                        <div class="detail">Enjoy the evening in Park and embrace the breeze from the lake</div>
-                    </li>
-                    <li>
-                        <div class="icon-plane"></div>
-                        <div class="day-number">7:30 PM</div>
-                        <div class="detail">Night shopping in the city: The Broadway Streets</div>
-                    </li>
-                    <li>
-                        <div class="fas fa-flag-checkered"></div>
-                        <div class="day-number">9:00 PM</div>
-                        <div class="detail">Trip concludes</div>
-                    </li>
-                </ul>
+            <div class="col-lg-4 col-md-10 card" id="timeline">
+                <div class="timeline-vertical col-md-11 mr-auto ml-auto">
+                    <ul class="travel-details">
+                        <li class="travel-segments">
+                            <div class="segment-and-connection">
+                                <div class="segment first">
+                                    <div class="segment-details">
+                                        <div class="wrapper">
+                                            <ul>
+                                                <li class="origin">
+                                                    <time class="departure-time">Day 1</time>
+                                                    <span class="departure-station">Arrive @ Airport </span>
+                                                </li>
+                                                <li class="duration">
+                                                    Takes you to <span class="time">hotel</span></li>
+                                                <li class="destination">
+                                                    <time class="arrival-time">Day 2</time>
+                                                    <span class="arrival-station">Fort Kochi</span></li>
+                                            </ul>
+                                        </div>
+                                        <div class="segment-graph first" aria-hidden="true">
+                                            <div class="line danger"></div>
+                                            <div class="departure">
+                                                <svg width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 17.77">
+                                                            <circle class="cls-2" cx="9.5" cy="9.48" r="3.5"/>
+                                                            <path d="M4.28,17.05A9.2,9.2,0,0,1,1.18,7,8.79,8.79,0,0,1,9.48.76a8.79,8.79,0,0,1,8.33,6.17A9.2,9.2,0,0,1,14.75,17" transform="translate(0 -0.02)"/>
+                                                        </svg>
+                                            </div>
+                                            <div class="arrival">
+                                                <svg width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 17.77">
+                                                      <circle cx="9.48" cy="9.5" r="3.5"/>
+                                                    </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="connection">
+                                    <div class="content"><span class="wait-duration">
+                                                <span>Wandering through the streets</span>
+                                        </span>
+                                    </div>
+                                    <div class="connection-graph" aria-hidden="true">
+                                        <div class="connection-line"></div>
+                                        <div class="connection-dot"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="segment-and-connection">
+                                <div class="segment">
+                                    <div class="segment-details">
+                                        <div class="wrapper">
+                                            <ul>
+                                                <li class="origin">
+                                                    <time class="departure-time">Day 3</time>
+                                                    <span class="departure-station">Drive to Munnar</span>
+                                                </li>
+                                                <li class="duration">
+                                                    Duration<span class="time">6 Hours</span></li>
+                                                <li class="destination">
+                                                    <time class="arrival-time">12:00 PM</time>
+                                                    <span class="arrival-station">Reaches Hotel</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="segment-graph last" aria-hidden="true">
+                                            <div class="line"></div>
+                                            <div class="departure">
+                                                <svg width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 17.77">
+                                                      <circle cx="9.48" cy="9.5" r="3.5"/>
+                                                    </svg>
+                                            </div>
+                                            <div class="arrival">
+                                                <svg width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 17.77">
+                                                        <circle class="cls-2" cx="9.5" cy="8.29" r="3.5"/>
+                                                         </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="connection">
+                                    <div class="content"><span class="wait-duration">
+                                                    <span>Trekking : 3Hrs</span>
+                                        </span>
+                                    </div>
+                                    <div class="connection-graph" aria-hidden="true">
+                                        <div class="connection-line"></div>
+                                        <div class="connection-dot"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="segment-and-connection">
+                                <div class="segment last">
+                                    <div class="segment-details">
+                                        <div class="wrapper">
+                                            <ul>
+                                                <li class="origin">
+                                                    <time class="departure-time">Day 4</time>
+                                                    <span class="departure-station">Kumarakom</span>
+                                                </li>
+                                                <li class="duration">
+                                                    Duration <span class="time">5 hrs</span></li>
+                                                <li class="destination">
+                                                    <time class="arrival-time">9:00 PM</time>
+                                                    <span class="arrival-station">House Boat</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="segment-graph last" aria-hidden="true">
+                                            <div class="line"></div>
+                                            <div class="departure">
+                                                <svg width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 17.77">
+                                                      <circle cx="9.48" cy="9.5" r="3.5"/>
+                                                    </svg>
+                                            </div>
+                                            <div class="arrival">
+                                                <svg width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 17.77">
+                                                        <circle class="cls-2" cx="9.5" cy="8.29" r="3.5"/>
+                                                        <path d="M14.72.76a9.2,9.2,0,0,1,3.1,10.08,8.79,8.79,0,0,1-8.3,6.21,8.79,8.79,0,0,1-8.33-6.17A9.2,9.2,0,0,1,4.25.79" transform="translate(0 -0.02)"/>
+                                                        </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
 
             </div>
         </div>
@@ -629,6 +573,7 @@
             <div class="copyright">
                 &copy;
                 <script>
+                    document.write(new Date().getFullYear())
                 </script>, Designed by Raison Joseph
             </div>
         </div>
@@ -643,9 +588,6 @@
 
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCl7mRwfVc9h46ZNwqKNaWIpbdTWysVQIU"></script>
 
-<script src="./assets/js/fortkochi.js" type="text/javascript"></script>
-<link rel="stylesheet" href="./assets/css/magnific-popup.css">
-<script src="./assets/js/plugins/jquery.magnific-popup.min.js"></script>
 
 <script>
     $(document).ready(function() {
@@ -668,24 +610,166 @@
             });
         });
 
-        $('.gallery').magnificPopup({
-            delegate: 'a',
-            type: 'image',
-            tLoading: 'Loading image #%curr%...',
-            mainClass: 'mfp-img-mobile',
-            gallery: {
-                enabled: true,
-                navigateByImgClick: true,
-                preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-            },
-            image: {
-                tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-                titleSrc: function(item) {
-                    return "<h5  style='font-weight:400'>" + item.el.attr('title') + "<h5>";
-                }
-            },
-        });
+
         // When the window has finished loading create our google map below
+        google.maps.event.addDomListener(window, 'load', init);
+
+        function init() {
+            // Basic options for a simple Google Map
+            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+            var mapOptions = {
+                // How zoomed in you want the map to start at (always required)
+                zoom: 18,
+
+                // The latitude and longitude to center the map (always required)
+                center: new google.maps.LatLng(9.979106, 76.2785000004), // New York
+
+                // How you would like to style the map. 
+                // This is where you would paste any style found on Snazzy Maps.
+                styles: [{
+                    "featureType": "water",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "color": "#e9e9e9"
+                    }, {
+                        "lightness": 17
+                    }]
+                }, {
+                    "featureType": "landscape",
+                    "elementType": "all",
+                    "stylers": [{
+                        "saturation": -100
+                    }, {
+                        "lightness": 45
+                    }, {
+                        "visibility": "on"
+                    }]
+                }, {
+                    "featureType": "road.highway",
+                    "elementType": "geometry.fill",
+                    "stylers": [{
+                        "color": "#ffffff"
+                    }, {
+                        "lightness": 17
+                    }]
+                }, {
+                    "featureType": "road.highway",
+                    "elementType": "geometry.stroke",
+                    "stylers": [{
+                        "color": "#ffffff"
+                    }, {
+                        "lightness": 29
+                    }, {
+                        "weight": 0.2
+                    }]
+                }, {
+                    "featureType": "road.arterial",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "color": "#ffffff"
+                    }, {
+                        "lightness": 18
+                    }]
+                }, {
+                    "featureType": "road.local",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "color": "#ffffff"
+                    }, {
+                        "lightness": 16
+                    }]
+                }, {
+                    "featureType": "poi",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "color": "#f5f5f5"
+                    }, {
+                        "lightness": 21
+                    }]
+                }, {
+                    "featureType": "poi.park",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "color": "#dedede"
+                    }, {
+                        "lightness": 21
+                    }]
+                }, {
+                    "elementType": "labels.text.stroke",
+                    "stylers": [{
+                        "visibility": "on"
+                    }, {
+                        "color": "#ffffff"
+                    }, {
+                        "lightness": 16
+                    }]
+                }, {
+                    "elementType": "labels.text.fill",
+                    "stylers": [{
+                        "saturation": 36
+                    }, {
+                        "color": "#333333"
+                    }, {
+                        "lightness": 40
+                    }]
+                }, {
+                    "elementType": "labels.icon",
+                    "stylers": [{
+                        "visibility": "on"
+                    }]
+                }, {
+                    "featureType": "transit",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "color": "#f2f2f2"
+                    }, {
+                        "lightness": 19
+                    }]
+                }, {
+                    "featureType": "administrative",
+                    "elementType": "geometry.fill",
+                    "stylers": [{
+                        "color": "#fefefe"
+                    }, {
+                        "lightness": 20
+                    }]
+                }, {
+                    "featureType": "administrative",
+                    "elementType": "geometry.stroke",
+                    "stylers": [{
+                        "color": "#fefefe"
+                    }, {
+                        "lightness": 17
+                    }, {
+                        "weight": 1.2
+                    }]
+                }]
+            };
+
+            // Get the HTML DOM element that will contain your map 
+            // We are using a div with id="map" seen below in the <body>
+            var mapElement = document.getElementById('contactUsMap');
+            var labels = 'Das';
+            var labelIndex = 0;
+            var contentString = '<div class="marker-map">' + "<h5>Das Holidays</h5>" + "TD West Road, Kochi 682035,<br/>Kochi, Kerala<br/>Phone: 8089 608 979" + ' </div>';
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+            //
+            var map = new google.maps.Map(mapElement, mapOptions); // Let's also add a markerwhile we 're at it 
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(9.979106, 76.27997400000004),
+                map: map,
+                animation: google.maps.Animation.DROP,
+            });
+            marker.addListener('mouseover', function() {
+                infowindow.open(map,
+                    marker);
+            });
+            marker.addListener('mouseout', function() {
+                infowindow.close(map, marker);
+            });
+        }
 
 
         // the body of this function is in assets/js/now-ui-kit.js
