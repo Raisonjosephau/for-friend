@@ -262,6 +262,7 @@ $(document).ready(function() {
         new Location('Dutch Cemetry', "Dutch Cemetery", 9.9639789, 76.2384805),
         new Location('Jew Town', "Jew Town Mattancherry", 9.9553412, 76.2602222),
         new Location('Synagogue', "Jewish Synagogue", 9.9574785, 76.2593805),
+        new Location('Coonan Cross', "Coonan Cross Church ", 9.9649886, 76.2549045),
         new Location('Princess Street', "The princess Street", 9.9668931, 76.2428051),
         new Location('Park', "Subhash Bose Park", 9.9714883, 76.2794095),
         new Location('Broadway', "Broadway Street Shopping ", 9.9793672, 76.2772516),
