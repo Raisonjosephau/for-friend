@@ -39,11 +39,7 @@ $(document).ready(function() {
         }
     }
 
-    var myShuffle = new Shuffle(document.querySelector('.grid'), {
-        itemSelector: '.grid-item',
-        sizer: '.my-sizer-element',
-        buffer: 1,
-    });
+
     /* ==============================================
      pop up
      =============================================== */

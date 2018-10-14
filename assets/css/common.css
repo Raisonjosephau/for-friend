@@ -603,30 +603,6 @@ label {
         margin: 0;
         margin-top: 15px;
     }
-    .column {
-        -ms-flex: 50%;
-        flex: 50%;
-        max-width: 50%;
-    }
-    figure.upward h5,
-    figure.upward p {
-        width: 80%;
-        height: 40%;
-        margin: auto;
-    }
-    .index-page .page-header {
-        height: 52vh;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    figure.upward h5,
-    figure.upward p {
-        width: 80%;
-        height: 40%;
-        margin: auto;
-        font-size: 1.5em;
-    }
 }
 
 
@@ -635,11 +611,6 @@ label {
 @media only screen and (min-width: 992px) {
     .index-page .page-header {
         height: 72vh;
-    }
-    .column {
-        -ms-flex: 25%;
-        flex: 25%;
-        max-width: 25%;
     }
     .carousel-title {
         font-size: 3.8em;
