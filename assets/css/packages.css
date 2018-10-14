@@ -1,0 +1,71 @@
+.card-product {
+    margin-top: 30px
+}
+
+.card-product .price-container {
+    margin-top: 9px
+}
+
+.card-product .btn {
+    margin: 0
+}
+
+.card-product .image {
+    overflow: hidden;
+    border-radius: .25rem
+}
+
+.card-product .card-footer {
+    margin-top: 5px;
+    background: none
+}
+
+.card-product .card-footer .price h4 {
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+.card-product .card-footer .stats {
+    margin-top: 5px
+}
+
+.card-product .card-footer .stats .btn {
+    position: relative;
+    top: -3px
+}
+
+.card-product .card-description,
+.card-product .card-title,
+.card-product .category {
+    text-align: center
+}
+
+.card-product .category {
+    margin-bottom: 0
+}
+
+.card-product .category~.card-title {
+    margin-top: 0
+}
+
+.card-product .price,
+.card-product .price-old {
+    font-size: 16px;
+    color: #888
+}
+
+.card-product .price-old {
+    text-decoration: line-through
+}
+
+.card-product .price-new {
+    color: #ff3636
+}
+
+.card-product:not(.card-plain) .card-image {
+    padding: 15px
+}
+
+.card .card-footer div {
+    display: inline-block;
+}
