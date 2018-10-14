@@ -663,3 +663,39 @@ label {
         height: 86vh;
     }
 }
+
+.carousel-caption.cap-clip {
+    background: url("../img/fort/streets.jpg");
+    /* Create the parallax scrolling effect */
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    width: 100%;
+}
+
+.cap-clip h4 {
+    font-weight: 900;
+    font-size: 6.49rem;
+    margin: 0px;
+    padding: 0px;
+    line-height: .8em;
+    color: none;
+}
+
+.sec {
+    height: inherit;
+    background: rgba(255, 255, 255, .7);
+    color: #000 !important;
+    text-align: center;
+    mix-blend-mode: lighten;
+    font: 900 25px cookie, cursive;
+    margin: 0px !important;
+}
+
+.data {
+    overflow: hidden;
+    width: 100%;
+    height: 86vh;
+    z-index: 0;
+    background: url(../img/munnar_tea.jpg) 50%/ cover
+}
