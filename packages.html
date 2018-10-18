@@ -15,6 +15,7 @@
     <link href="./assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
     <link href="./assets/css/common.css" rel="stylesheet" />
     <link href="./assets/css/style.css" rel="stylesheet" />
+    <link href="./assets/css/slick.css" rel="stylesheet" />
     <link href="./assets/css/packages.css" rel="stylesheet" />
 
 </head>
@@ -265,405 +266,491 @@
                 </div>
 
                 <br>
+            </div>
+        </div>
+        <!-- section -->
+
+        <div class="gray-bg">
+            <div class="container section-shop">
+
                 <div class="row">
+                    <!-- Shop Sidebar - (vertical) -->
                     <div class="col-md-3">
-                        <div class="collapse-panel">
-                            <div class="card-body">
-                                <div class="card card-refine card-plain">
-                                    <h4 class="card-title">
-                                        Refine
-                                        <button class="btn btn-default btn-icon btn-neutral pull-right" rel="tooltip" title="" data-original-title="Reset Filter">
-												<i class="arrows-1_refresh-69 now-ui-icons"></i>
-											</button>
-                                    </h4>
-                                    <div class="card-header" role="tab" id="headingOne">
-                                        <h6 class="mb-0">
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-										 Price Range
-		
-										 <i class="now-ui-icons arrows-1_minimal-down"></i>
-									   </a>
-                                        </h6>
-                                    </div>
+                        <aside class="shop-sidebar-vertical mb-sm-100">
 
-                                    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-                                        <div class="card-body">
-                                            <span id="price-left" class="price-left pull-left" data-currency="€">€42</span>
-                                            <span id="price-right" class="price-right pull-right" data-currency="€">€880</span>
+                            <!-- Search Widget -->
+                            <div class="shop-widget search-widget">
+                                <div class="form-group">
+                                    <input type="search" placeholder="Search ..." class="form-control">
+                                    <button class="inside-input-btn"><i class="fa fa-search"></i></button>
+                                </div>
+                            </div>
 
-                                        </div>
-                                    </div>
+
+                            <!-- Cart Widget -->
+                            <div class="shop-widget cart-widget mb-sm-50">
+                                <h5 class="header-widget">Cart</h5>
+                                <div class="cart-item">
+                                    <a href="#page"><img src="./assets/img/shop/p-thumb-1.jpg" alt="Product Name" class="p-thumb"></a>
+                                    <a href="#" class="cart-remove-btn"><span class="linea-arrows-square-remove"></span></a>
+                                    <a href="#page" class="cp-name">Light Blue Suit</a>
+                                    <p class="cp-price">1 x $359.99</p>
                                 </div>
 
-                            </div>
-                        </div>
-                    </div>
+                                <div class="cart-item">
+                                    <a href="#page"><img src="./assets/img/shop/p-thumb-2.jpg" alt="Product Name" class="p-thumb"></a>
+                                    <a href="#" class="cart-remove-btn"><span class="linea-arrows-square-remove"></span></a>
+                                    <a href="#page" class="cp-name">Dark Blue Suit</a>
+                                    <p class="cp-price">1 x $459.99</p>
+                                </div>
 
+                                <div class="cw-subtotal">
+                                    <h6 class="h-alt">SUBTOTAL: $718.98</h6>
+                                    <a href="shop-checkout.html" class="btn-ghost btn-small">View Cart</a>
+                                </div>
+                            </div>
+                            <!-- / .cart-widget -->
+
+
+                            <!-- Price Filter -->
+                            <div class="shop-widget filter-widget">
+                                <h5 class="header-widget">Filter by Price</h5>
+                                <div id="shop-slider-range"></div>
+                                <p>
+                                    <label for="amount">From:</label>
+                                    <input type="text" id="shop-slider-range-amount" readonly>
+                                </p>
+                            </div>
+                            <!-- / .filter-widget -->
+
+
+                            <!-- Categories - Widget -->
+                            <div class="shop-widget categories-widget">
+                                <h5 class="header-widget">Shop Categories</h5>
+                                <!-- Item 1 -->
+                                <div class="widget-item">
+                                    <a href="#">Suits - <span>15</span></a>
+                                </div>
+                                <!-- Item 2 -->
+                                <div class="widget-item">
+                                    <a href="#">T-Shirts - <span>6</span></a>
+                                </div>
+                                <!-- Item 3 -->
+                                <div class="widget-item">
+                                    <a href="#">Pants - <span>12</span></a>
+                                </div>
+                                <!-- Item 4 -->
+                                <div class="widget-item">
+                                    <a href="#">Accessories - <span>3</span></a>
+                                </div>
+                            </div>
+                            <!-- / .categories-widget -->
+
+
+                            <!-- Product - Widget -->
+                            <div class="shop-widget product-widget">
+                                <h5 class="header-widget">Bestsellers</h5>
+                                <div class="cart-item">
+                                    <a href="#page"><img src="./assets/img/shop/p-thumb-1.jpg" alt="Product Name" class="p-thumb"></a>
+                                    <a href="#page" class="cp-name">Light Blue Suit</a>
+                                    <p class="cp-price"><span class="price-cut">$359.99</span> $259.99</p>
+                                </div>
+
+                                <div class="cart-item">
+                                    <a href="#page"><img src="./assets/img/shop/p-thumb-2.jpg" alt="Product Name" class="p-thumb"></a>
+                                    <a href="#page" class="cp-name">Dark Blue Suit</a>
+                                    <p class="cp-price">$459.99</p>
+                                </div>
+
+                                <div class="cart-item">
+                                    <a href="#page"><img src="./assets/img/shop/p-thumb-3.jpg" alt="Product Name" class="p-thumb"></a>
+                                    <a href="#page" class="cp-name">Midnight Blue Suit</a>
+                                    <p class="cp-price">$459.99</p>
+                                </div>
+
+                                <div class="cart-item">
+                                    <a href="#page"><img src="./assets/img/shop/p-thumb-4.jpg" alt="Product Name" class="p-thumb"></a>
+                                    <a href="#page" class="cp-name">Navy Blue Suit</a>
+                                    <p class="cp-price">$459.99</p>
+                                </div>
+                            </div>
+                            <!-- / .cart-widget -->
+
+
+                            <!-- Tags - Widget -->
+                            <div class="shop-widget tags-widget">
+                                <h5 class="header-widget">Tags</h5>
+                                <ul class="tag-list">
+                                    <li><a href="#">Photography</a></li>
+                                    <li><a href="#">Design</a></li>
+                                    <li><a href="#">Development</a></li>
+                                    <li><a href="#">PHP</a></li>
+                                    <li><a href="#">UI/UX</a></li>
+                                    <li><a href="#">Design</a></li>
+                                    <li><a href="#">HTML5</a></li>
+                                </ul>
+                            </div>
+
+                        </aside>
+                        <!-- / .shop-sidebar-vertical -->
+                    </div>
+                    <!-- / .col-md-3 -->
+
+
+
+                    <!-- Shop Layout - (3 columns) -->
                     <div class="col-md-9">
+
+                        <!-- Shop layout options -->
+                        <div class="row mb-50">
+                            <div class="col-xs-12 col-sm-6 col-md-9 mb-sm-30">
+                                <span>SHOWING 1–12 OF 24 RESULTS</span>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-3 pull-right">
+                                <select class="form-control" id="select-form">
+                        <option>Default Sorting</option>
+                        <option>Highest Price</option>
+                        <option>Lowset Price</option>
+                        <option>Newest First</option>
+                      </select>
+                            </div>
+                        </div>
+                        <!-- / .row -->
+
+
                         <div class="row">
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card card-price-tag">
-                                    <div class="card-image">
-                                        <a href="#pablo">
-                                            <img class="img" src="./assets/img/kochipalam.jpeg" height="220px" width="100%">
-                                        </a>
-                                        <div class="price_tag">$ 80.00</div>
-                                    </div>
+                            <!-- Shop Product -->
+                            <div class="col-xs-12 col-sm-6 col-lg-4 mb-5">
+                                <div class="shop-product-card">
 
-                                    <div class="card-body">
-                                        <h5 class="card-title text-shadow-0" style="font-weight: 600">
-                                            Kochi
-                                        </h5>
-                                        <h6 class="day-night text-shadow-0" style="font-weight: 500">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18px" height="18px" viewBox="0 0 24 24" stroke-width="2">
-																	<g stroke-width="2" transform="translate(0, 0)">
-																		<line fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" x1="3" y1="2" x2="6" y2="2" stroke-linejoin="miter"></line> 
-																		<polygon fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="1,22 23,22 23,5 19,5 17,2 11,2 9,5 1,5" stroke-linejoin="miter"></polygon> 
-																		<circle data-color="color-2" fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" cx="14" cy="13" r="5" stroke-linejoin="miter"></circle> 
-																		<circle data-color="color-2" data-stroke="none" fill="#444444" cx="5" cy="9" r="1" stroke-linejoin="miter" stroke-linecap="square"></circle>
-																	</g>
-																</svg> &nbsp; FIve days and night</h6>
+                                    <!-- Image/Slider -->
+                                    <div class="product-image-wrapper">
+                                        <span class="label label-red sale-label">SALE</span>
 
-                                        <div class="card-footer">
-                                            <a href="#nothing">
-                                                <h6 class="package-link">Read More</h6>
-                                            </a>
+                                        <!-- Product Actions (hover) -->
+                                        <a href="#" class="buy-btn"><span class="linea-ecommerce-bag"></span></a>
+                                        <a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>
+
+                                        <!-- Product Main Image -->
+                                        <div class="shop-p-slider">
+                                            <a href="#s"><img src="./assets/img/shop/shop-img-1.jpg" alt="Product Image 1"></a>
+                                            <a href="#s"><img src="./assets/img/shop/shop-img-6.jpg" alt="Product Image 6"></a>
+                                            <a href="#s"><img src="./assets/img/shop/shop-img-8.jpg" alt="Product Image 8"></a>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- end card -->
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card card-price-tag">
-                                    <div class="card-image">
-                                        <a href="#pablo">
-                                            <img class="img" src="./assets/img/kochipalam.jpeg" height="220px" width="100%">
+
+                                    <!-- Product Meta -->
+                                    <div class="product-meta">
+                                        <a href="#page">
+                                            <h4 class="product-name">Casual Gray Blazer</h4>
                                         </a>
-                                        <div class="price_tag">$ 80.00</div>
+                                        <span class="product-sep"></span>
+                                        <p class="product-price"><span class="price-cut">$287.99</span> $187.99</p>
                                     </div>
 
-                                    <div class="card-body">
-                                        <h5 class="card-title text-shadow-0" style="font-weight: 600">
-                                            Kochi
-                                        </h5>
-                                        <h6 class="day-night text-shadow-0" style="font-weight: 500">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18px" height="18px" viewBox="0 0 24 24" stroke-width="2">
-															<g stroke-width="2" transform="translate(0, 0)">
-																<line fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" x1="3" y1="2" x2="6" y2="2" stroke-linejoin="miter"></line> 
-																<polygon fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="1,22 23,22 23,5 19,5 17,2 11,2 9,5 1,5" stroke-linejoin="miter"></polygon> 
-																<circle data-color="color-2" fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" cx="14" cy="13" r="5" stroke-linejoin="miter"></circle> 
-																<circle data-color="color-2" data-stroke="none" fill="#444444" cx="5" cy="9" r="1" stroke-linejoin="miter" stroke-linecap="square"></circle>
-															</g>
-														</svg> &nbsp; FIve days and night</h6>
+                                </div>
+                                <!-- / .shop-product-card -->
+                            </div>
+                            <!-- / .col-sm-3 -->
 
-                                        <div class="card-footer">
-                                            <a href="#nothing">
-                                                <h6 class="package-link">Read More</h6>
-                                            </a>
+
+                            <!-- Shop Product -->
+                            <div class="col-xs-12 col-sm-6 col-lg-4 mb-5">
+                                <div class="shop-product-card">
+
+                                    <!-- Image/Slider -->
+                                    <div class="product-image-wrapper">
+                                        <!-- Product Actions (hover) -->
+                                        <a href="#" class="buy-btn"><span class="linea-ecommerce-bag"></span></a>
+                                        <a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>
+
+                                        <!-- Product Main Image -->
+                                        <div class="shop-p-slider">
+                                            <a href="#page"><img src="./assets/img/shop/shop-img-2.jpg" alt="Product Image 2"></a>
+                                            <a href="#page"><img src="./assets/img/shop/shop-img-9.jpg" alt="Product Image 9"></a>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- end card -->
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card card-price-tag">
-                                    <div class="card-image">
-                                        <a href="#pablo">
-                                            <img class="img" src="./assets/img/kochipalam.jpeg" height="220px" width="100%">
+
+                                    <!-- Product Meta -->
+                                    <div class="product-meta">
+                                        <a href="#page">
+                                            <h4 class="product-name">White Suit</h4>
                                         </a>
-                                        <div class="price_tag">$ 80.00</div>
+                                        <span class="product-sep"></span>
+                                        <p class="product-price">$487.99</p>
                                     </div>
 
-                                    <div class="card-body">
-                                        <h5 class="card-title text-shadow-0" style="font-weight: 600">
-                                            Kochi
-                                        </h5>
-                                        <h6 class="day-night text-shadow-0" style="font-weight: 500">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18px" height="18px" viewBox="0 0 24 24" stroke-width="2">
-																	<g stroke-width="2" transform="translate(0, 0)">
-																		<line fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" x1="3" y1="2" x2="6" y2="2" stroke-linejoin="miter"></line> 
-																		<polygon fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" points="1,22 23,22 23,5 19,5 17,2 11,2 9,5 1,5" stroke-linejoin="miter"></polygon> 
-																		<circle data-color="color-2" fill="none" stroke="#444444" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" cx="14" cy="13" r="5" stroke-linejoin="miter"></circle> 
-																		<circle data-color="color-2" data-stroke="none" fill="#444444" cx="5" cy="9" r="1" stroke-linejoin="miter" stroke-linecap="square"></circle>
-																	</g>
-																</svg> &nbsp; FIve days and night</h6>
+                                </div>
+                                <!-- / .shop-product-card -->
+                            </div>
+                            <!-- / .col-lg-3 -->
 
-                                        <div class="card-footer">
-                                            <a href="#nothing">
-                                                <h6 class="package-link">Read More</h6>
-                                            </a>
+
+                            <!-- Shop Product -->
+                            <div class="col-xs-12 col-sm-6 col-lg-4 mb-5">
+                                <div class="shop-product-card">
+
+                                    <!-- Image/Slider -->
+                                    <div class="product-image-wrapper">
+                                        <!-- Product Actions (hover) -->
+                                        <a href="#" class="buy-btn"><span class="linea-ecommerce-bag"></span></a>
+                                        <a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>
+
+                                        <!-- Product Main Image -->
+                                        <div class="shop-p-slider">
+                                            <a href="#page"><img src="./assets/img/shop/shop-img-3.jpg" alt="Product Image 1"></a>
+                                            <a href="#page"><img src="./assets/img/shop/shop-img-2.jpg" alt="Product Image 2"></a>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- end card -->
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card card-product card-plain">
-                                    <div class="card-image">
-                                        <a href="#">
-                                            <img src="./assets/img/polo.jpg" alt="...">
-                                        </a>
-                                    </div>
-                                    <div class="card-body">
-                                        <a href="#">
-                                            <h5 class="card-title">Polo Ralph Lauren</h5>
-                                        </a>
-                                        <p class="card-description">
-                                            Impeccably tailored in Italy from lightweight navy wool.
-                                        </p>
-                                        <div class="card-footer">
-                                            <div class="price-container">
-                                                <span class="price"> € 300</span>
-                                            </div>
 
-                                            <button class="btn btn-danger btn-neutral btn-icon btn-round pull-right" rel="tooltip" title="" data-placement="left" data-original-title="Remove from wishlist">
-																 <i class="now-ui-icons ui-2_favourite-28"></i>
-															 </button>
+                                    <!-- Product Meta -->
+                                    <div class="product-meta">
+                                        <a href="#page">
+                                            <h4 class="product-name">Dark Blue Suit</h4>
+                                        </a>
+                                        <span class="product-sep"></span>
+                                        <p class="product-price">$487.99</p>
+                                    </div>
+
+                                </div>
+                                <!-- / .shop-product-card -->
+                            </div>
+                            <!-- / .col-lg-3 -->
+
+
+                            <!-- Shop Product -->
+                            <div class="col-xs-12 col-sm-6 col-lg-4 mb-5">
+                                <div class="shop-product-card">
+
+                                    <!-- Image/Slider -->
+                                    <div class="product-image-wrapper">
+                                        <!-- Product Actions (hover) -->
+                                        <a href="#" class="buy-btn"><span class="linea-ecommerce-bag"></span></a>
+                                        <a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>
+
+                                        <!-- Product Main Image -->
+                                        <div class="shop-p-slider">
+                                            <a href="#page"><img src="./assets/img/shop/shop-img-7.jpg" alt="Product Image 7"></a>
+                                            <a href="#page"><img src="./assets/img/shop/shop-img-4.jpg" alt="Product Image 4"></a>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- end card -->
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card card-product card-plain">
-                                    <div class="card-image">
-                                        <a href="#">
-                                            <img src="./assets/img/polo.jpg" alt="...">
-                                        </a>
-                                    </div>
-                                    <div class="card-body">
-                                        <a href="#">
-                                            <h5 class="card-title">Polo Ralph Lauren</h5>
-                                        </a>
-                                        <p class="card-description">
-                                            Impeccably tailored in Italy from lightweight navy wool.
-                                        </p>
-                                        <div class="card-footer">
-                                            <div class="price-container">
-                                                <span class="price"> € 300</span>
-                                            </div>
 
-                                            <button class="btn btn-danger btn-neutral btn-icon btn-round pull-right" rel="tooltip" title="" data-placement="left" data-original-title="Remove from wishlist">
-																	 <i class="now-ui-icons ui-2_favourite-28"></i>
-																 </button>
+                                    <!-- Product Meta -->
+                                    <div class="product-meta">
+                                        <a href="#page">
+                                            <h4 class="product-name">Gray Padded Jacket</h4>
+                                        </a>
+                                        <span class="product-sep"></span>
+                                        <p class="product-price">$487.99</p>
+                                    </div>
+
+                                </div>
+                                <!-- / .shop-product-card -->
+                            </div>
+                            <!-- / .col-lg-3 -->
+
+
+                            <!-- Shop Product -->
+                            <div class="col-xs-12 col-sm-6 col-lg-4 mb-5">
+                                <div class="shop-product-card">
+
+                                    <!-- Image/Slider -->
+                                    <div class="product-image-wrapper">
+                                        <span class="label label-red sale-label">SALE</span>
+
+                                        <!-- Product Actions (hover) -->
+                                        <a href="#" class="buy-btn"><span class="linea-ecommerce-bag"></span></a>
+                                        <a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>
+
+                                        <!-- Product Main Image -->
+                                        <div class="shop-p-slider">
+                                            <a href="#page"><img src="./assets/img/shop/shop-img-6.jpg" alt="Product Image 6"></a>
+                                            <a href="#page"><img src="./assets/img/shop/shop-img-11.jpg" alt="Product Image 11"></a>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- end card -->
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card card-product card-plain">
-                                    <div class="card-image">
-                                        <a href="#">
-                                            <img src="./assets/img/polo.jpg" alt="...">
-                                        </a>
-                                    </div>
-                                    <div class="card-body">
-                                        <a href="#">
-                                            <h5 class="card-title">Polo Ralph Lauren</h5>
-                                        </a>
-                                        <p class="card-description">
-                                            Impeccably tailored in Italy from lightweight navy wool.
-                                        </p>
-                                        <div class="card-footer">
-                                            <div class="price-container">
-                                                <span class="price"> € 300</span>
-                                            </div>
 
-                                            <button class="btn btn-danger btn-neutral btn-icon btn-round pull-right" rel="tooltip" title="" data-placement="left" data-original-title="Remove from wishlist">
-																		 <i class="now-ui-icons ui-2_favourite-28"></i>
-																	 </button>
+                                    <!-- Product Meta -->
+                                    <div class="product-meta">
+                                        <a href="#page">
+                                            <h4 class="product-name">Light Blue Blazer</h4>
+                                        </a>
+                                        <span class="product-sep"></span>
+                                        <p class="product-price"><span class="price-cut">$187.99</span> $97.99</p>
+                                    </div>
+
+                                </div>
+                                <!-- / .shop-product-card -->
+                            </div>
+                            <!-- / .col-sm-3 -->
+
+
+                            <!-- Shop Product -->
+                            <div class="col-xs-12 col-sm-6 col-lg-4 mb-5">
+                                <div class="shop-product-card">
+
+                                    <!-- Image/Slider -->
+                                    <div class="product-image-wrapper">
+                                        <!-- Product Actions (hover) -->
+                                        <a href="#" class="buy-btn"><span class="linea-ecommerce-bag"></span></a>
+                                        <a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>
+
+                                        <!-- Product Main Image -->
+                                        <div class="shop-p-slider">
+                                            <a href="#page"><img src="./assets/img/shop/shop-img-8.jpg" alt="Product Image 8"></a>
+                                            <a href="#page"><img src="./assets/img/shop/shop-img-1.jpg" alt="Product Image 1"></a>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- end card -->
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card card-product card-plain">
-                                    <div class="card-image">
-                                        <a href="#">
-                                            <img src="./assets/img/polo.jpg" alt="...">
-                                        </a>
-                                    </div>
-                                    <div class="card-body">
-                                        <a href="#">
-                                            <h5 class="card-title">Polo Ralph Lauren</h5>
-                                        </a>
-                                        <p class="card-description">
-                                            Impeccably tailored in Italy from lightweight navy wool.
-                                        </p>
-                                        <div class="card-footer">
-                                            <div class="price-container">
-                                                <span class="price"> € 300</span>
-                                            </div>
 
-                                            <button class="btn btn-danger btn-neutral btn-icon btn-round pull-right" rel="tooltip" title="" data-placement="left" data-original-title="Remove from wishlist">
-																			 <i class="now-ui-icons ui-2_favourite-28"></i>
-																		 </button>
+                                    <!-- Product Meta -->
+                                    <div class="product-meta">
+                                        <a href="#page">
+                                            <h4 class="product-name">Dark Gray Blazer</h4>
+                                        </a>
+                                        <span class="product-sep"></span>
+                                        <p class="product-price">$115.99</p>
+                                    </div>
+
+                                </div>
+                                <!-- / .shop-product-card -->
+                            </div>
+                            <!-- / .col-lg-3 -->
+
+
+                            <!-- Shop Product -->
+                            <div class="col-xs-12 col-sm-6 col-lg-4 mb-5">
+                                <div class="shop-product-card">
+
+                                    <!-- Image/Slider -->
+                                    <div class="product-image-wrapper">
+
+                                        <!-- Product Actions (hover) -->
+                                        <a href="#" class="buy-btn"><span class="linea-ecommerce-bag"></span></a>
+                                        <a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>
+
+                                        <!-- Product Main Image -->
+                                        <div class="shop-p-slider">
+                                            <a href="#page"><img src="./assets/img/shop/shop-img-10.jpg" alt="Product Image 10"></a>
+                                            <a href="#page"><img src="./assets/img/shop/shop-img-2.jpg" alt="Product Image 2"></a>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- end card -->
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card card-product card-plain">
-                                    <div class="card-image">
-                                        <a href="#">
-                                            <img src="./assets/img/polo.jpg" alt="...">
-                                        </a>
-                                    </div>
-                                    <div class="card-body">
-                                        <a href="#">
-                                            <h5 class="card-title">Polo Ralph Lauren</h5>
-                                        </a>
-                                        <p class="card-description">
-                                            Impeccably tailored in Italy from lightweight navy wool.
-                                        </p>
-                                        <div class="card-footer">
-                                            <div class="price-container">
-                                                <span class="price"> € 300</span>
-                                            </div>
 
-                                            <button class="btn btn-danger btn-neutral btn-icon btn-round pull-right" rel="tooltip" title="" data-placement="left" data-original-title="Remove from wishlist">
-																				 <i class="now-ui-icons ui-2_favourite-28"></i>
-																			 </button>
+                                    <!-- Product Meta -->
+                                    <div class="product-meta">
+                                        <a href="#page">
+                                            <h4 class="product-name">Black Jacket</h4>
+                                        </a>
+                                        <span class="product-sep"></span>
+                                        <p class="product-price">$127.99</p>
+                                    </div>
+
+                                </div>
+                                <!-- / .shop-product-card -->
+                            </div>
+                            <!-- / .col-sm-3 -->
+
+
+                            <!-- Shop Product -->
+                            <div class="col-xs-12 col-sm-6 col-lg-4 mb-5">
+                                <div class="shop-product-card">
+
+                                    <!-- Image/Slider -->
+                                    <div class="product-image-wrapper">
+                                        <span class="label label-red sale-label">SALE</span>
+
+                                        <!-- Product Actions (hover) -->
+                                        <a href="#" class="buy-btn"><span class="linea-ecommerce-bag"></span></a>
+                                        <a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>
+
+                                        <!-- Product Main Image -->
+                                        <div class="shop-p-slider">
+                                            <a href="#page"><img src="./assets/img/shop/shop-img-11.jpg" alt="Product Image 11"></a>
+                                            <a href="#page"><img src="./assets/img/shop/shop-img-6.jpg" alt="Product Image 6"></a>
                                         </div>
                                     </div>
-                                </div>
-                                <!-- end card -->
-                            </div>
-                            <div class="col-lg-4 col-md-6">
-                                <div class="card card-product card-plain">
-                                    <div class="card-image">
-                                        <a href="#">
-                                            <img src="./assets/img/polo.jpg" alt="...">
-                                        </a>
-                                    </div>
-                                    <div class="card-body">
-                                        <a href="#">
-                                            <h5 class="card-title">Polo Ralph Lauren</h5>
-                                        </a>
-                                        <p class="card-description">
-                                            Impeccably tailored in Italy from lightweight navy wool.
-                                        </p>
-                                        <div class="card-footer">
-                                            <div class="price-container">
-                                                <span class="price"> € 300</span>
-                                            </div>
 
-                                            <button class="btn btn-danger btn-neutral btn-icon btn-round pull-right" rel="tooltip" title="" data-placement="left" data-original-title="Remove from wishlist">
-																					 <i class="now-ui-icons ui-2_favourite-28"></i>
-																				 </button>
+                                    <!-- Product Meta -->
+                                    <div class="product-meta">
+                                        <a href="#page">
+                                            <h4 class="product-name">Casual Blue Blazer</h4>
+                                        </a>
+                                        <span class="product-sep"></span>
+                                        <p class="product-price"><span class="price-cut">$250.99</span> $217.99</p>
+                                    </div>
+
+                                </div>
+                                <!-- / .shop-product-card -->
+                            </div>
+                            <!-- / .col-lg-3 -->
+
+
+                            <!-- Shop Product -->
+                            <div class="col-xs-12 col-sm-6 col-lg-4 mb-5">
+                                <div class="shop-product-card">
+
+                                    <!-- Image/Slider -->
+                                    <div class="product-image-wrapper">
+                                        <!-- Product Actions (hover) -->
+                                        <a href="#" class="buy-btn"><span class="linea-ecommerce-bag"></span></a>
+                                        <a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>
+
+                                        <!-- Product Main Image -->
+                                        <div class="shop-p-slider">
+                                            <a href="#page"><img src="./assets/img/shop/shop-img-12.jpg" alt="Product Image 12"></a>
+                                            <a href="#page"><img src="./assets/img/shop/shop-img-4.jpg" alt="Product Image 4"></a>
                                         </div>
                                     </div>
+
+                                    <!-- Product Meta -->
+                                    <div class="product-meta">
+                                        <a href="#page">
+                                            <h4 class="product-name">Black Jacket</h4>
+                                        </a>
+                                        <span class="product-sep"></span>
+                                        <p class="product-price">$487.99</p>
+                                    </div>
+
                                 </div>
-                                <!-- end card -->
+                                <!-- / .shop-product-card -->
                             </div>
-                            <div class="col-md-3 ml-auto mr-auto">
-                                <button rel="tooltip" class="btn btn-primary btn-round" data-original-title="" title="">Load more...</button>
-                            </div>
+                            <!-- / .col-lg-3 -->
+
                         </div>
+                        <!-- / .row -->
+
+
+
+                        <!-- Pagination -->
+                        <div class="row">
+                            <nav class="blog-pagination text-center">
+                                <ul class="pagination">
+                                    <li>
+                                        <a href="#" aria-label="Previous">
+                                            <span aria-hidden="true"><i class="fa fa-angle-double-left"></i></span>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">...</a></li>
+                                    <li><a href="#">7</a></li>
+                                    <li>
+                                        <a href="#" aria-label="Next">
+                                            <span aria-hidden="true"><i class="fa fa-angle-double-right"></i></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- / .row -->
+
                     </div>
+                    <!-- / .col-md-9 -->
                 </div>
+                <!-- / .row -->
+
             </div>
+            <!-- / .contianer -->
         </div>
-        <!-- section -->
-
-
-        <div class="section">
-            <div class="container">
-                <h2 class="section-title">Latest Offers</h2>
-                <div class="row">
-                    <div class="col-md-4">
-
-                        <div class="card card-product card-plain">
-                            <div class="card-image">
-                                <img class="img rounded" src="./assets/img/saint-laurent.jpg">
-                            </div>
-
-                            <div class="card-body">
-                                <h4 class="card-title">
-                                    <a href="#pablo">Saint Laurent</a>
-                                </h4>
-                                <p class="card-description">The structured shoulders and sleek detailing ensure a sharp silhouette. Team it with a silk pocket square and leather loafers.</p>
-                                <div class="card-footer">
-                                    <div class="price-container">
-                                        <span class="price price-old"> €1,430</span>
-                                        <span class="price price-new"> €743</span>
-                                    </div>
-                                    <div class="stats stats-right">
-                                        <button type="button" rel="tooltip" title="" class="btn btn-icon btn-neutral" data-original-title="Saved to Wishlist">
-												   <i class="now-ui-icons ui-2_favourite-28"></i>
-											   </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-
-                        <div class="card card-product card-plain">
-                            <div class="card-image">
-                                <img class="img rounded" src="./Now UI Kit Pro by Creative Tim_files/saint-laurent.jpg">
-                            </div>
-
-                            <div class="card-body">
-                                <h4 class="card-title">
-                                </h4>
-                                <h4 class="card-title">Saint Laurent</h4>
-
-                                <p class="card-description">The structured shoulders and sleek detailing ensure a sharp silhouette. Team it with a silk pocket square and leather loafers.</p>
-                                <div class="card-footer">
-                                    <div class="price-container">
-                                        <span class="price price-old"> €1,430</span>
-                                        <span class="price price-new">€743</span>
-                                    </div>
-                                    <div class="stats stats-right">
-                                        <button type="button" rel="tooltip" title="" class="btn btn-icon btn-neutral" data-original-title="Saved to Wishlist">
-													<i class="now-ui-icons ui-2_favourite-28"></i>
-												</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="col-md-4">
-
-                        <div class="card card-product card-plain">
-                            <div class="card-image">
-                                <img class="img rounded" src="./Now UI Kit Pro by Creative Tim_files/gucci.jpg">
-                            </div>
-
-                            <div class="card-body">
-                                <h4 class="card-title">
-                                </h4>
-                                <h4 class="card-title">Gucci</h4>
-
-                                <p class="card-description">The smooth woven-wool is water resistant to ensure you stay pristine after a long-haul flight. Cut in a trim yet comfortable regular fit.</p>
-                                <div class="card-footer">
-                                    <div class="price-container">
-                                        <span class="price price-old"> €2,430</span>
-                                        <span class="price price-new">€890</span>
-                                    </div>
-                                    <div class="stats stats-right">
-                                        <button type="button" rel="tooltip" title="" class="btn btn-icon btn-neutral btn-default" data-original-title="Add to Wishlist">
-												   <i class="now-ui-icons ui-2_favourite-28"></i>
-											   </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- section -->
-
+        <!-- / .gray-bg -->
 
 
     </div>
@@ -678,6 +765,22 @@
     <script src="./assets/js/plugins/bootstrap-datepicker.js"></script>
     <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
     <script src="./assets/js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
+    <script src="./assets/js/plugins/slick.min.js"></script>
+
+    <script>
+        $('.shop-p-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            adaptiveHeight: true,
+            speed: 300,
+            // fade: false,
+            dots: false,
+            arrows: true,
+            prevArrow: '<button type="button" class="shop-p-slider-nav shop-p-slider-nav-left"><span class="linea-arrows-slim-left"></span></button>',
+            nextArrow: '<button type="button" class="shop-p-slider-nav shop-p-slider-nav-right"><span class="linea-arrows-slim-right"></span></button>',
+            autoplay: false,
+        });
+    </script>
 
 </body>
 
