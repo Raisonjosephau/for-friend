@@ -24,6 +24,10 @@ textarea::-webkit-scrollbar-thumb {
     background-color: #323232;
 }
 
+.font-weight-semibold {
+    font-weight: 500 !important;
+}
+
 
 /* Modifying Navbars */
 
