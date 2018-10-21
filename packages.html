@@ -249,7 +249,7 @@
             </div>
         </div>
     </div>
-    <div class="main">
+    <div class="main" ng-app="packageApp" ng-controller="packageCtrl">
 
         <!-- section -->
 
@@ -263,7 +263,7 @@
                             <!-- Search Widget -->
                             <div class="shop-widget search-widget">
                                 <div class="form-group">
-                                    <input type="search" placeholder="Search ..." class="form-control">
+                                    <input id="search" type="search" placeholder="Search ..." class="form-control">
                                     <button class="inside-input-btn"><i class="fa fa-search"></i></button>
                                 </div>
                             </div>
@@ -355,7 +355,7 @@
                         <!-- / .row -->
 
 
-                        <div class="row">
+                        <div class="row" id="packages">
                             <!-- Shop package -->
                             <div class="col-xs-12 col-sm-6 col-lg-4 mb-5">
                                 <div class="shop-package-card">
@@ -365,24 +365,24 @@
 
 
                                         <!-- package Actions (hover) -->
-                                        <span class="label label-red sale-label">5 days</span>
+                                        <span class="label label-red sale-label">1 day</span>
                                         <a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>
 
                                         <!-- package Main Image -->
                                         <div class="shop-p-slider" style="height: 280px;">
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-1.jpg" alt="package Image 1"></a>
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-6.jpg" alt="package Image 6"></a>
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-8.jpg" alt="package Image 8"></a>
+                                            <a href="#s"><img src="./assets/img/shop/kochipalam.jpeg" alt="package Image 1"></a>
+                                            <a href="#s"><img src="./assets/img/fort/fort.JPG" alt="package Image 6"></a>
+                                            <a href="#s"><img src="./assets/img/fort/vala-smal.jpg" alt="package Image 8"></a>
                                         </div>
                                     </div>
 
                                     <!-- package Meta -->
                                     <div class="package-meta">
                                         <a href="#page">
-                                            <h4 class="package-name">To The Land Of Tea</h4>
+                                            <h4 class="package-name text-shadow-0">Fortkochi Ethenic Tour</h4>
                                         </a>
                                         <span class="package-sep"></span>
-                                        <p class="package-price">Munnar - Thekaddi - Idukki</p>
+                                        <p class="package-price">FortKochi - Mattancherry</p>
                                     </div>
                                     <div class="package-read text-center">
                                         <a href="#read">
@@ -396,318 +396,6 @@
                             </div>
                             <!-- / .col-sm-3 -->
 
-                            <!-- Shop package -->
-                            <div class="col-xs-12 col-sm-6 col-lg-4 mb-5">
-                                <div class="shop-package-card">
-
-                                    <!-- Image/Slider -->
-                                    <div class="package-image-wrapper">
-
-
-                                        <!-- package Actions (hover) -->
-                                        <span class="label label-red sale-label">5 days</span>
-                                        <a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>
-
-                                        <!-- package Main Image -->
-                                        <div class="shop-p-slider" style="height: 280px;">
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-1.jpg" alt="package Image 1"></a>
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-6.jpg" alt="package Image 6"></a>
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-8.jpg" alt="package Image 8"></a>
-                                        </div>
-                                    </div>
-
-                                    <!-- package Meta -->
-                                    <div class="package-meta">
-                                        <a href="#page">
-                                            <h4 class="package-name">To The Land Of Tea</h4>
-                                        </a>
-                                        <span class="package-sep"></span>
-                                        <p class="package-price">Munnar - Thekaddi - Idukki</p>
-                                    </div>
-                                    <div class="package-read text-center">
-                                        <a href="#read">
-                                            <h6>Read more</h6>
-                                        </a>
-                                    </div>
-
-
-                                </div>
-                                <!-- / .shop-package-card -->
-                            </div>
-                            <!-- / .col-sm-3 -->
-                            <!-- Shop package -->
-                            <div class="col-xs-12 col-sm-6 col-lg-4 mb-5">
-                                <div class="shop-package-card">
-
-                                    <!-- Image/Slider -->
-                                    <div class="package-image-wrapper">
-
-
-                                        <!-- package Actions (hover) -->
-                                        <span class="label label-red sale-label">5 days</span>
-                                        <a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>
-
-                                        <!-- package Main Image -->
-                                        <div class="shop-p-slider" style="height: 280px;">
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-1.jpg" alt="package Image 1"></a>
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-6.jpg" alt="package Image 6"></a>
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-8.jpg" alt="package Image 8"></a>
-                                        </div>
-                                    </div>
-
-                                    <!-- package Meta -->
-                                    <div class="package-meta">
-                                        <a href="#page">
-                                            <h4 class="package-name">To The Land Of Tea</h4>
-                                        </a>
-                                        <span class="package-sep"></span>
-                                        <p class="package-price">Munnar - Thekaddi - Idukki</p>
-                                    </div>
-                                    <div class="package-read text-center">
-                                        <a href="#read">
-                                            <h6>Read more</h6>
-                                        </a>
-                                    </div>
-
-
-                                </div>
-                                <!-- / .shop-package-card -->
-                            </div>
-                            <!-- / .col-sm-3 -->
-                            <!-- Shop package -->
-                            <div class="col-xs-12 col-sm-6 col-lg-4 mb-5">
-                                <div class="shop-package-card">
-
-                                    <!-- Image/Slider -->
-                                    <div class="package-image-wrapper">
-
-
-                                        <!-- package Actions (hover) -->
-                                        <span class="label label-red sale-label">5 days</span>
-                                        <a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>
-
-                                        <!-- package Main Image -->
-                                        <div class="shop-p-slider" style="height: 280px;">
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-1.jpg" alt="package Image 1"></a>
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-6.jpg" alt="package Image 6"></a>
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-8.jpg" alt="package Image 8"></a>
-                                        </div>
-                                    </div>
-
-                                    <!-- package Meta -->
-                                    <div class="package-meta">
-                                        <a href="#page">
-                                            <h4 class="package-name">To The Land Of Tea</h4>
-                                        </a>
-                                        <span class="package-sep"></span>
-                                        <p class="package-price">Munnar - Thekaddi - Idukki</p>
-                                    </div>
-                                    <div class="package-read text-center">
-                                        <a href="#read">
-                                            <h6>Read more</h6>
-                                        </a>
-                                    </div>
-
-
-                                </div>
-                                <!-- / .shop-package-card -->
-                            </div>
-                            <!-- / .col-sm-3 -->
-                            <!-- Shop package -->
-                            <div class="col-xs-12 col-sm-6 col-lg-4 mb-5">
-                                <div class="shop-package-card">
-
-                                    <!-- Image/Slider -->
-                                    <div class="package-image-wrapper">
-
-
-                                        <!-- package Actions (hover) -->
-                                        <span class="label label-red sale-label">5 days</span>
-                                        <a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>
-
-                                        <!-- package Main Image -->
-                                        <div class="shop-p-slider" style="height: 280px;">
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-1.jpg" alt="package Image 1"></a>
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-6.jpg" alt="package Image 6"></a>
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-8.jpg" alt="package Image 8"></a>
-                                        </div>
-                                    </div>
-
-                                    <!-- package Meta -->
-                                    <div class="package-meta">
-                                        <a href="#page">
-                                            <h4 class="package-name">To The Land Of Tea</h4>
-                                        </a>
-                                        <span class="package-sep"></span>
-                                        <p class="package-price">Munnar - Thekaddi - Idukki</p>
-                                    </div>
-                                    <div class="package-read text-center">
-                                        <a href="#read">
-                                            <h6>Read more</h6>
-                                        </a>
-                                    </div>
-
-
-                                </div>
-                                <!-- / .shop-package-card -->
-                            </div>
-                            <!-- / .col-sm-3 -->
-                            <!-- Shop package -->
-                            <div class="col-xs-12 col-sm-6 col-lg-4 mb-5">
-                                <div class="shop-package-card">
-
-                                    <!-- Image/Slider -->
-                                    <div class="package-image-wrapper">
-
-
-                                        <!-- package Actions (hover) -->
-                                        <span class="label label-red sale-label">5 days</span>
-                                        <a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>
-
-                                        <!-- package Main Image -->
-                                        <div class="shop-p-slider" style="height: 280px;">
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-1.jpg" alt="package Image 1"></a>
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-6.jpg" alt="package Image 6"></a>
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-8.jpg" alt="package Image 8"></a>
-                                        </div>
-                                    </div>
-
-                                    <!-- package Meta -->
-                                    <div class="package-meta">
-                                        <a href="#page">
-                                            <h4 class="package-name">To The Land Of Tea</h4>
-                                        </a>
-                                        <span class="package-sep"></span>
-                                        <p class="package-price">Munnar - Thekaddi - Idukki</p>
-                                    </div>
-                                    <div class="package-read text-center">
-                                        <a href="#read">
-                                            <h6>Read more</h6>
-                                        </a>
-                                    </div>
-
-
-                                </div>
-                                <!-- / .shop-package-card -->
-                            </div>
-                            <!-- / .col-sm-3 -->
-                            <!-- Shop package -->
-                            <div class="col-xs-12 col-sm-6 col-lg-4 mb-5">
-                                <div class="shop-package-card">
-
-                                    <!-- Image/Slider -->
-                                    <div class="package-image-wrapper">
-
-
-                                        <!-- package Actions (hover) -->
-                                        <span class="label label-red sale-label">5 days</span>
-                                        <a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>
-
-                                        <!-- package Main Image -->
-                                        <div class="shop-p-slider" style="height: 280px;">
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-1.jpg" alt="package Image 1"></a>
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-6.jpg" alt="package Image 6"></a>
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-8.jpg" alt="package Image 8"></a>
-                                        </div>
-                                    </div>
-
-                                    <!-- package Meta -->
-                                    <div class="package-meta">
-                                        <a href="#page">
-                                            <h4 class="package-name">To The Land Of Tea</h4>
-                                        </a>
-                                        <span class="package-sep"></span>
-                                        <p class="package-price">Munnar - Thekaddi - Idukki</p>
-                                    </div>
-                                    <div class="package-read text-center">
-                                        <a href="#read">
-                                            <h6>Read more</h6>
-                                        </a>
-                                    </div>
-
-
-                                </div>
-                                <!-- / .shop-package-card -->
-                            </div>
-                            <!-- / .col-sm-3 -->
-                            <!-- Shop package -->
-                            <div class="col-xs-12 col-sm-6 col-lg-4 mb-5">
-                                <div class="shop-package-card">
-
-                                    <!-- Image/Slider -->
-                                    <div class="package-image-wrapper">
-
-
-                                        <!-- package Actions (hover) -->
-                                        <span class="label label-red sale-label">5 days</span>
-                                        <a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>
-
-                                        <!-- package Main Image -->
-                                        <div class="shop-p-slider" style="height: 280px;">
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-1.jpg" alt="package Image 1"></a>
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-6.jpg" alt="package Image 6"></a>
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-8.jpg" alt="package Image 8"></a>
-                                        </div>
-                                    </div>
-
-                                    <!-- package Meta -->
-                                    <div class="package-meta">
-                                        <a href="#page">
-                                            <h4 class="package-name">To The Land Of Tea</h4>
-                                        </a>
-                                        <span class="package-sep"></span>
-                                        <p class="package-price">Munnar - Thekaddi - Idukki</p>
-                                    </div>
-                                    <div class="package-read text-center">
-                                        <a href="#read">
-                                            <h6>Read more</h6>
-                                        </a>
-                                    </div>
-
-
-                                </div>
-                                <!-- / .shop-package-card -->
-                            </div>
-                            <!-- / .col-sm-3 -->
-                            <!-- Shop package -->
-                            <div class="col-xs-12 col-sm-6 col-lg-4 mb-5">
-                                <div class="shop-package-card">
-
-                                    <!-- Image/Slider -->
-                                    <div class="package-image-wrapper">
-
-
-                                        <!-- package Actions (hover) -->
-                                        <span class="label label-red sale-label">5 days</span>
-                                        <a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>
-
-                                        <!-- package Main Image -->
-                                        <div class="shop-p-slider" style="height: 280px;">
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-1.jpg" alt="package Image 1"></a>
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-6.jpg" alt="package Image 6"></a>
-                                            <a href="#s"><img src="./assets/img/shop/shop-img-8.jpg" alt="package Image 8"></a>
-                                        </div>
-                                    </div>
-
-                                    <!-- package Meta -->
-                                    <div class="package-meta">
-                                        <a href="#page">
-                                            <h4 class="package-name">To The Land Of Tea</h4>
-                                        </a>
-                                        <span class="package-sep"></span>
-                                        <p class="package-price">Munnar - Thekaddi - Idukki</p>
-                                    </div>
-                                    <div class="package-read text-center">
-                                        <a href="#read">
-                                            <h6>Read more</h6>
-                                        </a>
-                                    </div>
-
-
-                                </div>
-                                <!-- / .shop-package-card -->
-                            </div>
-                            <!-- / .col-sm-3 -->
 
                         </div>
                         <!-- / .row -->
@@ -752,7 +440,6 @@
     <!-- end-main-raised -->
 
 
-
     <script src="./assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
     <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
     <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
@@ -762,6 +449,122 @@
     <script src="./assets/js/now-ui-kit.js?v=1.1.0" type="text/javascript"></script>
     <script src="./assets/js/plugins/slick.min.js"></script>
 
+    <script>
+    </script>
+    <script>
+        $(document).ready(function() {
+            var packages = [{
+                "id": 0,
+                "trip_name": "Leola Slovak Republic",
+                "days": 10,
+                "places": "Blodgett - Homeland - Richville",
+                "link": "#Tioga",
+                "category": "Honeymoon",
+                "img_path": 'shop/',
+                "img": ['shop-img-1.jpg', 'shop-img-6.jpg', 'shop-img-8.jpg']
+            }, {
+                "id": 1,
+                "trip_name": "Springville Oman",
+                "days": 2,
+                "places": "Aurora - Westwood - Clarence",
+                "link": "#Germanton",
+                "category": "Weekend",
+                "img_path": 'shop/',
+                "img": ['shop-img-1.jpg', 'shop-img-6.jpg', 'shop-img-8.jpg']
+            }, {
+                "id": 2,
+                "trip_name": "Cloverdale Tanzania",
+                "days": 5,
+                "places": "Alden - Glenville - Balm",
+                "link": "#Bartley",
+                "category": "Day Excursions",
+                "img_path": 'shop/',
+                "img": ['shop-img-1.jpg', 'shop-img-6.jpg', 'shop-img-8.jpg']
+            }, {
+                "id": 3,
+                "trip_name": "Boling Kuwait",
+                "days": 6,
+                "places": "Lindcove - Brandermill - Bartonsville",
+                "link": "#Lorraine",
+                "category": "Day Excursions",
+                "img_path": 'shop/',
+                "img": ['shop-img-1.jpg', 'shop-img-6.jpg', 'shop-img-8.jpg']
+            }, {
+                "id": 4,
+                "trip_name": "Boykin Monaco",
+                "days": 4,
+                "places": "Grandview - Urie - Brooktrails",
+                "link": "#Beaulieu",
+                "category": "Weekend",
+                "img_path": 'shop/',
+                "img": ['shop-img-1.jpg', 'shop-img-6.jpg', 'shop-img-8.jpg']
+            }, {
+                "id": 5,
+                "trip_name": "Nescatunga Reunion",
+                "days": 5,
+                "places": "Trinway - Elbert - Hayes",
+                "link": "#Ticonderoga",
+                "category": "Day Excursions",
+                "img_path": 'shop/',
+                "img": ['shop-img-1.jpg', 'shop-img-6.jpg', 'shop-img-8.jpg']
+            }, {
+                "id": 6,
+                "trip_name": "Cornfields Taiwan",
+                "days": 8,
+                "places": "Drummond - Brambleton - Nash",
+                "link": "#Cashtown",
+                "category": "Honeymoon",
+                "img_path": 'shop/',
+                "img": ['shop-img-1.jpg', 'shop-img-6.jpg', 'shop-img-8.jpg']
+            }, {
+                "id": 7,
+                "trip_name": "Clarksburg Turkmenistan",
+                "days": 8,
+                "places": "Rivera - Greenfields - Chamberino",
+                "link": "#Sunnyside",
+                "category": "Honeymoon",
+                "img_path": 'shop/',
+                "img": ['shop-img-1.jpg', 'shop-img-6.jpg', 'shop-img-8.jpg']
+            }];
+
+
+            packages = JSON.parse(JSON.stringify(packages));
+            addPackages(packages);
+            $("#search").keyup(function() {
+                search = $(this).val();
+                if (search.length >= 3) {
+                    filteredPakcage = packages.filter(item => item.places.toLowerCase().indexOf(search) >= 0 || item.trip_name.toLowerCase().indexOf(search) >= 0 || item.category.toLowerCase().indexOf(search) >= 0);
+                    $('div').remove('.col-xs-12.col-sm-6.col-lg-4.mb-5');
+                    //console.log($('#packages'))
+                    addPackages(filteredPakcage);
+                } else {
+                    if ($('.col-xs-12.col-sm-6.col-lg-4.mb-5').length != packages.length) {
+                        console.log($('.col-xs-12.col-sm-6.col-lg-4.mb-5').length, packages.length)
+                        $('div').remove('.col-xs-12.col-sm-6.col-lg-4.mb-5');
+                        addPackages(packages);
+                    }
+                }
+            });
+
+            function addPackages(packages) {
+                packages.forEach(function(element) {
+                    var images = '';
+                    element.img.forEach(function(img) {
+                        images += '<a href="#s"><img src="./assets/img/' + element.img_path + img + '" alt="package Image 1"></a>'
+                    });
+                    $('#packages').append(
+                        '<div class="col-xs-12 col-sm-6 col-lg-4 mb-5"><div class="shop-package-card"><div class="package-image-wrapper">' +
+                        '<span class="label label-red sale-label">' + element.days + ' Days </span><a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>' +
+                        '<div class="shop-p-slider" style="height: 280px;">' + images + '</div></div>' +
+                        '<div class="package-meta"><a href="#page"><h4 class="package-name text-shadow-0">' + element.trip_name + '</h4></a>' +
+                        '<span class="package-sep"></span><p class="package-price">' + element.places + '</p></div>' +
+                        '<div class="package-read text-center"> <a href="#read"> <h6>Read more</h6> </a> </div></div></div>')
+                })
+            }
+
+
+        })
+    </script>
     <script>
         $('.shop-p-slider').slick({
             slidesToShow: 1,
@@ -776,7 +579,6 @@
             autoplay: false,
         });
     </script>
-
 </body>
 
 </html>
