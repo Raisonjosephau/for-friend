@@ -11,7 +11,10 @@ $(document).ready(function() {
             $(this).removeClass("hover");
         }
     );
-    $(".carousel").carousel();
+    $(".carousel").carousel({
+        pause: "false",
+        interval: 4000
+    });
     var lastScrollTop = 0;
     var header = document.getElementById("stick-nav");
     var sticky = header.offsetTop;

@@ -176,7 +176,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .collapse.navbar-collapse .navbar-nav .dropdown .dropdown-menu {
-    margin-top: 12px;
+    margin-top: 5px;
     padding: 20px 0 10px 0;
     border-radius: 0;
     box-shadow: none;
@@ -193,7 +193,7 @@ textarea::-webkit-scrollbar-thumb {
     display: block;
     padding: 11px 40px 11px 25px;
     letter-spacing: 0.5px;
-    line-height: 0.8em;
+    line-height: 1em;
     border-left: 3px solid rgba(17, 17, 17, 0);
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -380,6 +380,14 @@ textarea::-webkit-scrollbar-thumb {
     font-size: 0.8rem;
 }
 
+.carousel-title {
+    color: #231f20;
+}
+
+.carousel-description {
+    color: #fff !important;
+}
+
 
 /* Tob bar ends */
 
@@ -470,7 +478,6 @@ h5.description {
 
 h4.description {
     font-size: 20px;
-    color: #555555
 }
 
 a:hover {

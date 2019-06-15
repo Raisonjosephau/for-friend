@@ -819,14 +819,9 @@ ul.itenary-steps.base .glyphicon {
 }
 
 .gm-style-iw {
-    width: 320px !important;
+    width: 210px !important;
     top: 25px !important;
     left: 0px !important;
-    /* fallback for old browsers */
-    background: linear-gradient(to bottom, rgba(220, 227, 91, .7) 0%, rgba(46, 204, 113, .7) 100%);
-    background: -webkit-linear-gradient(top, rgba(220, 227, 91, .7) 0%, rgba(46, 204, 113, .7) 100%);
-    background: -moz-linear-gradient(top, rgba(220, 227, 91, .7) 0%, rgba(46, 204, 113, .7) 100%);
-    background: -ms-linear-gradient(top, rgba(220, 227, 91, .7) 0%, rgba(46, 204, 113, .7) 100%);
     box-shadow: 0 5px 20px -1px rgba(0, 0, 0, 0.24), 0 8px 10px -2px rgba(0, 0, 0, 0.24);
     border-radius: 10px;
 }
@@ -835,11 +830,19 @@ ul.itenary-steps.base .glyphicon {
     width: 100%;
 }
 
+.gm-style .gm-style-iw-t::after {
+    opacity: 0;
+    height: 0px;
+}
+
+.gm-style .gm-style-iw-c {
+    height: 80px;
+}
+
 #iw-container .iw-title {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 22px;
     font-weight: 400;
-    padding: 10px;
     background-color: #48b5e9;
     color: white;
     margin: 0;
@@ -851,7 +854,7 @@ ul.itenary-steps.base .glyphicon {
     line-height: 18px;
     font-weight: 400;
     margin-right: 1px;
-    padding: 15px 0px 20px 15px;
+    padding: 5px 0px 5px 5px;
     width: 100%;
     color: #323232;
     max-height: 150px;
