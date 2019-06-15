@@ -495,9 +495,12 @@
                         '<div class="package-meta"><a href="#page"><h4 class="package-name text-shadow-0">' + element.trip_name + '</h4></a>' +
                         '<span class="package-sep"></span><p class="package-price">' + element.places + '</p></div>' +
                         '<div class="package-read text-center"> <a href="#read"> <h6>Read more</h6> </a> </div></div></div>')
-                })
-                initSlider();
+                });
             }
+            window.setTimeout(() => {
+                initSlider();
+            }, 1000);
+
 
             function initSlider() {
 
