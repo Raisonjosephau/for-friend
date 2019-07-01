@@ -11,27 +11,50 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.container {
+    padding: 0px !important;
+}
+
+.section span {
+    width: 120px;
+    height: 2px;
+    background-color: #e1e1e1;
+    display: block;
+    margin: auto;
+    margin-bottom: 18px;
+}
+
+.section span em {
+    width: 60px;
+    height: 2px;
+    background: #2ecc71;
+    background: -webkit-linear-gradient(to right, #DCE35B, #2ecc71);
+    background: linear-gradient(to right, #DCE35B, #2ecc71);
+    display: block;
+    margin: auto;
+}
+
 
 /* Section two Styles */
 
-.lore {
+.best {
     max-width: 360px;
     margin: 0 auto;
     padding: 70px 0 30px;
 }
 
-.lore.lore-hover .lore-title {
+.best.best-hover .best-title {
     transition: color .4s;
     text-align: center;
 }
 
-.lore.lore-hover .description {
+.best.best-hover .description {
     text-align: justify;
     color: #323232;
     font-weight: 500
 }
 
-.lore.lore-hover:hover .icon {
+.best.best-hover:hover .icon {
     -webkit-transform: translate3d(0, -0.5rem, 0);
     -moz-transform: translate3d(0, -0.5rem, 0);
     -o-transform: translate3d(0, -0.5rem, 0);
@@ -40,53 +63,53 @@
     text-align: center;
 }
 
-.lore.lore-hover:hover .icon.icon-blue.icon-circle {
+.best.best-hover:hover .icon.icon-blue.icon-circle {
     box-shadow: 0px 14px 35px 0px rgba(44, 159, 241, 0.35);
 }
 
-.lore.lore-hover:hover .icon.icon-green.icon-circle {
+.best.best-hover:hover .icon.icon-green.icon-circle {
     box-shadow: 0px 14px 35px 0px rgba(28, 218, 18, 0.35);
 }
 
-.lore.lore-hover:hover .icon.icon-yellow.icon-circle {
+.best.best-hover:hover .icon.icon-yellow.icon-circle {
     box-shadow: 0px 14px 35px 0px rgba(255, 242, 54, 0.35);
 }
 
-.lore.lore-hover:hover .icon.icon-red.icon-circle {
+.best.best-hover:hover .icon.icon-red.icon-circle {
     box-shadow: 0px 14px 35px 0px rgba(245, 49, 49, 0.35);
 }
 
-.lore.lore-hover:hover .icon.icon-blue+.lore-title {
+.best.best-hover:hover .icon.icon-blue+.best-title {
     color: #2CA8FF;
 }
 
-.lore.lore-hover:hover .icon.icon-yellow+.lore-title {
+.best.best-hover:hover .icon.icon-yellow+.best-title {
     color: #f1c40f;
 }
 
-.lore.lore-hover:hover .icon.icon-red+.lore-title {
+.best.best-hover:hover .icon.icon-red+.best-title {
     color: #FF3636;
 }
 
-.lore.lore-hover:hover .icon.icon-orange+.lore-title {
+.best.best-hover:hover .icon.icon-orange+.best-title {
     color: #f96332;
 }
 
-.lore.lore-hover:hover .icon.icon-green+.lore-title {
+.best.best-hover:hover .icon.icon-green+.best-title {
     color: #18ff0f;
 }
 
-.lore .icon {
+.best .icon {
     color: #888888;
     transition: transform .4s, box-shadow .4s;
     text-align: center;
 }
 
-.lore .icon>i {
+.best .icon>i {
     font-size: 3em;
 }
 
-.lore .icon.icon-circle {
+.best .icon.icon-circle {
     max-width: 80px;
     width: 80px;
     height: 80px;
@@ -98,76 +121,76 @@
     position: relative;
 }
 
-.lore .icon.icon-circle i {
+.best .icon.icon-circle i {
     line-height: 2.7;
 }
 
-.lore .lore-title {
+.best .best-title {
     margin: 25px 0 15px;
     padding: 0 15px;
     color: #2c2c2c;
 }
 
-.lore p {
+.best p {
     color: #888888;
     padding: 0 15px;
     font-size: 1.1em;
 }
 
-.lore-horizontal {
+.best-horizontal {
     text-align: left !important;
 }
 
-.lore-horizontal .icon {
+.best-horizontal .icon {
     float: left;
     margin-top: 23px;
     margin-right: 10px;
 }
 
-.lore-horizontal .icon>i {
+.best-horizontal .icon>i {
     font-size: 2em;
 }
 
-.lore-horizontal .icon.icon-circle {
+.best-horizontal .icon.icon-circle {
     width: 65px;
     height: 65px;
     max-width: 65px;
     margin-top: 8px;
 }
 
-.lore-horizontal .icon.icon-circle i {
+.best-horizontal .icon.icon-circle i {
     display: table;
     margin: 0 auto;
     line-height: 3.5;
     font-size: 1.9em;
 }
 
-.lore-horizontal .description {
+.best-horizontal .description {
     overflow: hidden;
 }
 
-.lore-horizontal {
+.best-horizontal {
     text-align: left !important;
 }
 
-.lore-horizontal .icon {
+.best-horizontal .icon {
     float: left;
     margin-top: 23px;
     margin-right: 10px;
 }
 
-.lore-horizontal .icon>i {
+.best-horizontal .icon>i {
     font-size: 2em;
 }
 
-.lore-horizontal .icon.icon-circle {
+.best-horizontal .icon.icon-circle {
     width: 65px;
     height: 65px;
     max-width: 65px;
     margin-top: 8px;
 }
 
-.lore-horizontal .icon.icon-circle i {
+.best-horizontal .icon.icon-circle i {
     display: table;
     margin: 0 auto;
     line-height: 3.5;
@@ -270,6 +293,10 @@
     width: 100%;
     height: 100%;
     position: absolute;
+}
+
+.contact-form .description p small {
+    font-size: 14px !important;
 }
 
 .marker-map {
