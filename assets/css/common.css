@@ -488,6 +488,27 @@ a:focus {
     outline: 0px;
 }
 
+.owl-carousel h5,
+.owl-carousel .h5 {
+    font-size: 1.3rem;
+}
+
+.font-weight-600 {
+    font-weight: 600 !important;
+}
+
+.font-weight-500 {
+    font-weight: 500 !important;
+}
+
+.font-weight-400 {
+    font-weight: 400 !important;
+}
+
+.font-weight-300 {
+    font-weight: 300 !important;
+}
+
 label {
     font-weight: 400;
     font-size: 15px;
@@ -704,4 +725,177 @@ label {
     /* Firefox 18- */
     color: #3a3d3c;
     opacity: .8;
+}
+
+
+/* head marquee */
+
+.title-item {
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.title-item .title-item-inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+.title-item .title-item-inner .title-custom-header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 135px;
+    line-height: 1.1em;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    text-align: center;
+    color: #ffffff"
+
+}
+
+.title-item .title-item-inner .title-text-marquee {
+    position: relative;
+    white-space: nowrap;
+    color: #212121;
+    font-size: 285px;
+    line-height: 1em;
+    font-weight: 600;
+    letter-spacing: -.05em;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.25);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.title-text-marquee .title-marquee-element {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    z-index: -1;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+    /* Starting position */
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    /* Apply animation to this element */
+    -moz-animation: scrolling 20s linear infinite;
+    -webkit-animation: scrolling 20s linear infinite;
+    animation: scrolling 20s linear infinite;
+}
+
+
+/* Move it (define the animation) */
+
+@-moz-keyframes scrolling {
+    0% {
+        -moz-transform: translateX(90%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+    }
+}
+
+@-webkit-keyframes scrolling {
+    0% {
+        -webkit-transform: translateX(90%);
+    }
+    100% {
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes scrolling {
+    0% {
+        -moz-transform: translateX(90%);
+        /* Firefox bug fix */
+        -webkit-transform: translateX(90%);
+        /* Firefox bug fix */
+        transform: translateX(90%);
+    }
+    100% {
+        -moz-transform: translateX(-100%);
+        /* Firefox bug fix */
+        -webkit-transform: translateX(-100%);
+        /* Firefox bug fix */
+        transform: translateX(-100%);
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .title-item .title-item-inner .title-custom-header {
+        font-size: 45px;
+    }
+    .title-item .title-item-inner .title-text-marquee {
+        font-size: 125px;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; (iPhone) */
+    .title-item .title-item-inner .title-custom-header {
+        font-size: 55px;
+    }
+    .title-item .title-item-inner .title-text-marquee {
+        font-size: 145px;
+    }
+}
+
+@media (min-width:576px) {
+    .title-item .title-item-inner .title-custom-header {
+        font-size: 75px;
+    }
+    .title-item .title-item-inner .title-text-marquee {
+        font-size: 165px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .title-item .title-item-inner .title-custom-header {
+        font-size: 85px;
+    }
+    .title-item .title-item-inner .title-text-marquee {
+        font-size: 185px;
+    }
+}
+
+@media (min-width:992px) {
+    .title-item .title-item-inner .title-custom-header {
+        font-size: 105px;
+    }
+    .title-item .title-item-inner .title-text-marquee {
+        font-size: 205px;
+    }
+}
+
+@media (min-width:1200px) {
+    .title-item .title-item-inner .title-custom-header {
+        font-size: 115px;
+    }
+    .title-item .title-item-inner .title-text-marquee {
+        font-size: 245px;
+    }
 }
