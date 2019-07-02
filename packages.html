@@ -51,7 +51,9 @@
             <div class="container">
                 <div class="navbar-translate">
                     <a class="navbar-brand" href="#home">
-                        <h6 style="line-height: 0; margin:0; padding:0">DAS HOLIDAYS</h6>
+                        <h6 class="text-shadow-logo">
+                            <img src="./assets/img/dasholidays.png" style="margin-top:-3px;" height="32" width="32"> DAS HOLIDAYS
+                        </h6>
                     </a>
                     <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
 								<span class="navbar-toggler-bar bar1"></span>
@@ -181,17 +183,17 @@
     </div>
 
     <div class="wrapper">
-        <div class="page-header page-header-small clear-filter w-100 h-100">
-            <div class="page-header-image parallax" style="background-image:url('./assets/img/fort/cheenavala1.jpg')">
+        <div class="page-header page-header-lg clear-filter" filter-color="green">
+
+            <div class="page-header-image" data-parallax="true" style="background-image: url('./assets/img/gallery/neelakurinji.jpg'); transform: translate3d(0px, 15.6667px, 0px);">
             </div>
-            <div class="title-item ">
-                <div class="title-item-inner">
-                    <h1 class="title-custom-header">
-                        Beautiful Kochi</h1>
-                    <div class="title-text-marquee">
-                        <span class="title-marquee-element title-original-text">FortKochi</span>
-                    </div>
+            <div class="container">
+                <div class="content-center brand">
+                    <img class="n-logo" src="./assets/img/dasholidays-logo.png" height="256px" alt="">
                 </div>
+                <h6 class="category category-absolute">Designed by
+                    <a href="http://invisionapp.com/" target="_blank"><img src="./assets/img/invision-white-slim.png" class="invision-logo"></a>. Coded by
+                    <a href="https://www.creative-tim.com" target="_blank"><img src="./assets/img/creative-tim-white-slim2.png" class="creative-tim-logo"></a>.</h6>
             </div>
         </div>
     </div>
@@ -264,46 +266,10 @@
                         <!-- / .row -->
 
 
-                        <div class="row" id="packages">
+                        <div class="row d-flex align-items-stretch" id="packages">
                             <!-- package package -->
-                            <div class="col-xs-12 col-sm-6 col-lg-4 mb-5">
-                                <div class="package-package-card">
 
-                                    <!-- Image/Slider -->
-                                    <div class="package-image-wrapper">
-
-
-                                        <!-- package Actions (hover) -->
-                                        <span class="label label-red sale-label">1 day</span>
-                                        <a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>
-
-                                        <!-- package Main Image -->
-                                        <div class="package-p-slider" style="height: 280px;">
-                                            <a href="#s"><img src="./assets/img/package/kochipalam.jpeg" alt="package Image 1"></a>
-                                            <a href="#s"><img src="./assets/img/fort/fort.JPG" alt="package Image 6"></a>
-                                            <a href="#s"><img src="./assets/img/fort/vala-smal.jpg" alt="package Image 8"></a>
-                                        </div>
-                                    </div>
-
-                                    <!-- package Meta -->
-                                    <div class="package-meta">
-                                        <a href="#page">
-                                            <h4 class="package-name text-shadow-0">Fortkochi Ethenic Tour</h4>
-                                        </a>
-                                        <span class="package-sep"></span>
-                                        <p class="package-price">FortKochi - Mattancherry</p>
-                                    </div>
-                                    <div class="package-read text-center">
-                                        <a href="#read">
-                                            <h6>Read more</h6>
-                                        </a>
-                                    </div>
-
-
-                                </div>
-                                <!-- / .package-package-card -->
-                            </div>
-                            <!-- / .col-sm-3 -->
+                            <!-- / .package-package-card -->
 
 
                         </div>
@@ -412,7 +378,7 @@
                         images += '<a href="#s"><img src="./assets/img/' + element.img_path + img + '" alt="package Image 1"></a>'
                     });
                     $('#packages').append(
-                        '<div class="col-xs-12 col-sm-6 col-lg-4 mb-5"><div class="package-package-card"><div class="package-image-wrapper">' +
+                        '<div class="col-xs-12 col-sm-6 col-lg-4 mb-5 d-flex align-items-stretch"><div class="package-package-card"><div class="package-image-wrapper">' +
                         '<span class="label label-red sale-label">' + element.days + ' Days </span><a href="#" class="fav-btn"><span class="linea-basic-star"></span></a>' +
                         '<div class="package-p-slider" style="height: 280px;">' + images + '</div></div>' +
                         '<div class="package-meta"><a href="#page"><h4 class="package-name text-shadow-0">' + element.trip_name + '</h4></a>' +

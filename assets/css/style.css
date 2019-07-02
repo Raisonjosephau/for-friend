@@ -11,6 +11,17 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+body {
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+}
+
 .container {
     padding: 0px !important;
 }
@@ -376,9 +387,13 @@
 /* Package ends */
 
 
-/* Price Cards */
+/* package Cards */
 
-.card.card-price-tag .card-header {
+.card.card-package {
+    min-height: 460px;
+}
+
+.card.card-package .card-header {
     background-color: transparent;
     border-bottom: 0;
     background-color: transparent;
@@ -386,51 +401,51 @@
     padding: 0;
 }
 
-.card.card-price-tag .card-body .day-night {
+.card.card-package .card-body .day-night {
     font-weight: 500;
     font-size: 1em;
     color: #3498db;
 }
 
-.card.card-price-tag .card-image {
+.card.card-package .card-image {
     position: relative;
 }
 
-.card.card-price-tag .card-body .card-description {
+.card.card-package .card-body .card-description {
     font-weight: 500;
     font-size: 1em;
     color: #323232;
 }
 
-.card.card-price-tag .card-footer {
+.card.card-package .card-footer {
     padding: 0;
     margin-top: 15px;
     background-color: transparent;
     border: 0;
 }
 
-.card.card-price-tag .card-footer .package-link {
+.card.card-package .card-footer .package-link {
     margin: 0;
     line-height: 10px;
     padding: 0px;
     color: #2ecc71;
 }
 
-.card.card-price-tag .card-footer .stats.stats-right {
+.card.card-package .card-footer .stats.stats-right {
     float: right;
     line-height: 30px;
 }
 
-.card.card-price-tag .card-footer .stats span:first-child {
+.card.card-package .card-footer .stats span:first-child {
     margin-right: 30px;
 }
 
-.card.card-price-tag .card-title {
+.card.card-package .card-title {
     line-height: 1.5em;
     font-weight: 500;
 }
 
-.price_tag {
+.package_tag {
     position: absolute;
     left: 0;
     top: 27px;
@@ -449,7 +464,7 @@
 }
 
 
-/* Price card ends */
+/* package card ends */
 
 
 /* Dropdown */
