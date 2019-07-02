@@ -1,5 +1,15 @@
 /* Head custom styles */
 
+@font-face {
+    font-family: Playlist Script;
+    src: url('../fonts/Playlist/Playlist Script.otf');
+}
+
+h1.brand {
+    font-family: 'Playlist Script';
+    font-size: 6.2rem;
+}
+
 .title em {
     text-emphasis: none;
     text-orientation: unset;
@@ -7,6 +17,14 @@
     font-style: normal;
     color: #2ecc71;
     margin-right: 15px;
+}
+
+.logo-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 1;
+    left: 1;
 }
 
 p.info-desc {
@@ -70,6 +88,10 @@ textarea::-webkit-scrollbar-thumb {
 
 
 /* Modifying Navbars */
+
+.navbar {
+    margin-bottom: 10px !important;
+}
 
 .navbar.sticky-header {
     background: #DCE35B;
