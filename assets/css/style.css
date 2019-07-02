@@ -15,7 +15,7 @@
     padding: 0px !important;
 }
 
-.section span {
+.section span.line {
     width: 120px;
     height: 2px;
     background-color: #e1e1e1;
@@ -24,7 +24,7 @@
     margin-bottom: 18px;
 }
 
-.section span em {
+.section span.line em {
     width: 60px;
     height: 2px;
     background: #2ecc71;

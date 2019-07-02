@@ -4,7 +4,10 @@
 <head>
     <meta charset="utf-8" />
     <link rel="apple-touch-icon" sizes="76x76" href="">
-    <link rel="icon" type="image/png" href="">
+    <link rel="icon" type="image/png" href="./assets/img/dasholidays.png">
+    <meta name="description" content="Das Holidayas Perfect holidays around kerala" />
+    <meta name="keywords" content="kerala, tours, travel, vacation, holidays, hotels, trips, kochi, munnar, travel agency, travelling, expedia, trivago" />
+    <meta name="author" content="Das Holidays" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>FortKochi | Das Holidays</title>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
@@ -13,14 +16,10 @@
     <!-- CSS Files -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fontisto@v3.0.4/css/fontisto/fontisto.min.css">
-
-
     <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
     <link href="./assets/css/now-ui-kit.css?v=1.1.0" rel="stylesheet" />
-    <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="./assets/css/common.css" rel="stylesheet" />
     <link href="./assets/css/product.css" rel="stylesheet" />
-    <link href="./assets/css/price-list.css" rel="stylesheet" />
 </head>
 
 <body class="landing-page sidebar-collapse">
@@ -32,7 +31,7 @@
                 <div class="row d-flex align-items-center">
                     <div class="col-md-8 d-md-block d-none">
                         <p>Contact us on
-                            <a href="tel:+918089608979">+91 8089 608 979</a> or dastoursind@gmail.com</p>
+                            <a href="tel:+918089608979">+91 8089 608 979</a> or info@dasholidays.in</p>
                     </div>
                     <div class="col-md-4">
                         <div class="d-flex justify-content-md-end justify-content-between">
@@ -262,11 +261,11 @@
                             <div class="card-body" style="margin-top:20px">
                                 <!-- Tab panes -->
                                 <div class="tab-content">
-                                    <div class="tab-pane fade show active" id="homeS" role="tabpanel">
-                                        <h2>Luxury Holidays in Austraila : An Overview</h2>
-                                        <p>Amet turpis tristique, nec in aliquet dis amet, proin egestas in tempor, cras et dapibus, lectus pellentesque enim odio elementum eu tincidunt diam a et. Dapibus sed cum, aliquam cras egestas enim elit in mattis?
+                                    <div class="tab-pane fade show active text-shadow-0" id="homeS" role="tabpanel">
+                                        <h2>FortKochi</h2>
+                                        <p class="info-desc">Amet turpis tristique, nec in aliquet dis amet, proin egestas in tempor, cras et dapibus, lectus pellentesque enim odio elementum eu tincidunt diam a et. Dapibus sed cum, aliquam cras egestas enim elit in mattis?
                                             Scelerisque, ultrices mid! Lorem. Scelerisque? Pid cras, mattis vel.</p>
-                                        <p>porta, quis! Porttitor turpis cras, odio ultricies parturient pulvinar tempor, eu turpis enim dapibus diam tristique cursus egestas quis phasellus montes! Parturient porta purus quis scelerisque? </p>
+                                        <p class="info-desc">porta, quis! Porttitor turpis cras, odio ultricies parturient pulvinar tempor, eu turpis enim dapibus diam tristique cursus egestas quis phasellus montes! Parturient porta purus quis scelerisque? </p>
                                         <div class="td-do-list">
                                             <h2>Why we think you will love it?</h2>
                                             <ul>
@@ -275,6 +274,9 @@
                                                 <li><i class="icon-drive"></i><span class="text-darker">Self Drive,</span> porta, quis! Porttitor turpis cras, odio ultricies.</li>
                                             </ul>
                                         </div>
+
+                                        <blockquote>Suggested daily budget – 50-60 EUR / 52-62 USD (Note: This is a suggested budget assuming you’re staying in a hostel, eating out a little, cooking most of your meals, and using local transportation. Using the budget
+                                            tips below, you can always lower this number. However, if you stay in fancier accommodation or eat out more often, expect this to be higher!)</blockquote>
                                     </div>
                                 </div>
                             </div>
@@ -456,7 +458,7 @@
             <div class="col-lg-4 col-md-5 card" id="timeline">
                 <ul class="itenary-steps">
                     <li data-toggle-map="0">
-                        <div class="fi fi-plane"></div>
+                        <div class="fi fi-plane icon-invert"></div>
                         <div class="day-number">6:00 AM</div>
                         <div class="detail">
                             <p>Fort Kochi Beach <br>Sun rise, Sea bath, Chinese net and many more</p>
@@ -541,7 +543,7 @@
             <div class="copyright">
                 &copy;
                 <script>
-                </script>, Designed by Raison Joseph
+                </script>Designed by Raison Joseph
             </div>
         </div>
     </footer>
@@ -628,11 +630,11 @@
                 $('.sticky-header').addClass('active');
             }
             lastScrollTop = st;
-            myFunction();
+            stickyNavController();
 
         });
 
-        function myFunction() {
+        function stickyNavController() {
             if (window.pageYOffset >= sticky) {
                 $('#stick-nav').addClass("fixed-top");
             } else {

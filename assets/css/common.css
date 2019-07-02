@@ -1,3 +1,30 @@
+/* Head custom styles */
+
+.title em {
+    text-emphasis: none;
+    text-orientation: unset;
+    text-decoration: #212121;
+    font-style: normal;
+    color: #2ecc71;
+    margin-right: 15px;
+}
+
+p.info-desc {
+    font-size: 16px;
+}
+
+
+/* icon custom styles */
+
+.icon-invert {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+
 /* Style - Inpusts */
 
 .input-group-addon .now-ui-icons {
@@ -451,7 +478,7 @@ textarea::-webkit-scrollbar-thumb {
 }
 
 .text-shadow-0 {
-    text-shadow: .4px .5px .4px #bbb;
+    text-shadow: .3px .4px .3px #bbb;
 }
 
 .text-shadow-1 {
@@ -772,7 +799,7 @@ label {
     position: relative;
     white-space: nowrap;
     color: #212121;
-    font-size: 285px;
+    font-size: 345px;
     line-height: 1em;
     font-weight: 600;
     letter-spacing: -.05em;
@@ -801,9 +828,9 @@ label {
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
     /* Apply animation to this element */
-    -moz-animation: scrolling 20s linear infinite;
-    -webkit-animation: scrolling 20s linear infinite;
-    animation: scrolling 20s linear infinite;
+    -moz-animation: scrolling 25s linear infinite;
+    -webkit-animation: scrolling 25s linear infinite;
+    animation: scrolling 25s linear infinite;
 }
 
 
@@ -850,7 +877,11 @@ label {
         font-size: 45px;
     }
     .title-item .title-item-inner .title-text-marquee {
-        font-size: 125px;
+        font-size: 185px;
+    }
+    h1,
+    .h1 {
+        font-size: 2.8em;
     }
 }
 
@@ -860,7 +891,7 @@ label {
         font-size: 55px;
     }
     .title-item .title-item-inner .title-text-marquee {
-        font-size: 145px;
+        font-size: 215px;
     }
 }
 
@@ -869,7 +900,7 @@ label {
         font-size: 75px;
     }
     .title-item .title-item-inner .title-text-marquee {
-        font-size: 165px;
+        font-size: 235px;
     }
 }
 
@@ -878,7 +909,7 @@ label {
         font-size: 85px;
     }
     .title-item .title-item-inner .title-text-marquee {
-        font-size: 185px;
+        font-size: 265px;
     }
 }
 
@@ -887,7 +918,7 @@ label {
         font-size: 105px;
     }
     .title-item .title-item-inner .title-text-marquee {
-        font-size: 205px;
+        font-size: 295px;
     }
 }
 
@@ -896,6 +927,6 @@ label {
         font-size: 115px;
     }
     .title-item .title-item-inner .title-text-marquee {
-        font-size: 245px;
+        font-size: 315px;
     }
 }

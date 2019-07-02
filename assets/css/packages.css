@@ -72,19 +72,19 @@
 
 
 /* --------------------------------------------------
-	27.0 Shop (E-Commerce) Layout
+	27.0 package (E-Commerce) Layout
 -------------------------------------------------- */
 
 
-/* ---- 27.1 Shop Layout ---- */
+/* ---- 27.1 package Layout ---- */
 
-.shop-layout-options span {
+.package-layout-options span {
     font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 300;
     color: #111;
 }
 
-.section-shop {
+.section-package {
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -96,53 +96,53 @@
 }
 
 
-/* ---- 27.2 Shop package Card ---- */
+/* ---- 27.2 package package Card ---- */
 
-.shop-package-card {
+.package-package-card {
     display: block;
     max-width: 263px;
     border-top: 1px solid #f8f8f8;
     background: #fff;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.2);
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
 
-.shop-package-card:hover {
+.package-package-card:hover {
     -webkit-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     transform: translateY(-10px);
     box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
 }
 
-.shop-package-card:hover .package-image-wrapper .buy-btn {
+.package-package-card:hover .package-image-wrapper .buy-btn {
     top: 0;
 }
 
-.shop-package-card:hover .package-image-wrapper .fav-btn {
+.package-package-card:hover .package-image-wrapper .fav-btn {
     opacity: 1;
 }
 
-.shop-package-card:hover .package-image-wrapper .shop-p-slider-nav {
+.package-package-card:hover .package-image-wrapper .package-p-slider-nav {
     opacity: 1;
 }
 
-.shop-package-card .package-read {
+.package-package-card .package-read {
     color: lightgreen;
     min-height: 18px;
     padding: 5px 15px
 }
 
-.shop-package-card .package-read h6 {
+.package-package-card .package-read h6 {
     color: lightgreen;
 }
 
-.shop-package-card .package-image-wrapper {
+.package-package-card .package-image-wrapper {
     position: relative;
     overflow: hidden;
 }
 
-.shop-package-card .package-image-wrapper .sale-label {
+.package-package-card .package-image-wrapper .sale-label {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -150,10 +150,10 @@
     font-weight: 600;
     letter-spacing: 0.8px;
     background: #2ecc71;
-    z-index: 101;
+    z-index: 1;
 }
 
-.shop-package-card .package-image-wrapper .label {
+.package-package-card .package-image-wrapper .label {
     display: inline;
     padding: .3em .4em;
     padding-bottom: .1em;
@@ -166,7 +166,7 @@
     text-transform: uppercase
 }
 
-.shop-package-card .package-image-wrapper .buy-btn {
+.package-package-card .package-image-wrapper .buy-btn {
     display: inline-block;
     position: absolute;
     top: -45px;
@@ -182,19 +182,19 @@
     z-index: 100;
 }
 
-.shop-package-card .package-image-wrapper .buy-btn:hover {
+.package-package-card .package-image-wrapper .buy-btn:hover {
     text-decoration: none;
     background: #3f3f3f;
 }
 
-.shop-package-card .package-image-wrapper .buy-btn span {
+.package-package-card .package-image-wrapper .buy-btn span {
     display: inline-block;
     padding-top: 11px;
     font-size: 22px;
     color: #fff;
 }
 
-.shop-package-card .package-image-wrapper .fav-btn {
+.package-package-card .package-image-wrapper .fav-btn {
     display: inline-block;
     position: absolute;
     bottom: 10px;
@@ -207,13 +207,13 @@
     z-index: 100;
 }
 
-.shop-package-card .package-image-wrapper .fav-btn:hover {
+.package-package-card .package-image-wrapper .fav-btn:hover {
     -webkit-transform: rotate(145deg);
     -ms-transform: rotate(145deg);
     transform: rotate(145deg);
 }
 
-.shop-package-card .package-image-wrapper .shop-p-slider-nav {
+.package-package-card .package-image-wrapper .package-p-slider-nav {
     position: absolute;
     top: 50%;
     width: 45px;
@@ -229,39 +229,39 @@
     transition: background 0.35s, color 0.35s, opacity 0.5s;
 }
 
-.shop-package-card .package-image-wrapper .shop-p-slider-nav i {
+.package-package-card .package-image-wrapper .package-p-slider-nav i {
     display: inline-block;
     padding-top: 5px;
     font-size: 16px;
 }
 
-.shop-package-card .package-image-wrapper .shop-p-slider {
+.package-package-card .package-image-wrapper .package-p-slider {
     height: 280px !important;
 }
 
-.shop-package-card .package-image-wrapper .shop-p-slider-nav:hover {
+.package-package-card .package-image-wrapper .package-p-slider-nav:hover {
     background: #111;
     color: #ececec;
 }
 
-.shop-package-card .package-image-wrapper .shop-p-slider-nav:focus {
+.package-package-card .package-image-wrapper .package-p-slider-nav:focus {
     outline: none;
 }
 
-.shop-package-card .package-image-wrapper .shop-p-slider-nav-right {
+.package-package-card .package-image-wrapper .package-p-slider-nav-right {
     right: 0;
 }
 
-.shop-package-card .package-image-wrapper .shop-p-slider-nav-left {
+.package-package-card .package-image-wrapper .package-p-slider-nav-left {
     left: 0;
 }
 
-.shop-package-card .package-meta {
+.package-package-card .package-meta {
     text-align: center;
 }
 
-.shop-package-card .package-meta .package-name,
-.shop-package-card .package-meta .package-price {
+.package-package-card .package-meta .package-name,
+.package-package-card .package-meta .package-price {
     display: block;
     padding-bottom: 1px;
     font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
@@ -271,17 +271,17 @@
     color: #111;
 }
 
-.shop-package-card .package-meta .package-name {
+.package-package-card .package-meta .package-name {
     font-size: 1.2em;
     font-weight: 500;
 }
 
-.shop-package-card .package-meta .package-price {
+.package-package-card .package-meta .package-price {
     padding-top: 12px;
     letter-spacing: 1.5px;
 }
 
-.shop-package-card .package-meta .package-sep {
+.package-package-card .package-meta .package-sep {
     display: block;
     margin: 0 auto;
     width: 50px;
@@ -289,46 +289,46 @@
     background: #ccc;
 }
 
-.shop-package-card a:hover {
+.package-package-card a:hover {
     text-decoration: none;
     color: inherit;
 }
 
-.shop-package-card a:focus {
+.package-package-card a:focus {
     text-decoration: none;
     color: inherit;
 }
 
 
-/* ---- 27.3 Shop Sidebar - (horizontal) ---- */
+/* ---- 27.3 package Sidebar - (horizontal) ---- */
 
-.shop-sidebar,
-.shop-sidebar-vertical {
+.package-sidebar,
+.package-sidebar-vertical {
     padding-top: 75px;
 }
 
-.shop-sidebar .shop-widget .header-widget,
-.shop-sidebar-vertical .shop-widget .header-widget {
+.package-sidebar .package-widget .header-widget,
+.package-sidebar-vertical .package-widget .header-widget {
     padding-bottom: 18px;
     margin-bottom: 30px;
     border-bottom: 1px solid #ccc;
     font-size: 1.4em !important
 }
 
-.shop-sidebar .shop-widget .cart-item,
-.shop-sidebar-vertical .shop-widget .cart-item {
+.package-sidebar .package-widget .cart-item,
+.package-sidebar-vertical .package-widget .cart-item {
     padding-bottom: 15px;
     display: table;
 }
 
-.shop-sidebar .shop-widget .cart-item .p-thumb,
-.shop-sidebar-vertical .shop-widget .cart-item .p-thumb {
+.package-sidebar .package-widget .cart-item .p-thumb,
+.package-sidebar-vertical .package-widget .cart-item .p-thumb {
     float: left;
     margin-right: 15px;
 }
 
-.shop-sidebar .shop-widget .cart-item p,
-.shop-sidebar-vertical .shop-widget .cart-item p {
+.package-sidebar .package-widget .cart-item p,
+.package-sidebar-vertical .package-widget .cart-item p {
     line-height: 21px;
     font-weight: 500;
     display: table-cell;
@@ -336,183 +336,183 @@
     max-width: 132px;
 }
 
-.shop-sidebar .shop-widget .cart-item .cp-name,
-.shop-sidebar-vertical .shop-widget .cart-item .cp-na {
+.package-sidebar .package-widget .cart-item .cp-name,
+.package-sidebar-vertical .package-widget .cart-item .cp-na {
     letter-spacing: 1px;
     display: table-cell;
     vertical-align: middle;
     color: #777;
 }
 
-.shop-sidebar .shop-widget .cart-item .cp-name:hover,
-.shop-sidebar-vertical .shop-widget .cart-item .cp-name:hover {
+.package-sidebar .package-widget .cart-item .cp-name:hover,
+.package-sidebar-vertical .package-widget .cart-item .cp-name:hover {
     color: #111;
 }
 
-.shop-sidebar .shop-widget .cart-item .cp-price,
-.shop-sidebar-vertical .shop-widget .cart-item .cp-price {
+.package-sidebar .package-widget .cart-item .cp-price,
+.package-sidebar-vertical .package-widget .cart-item .cp-price {
     font-size: 12px;
     letter-spacing: 1px;
     color: #999;
 }
 
-.shop-sidebar .shop-widget .cart-item .cart-remove-btn,
-.shop-sidebar-vertical .shop-widget .cart-item .cart-remove-btn {
+.package-sidebar .package-widget .cart-item .cart-remove-btn,
+.package-sidebar-vertical .package-widget .cart-item .cart-remove-btn {
     float: right;
     color: #777;
 }
 
-.shop-sidebar .shop-widget .cart-item .cart-remove-btn:hover,
-.shop-sidebar-vertical .shop-widget .cart-item .cart-remove-btn:hover {
+.package-sidebar .package-widget .cart-item .cart-remove-btn:hover,
+.package-sidebar-vertical .package-widget .cart-item .cart-remove-btn:hover {
     color: #111;
 }
 
-.shop-sidebar .shop-widget .cart-item .cart-remove-btn:focus,
-.shop-sidebar-vertical .shop-widget .cart-item .cart-remove-btn:focus {
+.package-sidebar .package-widget .cart-item .cart-remove-btn:focus,
+.package-sidebar-vertical .package-widget .cart-item .cart-remove-btn:focus {
     text-decoration: none;
 }
 
-.shop-sidebar .shop-widget .cw-subtotal h6,
-.shop-sidebar-vertical .shop-widget .cw-subtotal h6,
-.shop-sidebar .shop-widget .cw-subtotal .progress-group .progress-title,
-.progress-group .shop-sidebar .shop-widget .cw-subtotal .progress-title,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .progress-group .progress-title,
-.progress-group .shop-sidebar-vertical .shop-widget .cw-subtotal .progress-title,
-.shop-sidebar .shop-widget .cw-subtotal .progress-group .progress-value,
-.progress-group .shop-sidebar .shop-widget .cw-subtotal .progress-value,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .progress-group .progress-value,
-.progress-group .shop-sidebar-vertical .shop-widget .cw-subtotal .progress-value,
-.shop-sidebar .shop-widget .cw-subtotal .accordions-1 .panel .panel-heading .panel-title,
-.accordions-1 .panel .panel-heading .shop-sidebar .shop-widget .cw-subtotal .panel-title,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .accordions-1 .panel .panel-heading .panel-title,
-.accordions-1 .panel .panel-heading .shop-sidebar-vertical .shop-widget .cw-subtotal .panel-title,
-.shop-sidebar .shop-widget .cw-subtotal .footer-social-links ul li,
-.footer-social-links ul .shop-sidebar .shop-widget .cw-subtotal li,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .footer-social-links ul li,
-.footer-social-links ul .shop-sidebar-vertical .shop-widget .cw-subtotal li,
-.shop-sidebar .shop-widget .cw-subtotal .footer-contact .contact-info .show-info-link,
-.footer-contact .contact-info .shop-sidebar .shop-widget .cw-subtotal .show-info-link,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .footer-contact .contact-info .show-info-link,
-.footer-contact .contact-info .shop-sidebar-vertical .shop-widget .cw-subtotal .show-info-link,
-.shop-sidebar .shop-widget .cw-subtotal .footer-contact .contact-info address ul li .adr-heading,
-.footer-contact .contact-info address ul li .shop-sidebar .shop-widget .cw-subtotal .adr-heading,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .footer-contact .contact-info address ul li .adr-heading,
-.footer-contact .contact-info address ul li .shop-sidebar-vertical .shop-widget .cw-subtotal .adr-heading,
-.shop-sidebar .shop-widget .cw-subtotal .footer-contact .contact-info address .show-map,
-.footer-contact .contact-info address .shop-sidebar .shop-widget .cw-subtotal .show-map,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .footer-contact .contact-info address .show-map,
-.footer-contact .contact-info address .shop-sidebar-vertical .shop-widget .cw-subtotal .show-map,
-.shop-sidebar .shop-widget .cw-subtotal .footer-litle address ul li .adr-group .adr-heading,
-.footer-litle address ul li .adr-group .shop-sidebar .shop-widget .cw-subtotal .adr-heading,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .footer-litle address ul li .adr-group .adr-heading,
-.footer-litle address ul li .adr-group .shop-sidebar-vertical .shop-widget .cw-subtotal .adr-heading,
-.shop-sidebar .shop-widget .cw-subtotal .ft-cards .ft-item a,
-.ft-cards .ft-item .shop-sidebar .shop-widget .cw-subtotal a,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .ft-cards .ft-item a,
-.ft-cards .ft-item .shop-sidebar-vertical .shop-widget .cw-subtotal a,
-.shop-sidebar .shop-widget .cw-subtotal .ft-cards-2 .ft-card-item .ft-content .link-btn,
-.ft-cards-2 .ft-card-item .ft-content .shop-sidebar .shop-widget .cw-subtotal .link-btn,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .ft-cards-2 .ft-card-item .ft-content .link-btn,
-.ft-cards-2 .ft-card-item .ft-content .shop-sidebar-vertical .shop-widget .cw-subtotal .link-btn,
-.shop-sidebar .shop-widget .cw-subtotal .ft-boxed-hover ul li .hover-content a,
-.ft-boxed-hover ul li .hover-content .shop-sidebar .shop-widget .cw-subtotal a,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .ft-boxed-hover ul li .hover-content a,
-.ft-boxed-hover ul li .hover-content .shop-sidebar-vertical .shop-widget .cw-subtotal a,
-.shop-sidebar .shop-widget .cw-subtotal .circles-counters .circle-item .circle-text,
-.circles-counters .circle-item .shop-sidebar .shop-widget .cw-subtotal .circle-text,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .circles-counters .circle-item .circle-text,
-.circles-counters .circle-item .shop-sidebar-vertical .shop-widget .cw-subtotal .circle-text,
-.shop-sidebar .shop-widget .cw-subtotal .circles-counters-dark-bg .circle-item .circle-text,
-.circles-counters-dark-bg .circle-item .shop-sidebar .shop-widget .cw-subtotal .circle-text,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .circles-counters-dark-bg .circle-item .circle-text,
-.circles-counters-dark-bg .circle-item .shop-sidebar-vertical .shop-widget .cw-subtotal .circle-text,
-.shop-sidebar .shop-widget .cw-subtotal .number-counters .count-wrapper .count-item .count-text,
-.number-counters .count-wrapper .count-item .shop-sidebar .shop-widget .cw-subtotal .count-text,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .number-counters .count-wrapper .count-item .count-text,
-.number-counters .count-wrapper .count-item .shop-sidebar-vertical .shop-widget .cw-subtotal .count-text,
-.shop-sidebar .shop-widget .cw-subtotal .number-counters-dark-bg .count-wrapper .count-item .count-text,
-.number-counters-dark-bg .count-wrapper .count-item .shop-sidebar .shop-widget .cw-subtotal .count-text,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .number-counters-dark-bg .count-wrapper .count-item .count-text,
-.number-counters-dark-bg .count-wrapper .count-item .shop-sidebar-vertical .shop-widget .cw-subtotal .count-text,
-.shop-sidebar .shop-widget .cw-subtotal .project-nav nav .nav-btns li a,
-.project-nav nav .nav-btns li .shop-sidebar .shop-widget .cw-subtotal a,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .project-nav nav .nav-btns li a,
-.project-nav nav .nav-btns li .shop-sidebar-vertical .shop-widget .cw-subtotal a,
-.shop-sidebar .shop-widget .cw-subtotal .pricing-tables .p-table .desc,
-.pricing-tables .p-table .shop-sidebar .shop-widget .cw-subtotal .desc,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .pricing-tables .p-table .desc,
-.pricing-tables .p-table .shop-sidebar-vertical .shop-widget .cw-subtotal .desc,
-.shop-sidebar .shop-widget .cw-subtotal .blog-post-nav .prev-btn,
-.blog-post-nav .shop-sidebar .shop-widget .cw-subtotal .prev-btn,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .blog-post-nav .prev-btn,
-.blog-post-nav .shop-sidebar-vertical .shop-widget .cw-subtotal .prev-btn,
-.shop-sidebar .shop-widget .cw-subtotal .blog-post-nav .next-btn,
-.blog-post-nav .shop-sidebar .shop-widget .cw-subtotal .next-btn,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .blog-post-nav .next-btn,
-.blog-post-nav .shop-sidebar-vertical .shop-widget .cw-subtotal .next-btn,
-.sidebar .tags-widget .tag-list li .shop-sidebar .shop-widget .cw-subtotal a,
-.sidebar .tags-widget .tag-list li .shop-sidebar-vertical .shop-widget .cw-subtotal a,
-.shop-sidebar .shop-widget .cw-subtotal .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span,
-.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .shop-sidebar .shop-widget .cw-subtotal span,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span,
-.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .shop-sidebar-vertical .shop-widget .cw-subtotal span,
-.shop-sidebar .shop-widget .cw-subtotal .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a,
-.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .shop-sidebar .shop-widget .cw-subtotal a,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a,
-.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .shop-sidebar-vertical .shop-widget .cw-subtotal a,
-.shop-sidebar .shop-widget .cw-subtotal .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p,
-.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .shop-sidebar .shop-widget .cw-subtotal p,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p,
-.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .shop-sidebar-vertical .shop-widget .cw-subtotal p,
-.shop-sidebar .shop-widget .cw-subtotal .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a,
-.contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .shop-sidebar .shop-widget .cw-subtotal a,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a,
-.contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .shop-sidebar-vertical .shop-widget .cw-subtotal a,
-.shop-sidebar .shop-widget .cw-subtotal .landing-hero .heading-wrapper .cta-btn,
-.landing-hero .heading-wrapper .shop-sidebar .shop-widget .cw-subtotal .cta-btn,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .landing-hero .heading-wrapper .cta-btn,
-.landing-hero .heading-wrapper .shop-sidebar-vertical .shop-widget .cw-subtotal .cta-btn,
-.shop-sidebar .shop-widget .cw-subtotal .filter-widget label,
-.shop-sidebar .filter-widget .shop-widget .cw-subtotal label,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .filter-widget label,
-.shop-sidebar-vertical .filter-widget .shop-widget .cw-subtotal label,
-.shop-sidebar .shop-widget .cw-subtotal .tags-widget .tag-list li a,
-.shop-sidebar .tags-widget .tag-list li .shop-widget .cw-subtotal a,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .tags-widget .tag-list li a,
-.shop-sidebar-vertical .tags-widget .tag-list li .shop-widget .cw-subtotal a,
-.shop-sidebar .shop-widget .cw-subtotal .checkout-table tbody tr td:first-child,
-.checkout-table tbody tr .shop-sidebar .shop-widget .cw-subtotal td:first-child,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .checkout-table tbody tr td:first-child,
-.checkout-table tbody tr .shop-sidebar-vertical .shop-widget .cw-subtotal td:first-child,
-.shop-sidebar .shop-widget .cw-subtotal .prod-reviews .tp-review .tpr-name,
-.prod-reviews .tp-review .shop-sidebar .shop-widget .cw-subtotal .tpr-name,
-.shop-sidebar-vertical .shop-widget .cw-subtotal .prod-reviews .tp-review .tpr-name,
-.prod-reviews .tp-review .shop-sidebar-vertical .shop-widget .cw-subtotal .tpr-name {
+.package-sidebar .package-widget .cw-subtotal h6,
+.package-sidebar-vertical .package-widget .cw-subtotal h6,
+.package-sidebar .package-widget .cw-subtotal .progress-group .progress-title,
+.progress-group .package-sidebar .package-widget .cw-subtotal .progress-title,
+.package-sidebar-vertical .package-widget .cw-subtotal .progress-group .progress-title,
+.progress-group .package-sidebar-vertical .package-widget .cw-subtotal .progress-title,
+.package-sidebar .package-widget .cw-subtotal .progress-group .progress-value,
+.progress-group .package-sidebar .package-widget .cw-subtotal .progress-value,
+.package-sidebar-vertical .package-widget .cw-subtotal .progress-group .progress-value,
+.progress-group .package-sidebar-vertical .package-widget .cw-subtotal .progress-value,
+.package-sidebar .package-widget .cw-subtotal .accordions-1 .panel .panel-heading .panel-title,
+.accordions-1 .panel .panel-heading .package-sidebar .package-widget .cw-subtotal .panel-title,
+.package-sidebar-vertical .package-widget .cw-subtotal .accordions-1 .panel .panel-heading .panel-title,
+.accordions-1 .panel .panel-heading .package-sidebar-vertical .package-widget .cw-subtotal .panel-title,
+.package-sidebar .package-widget .cw-subtotal .footer-social-links ul li,
+.footer-social-links ul .package-sidebar .package-widget .cw-subtotal li,
+.package-sidebar-vertical .package-widget .cw-subtotal .footer-social-links ul li,
+.footer-social-links ul .package-sidebar-vertical .package-widget .cw-subtotal li,
+.package-sidebar .package-widget .cw-subtotal .footer-contact .contact-info .show-info-link,
+.footer-contact .contact-info .package-sidebar .package-widget .cw-subtotal .show-info-link,
+.package-sidebar-vertical .package-widget .cw-subtotal .footer-contact .contact-info .show-info-link,
+.footer-contact .contact-info .package-sidebar-vertical .package-widget .cw-subtotal .show-info-link,
+.package-sidebar .package-widget .cw-subtotal .footer-contact .contact-info address ul li .adr-heading,
+.footer-contact .contact-info address ul li .package-sidebar .package-widget .cw-subtotal .adr-heading,
+.package-sidebar-vertical .package-widget .cw-subtotal .footer-contact .contact-info address ul li .adr-heading,
+.footer-contact .contact-info address ul li .package-sidebar-vertical .package-widget .cw-subtotal .adr-heading,
+.package-sidebar .package-widget .cw-subtotal .footer-contact .contact-info address .show-map,
+.footer-contact .contact-info address .package-sidebar .package-widget .cw-subtotal .show-map,
+.package-sidebar-vertical .package-widget .cw-subtotal .footer-contact .contact-info address .show-map,
+.footer-contact .contact-info address .package-sidebar-vertical .package-widget .cw-subtotal .show-map,
+.package-sidebar .package-widget .cw-subtotal .footer-litle address ul li .adr-group .adr-heading,
+.footer-litle address ul li .adr-group .package-sidebar .package-widget .cw-subtotal .adr-heading,
+.package-sidebar-vertical .package-widget .cw-subtotal .footer-litle address ul li .adr-group .adr-heading,
+.footer-litle address ul li .adr-group .package-sidebar-vertical .package-widget .cw-subtotal .adr-heading,
+.package-sidebar .package-widget .cw-subtotal .ft-cards .ft-item a,
+.ft-cards .ft-item .package-sidebar .package-widget .cw-subtotal a,
+.package-sidebar-vertical .package-widget .cw-subtotal .ft-cards .ft-item a,
+.ft-cards .ft-item .package-sidebar-vertical .package-widget .cw-subtotal a,
+.package-sidebar .package-widget .cw-subtotal .ft-cards-2 .ft-card-item .ft-content .link-btn,
+.ft-cards-2 .ft-card-item .ft-content .package-sidebar .package-widget .cw-subtotal .link-btn,
+.package-sidebar-vertical .package-widget .cw-subtotal .ft-cards-2 .ft-card-item .ft-content .link-btn,
+.ft-cards-2 .ft-card-item .ft-content .package-sidebar-vertical .package-widget .cw-subtotal .link-btn,
+.package-sidebar .package-widget .cw-subtotal .ft-boxed-hover ul li .hover-content a,
+.ft-boxed-hover ul li .hover-content .package-sidebar .package-widget .cw-subtotal a,
+.package-sidebar-vertical .package-widget .cw-subtotal .ft-boxed-hover ul li .hover-content a,
+.ft-boxed-hover ul li .hover-content .package-sidebar-vertical .package-widget .cw-subtotal a,
+.package-sidebar .package-widget .cw-subtotal .circles-counters .circle-item .circle-text,
+.circles-counters .circle-item .package-sidebar .package-widget .cw-subtotal .circle-text,
+.package-sidebar-vertical .package-widget .cw-subtotal .circles-counters .circle-item .circle-text,
+.circles-counters .circle-item .package-sidebar-vertical .package-widget .cw-subtotal .circle-text,
+.package-sidebar .package-widget .cw-subtotal .circles-counters-dark-bg .circle-item .circle-text,
+.circles-counters-dark-bg .circle-item .package-sidebar .package-widget .cw-subtotal .circle-text,
+.package-sidebar-vertical .package-widget .cw-subtotal .circles-counters-dark-bg .circle-item .circle-text,
+.circles-counters-dark-bg .circle-item .package-sidebar-vertical .package-widget .cw-subtotal .circle-text,
+.package-sidebar .package-widget .cw-subtotal .number-counters .count-wrapper .count-item .count-text,
+.number-counters .count-wrapper .count-item .package-sidebar .package-widget .cw-subtotal .count-text,
+.package-sidebar-vertical .package-widget .cw-subtotal .number-counters .count-wrapper .count-item .count-text,
+.number-counters .count-wrapper .count-item .package-sidebar-vertical .package-widget .cw-subtotal .count-text,
+.package-sidebar .package-widget .cw-subtotal .number-counters-dark-bg .count-wrapper .count-item .count-text,
+.number-counters-dark-bg .count-wrapper .count-item .package-sidebar .package-widget .cw-subtotal .count-text,
+.package-sidebar-vertical .package-widget .cw-subtotal .number-counters-dark-bg .count-wrapper .count-item .count-text,
+.number-counters-dark-bg .count-wrapper .count-item .package-sidebar-vertical .package-widget .cw-subtotal .count-text,
+.package-sidebar .package-widget .cw-subtotal .project-nav nav .nav-btns li a,
+.project-nav nav .nav-btns li .package-sidebar .package-widget .cw-subtotal a,
+.package-sidebar-vertical .package-widget .cw-subtotal .project-nav nav .nav-btns li a,
+.project-nav nav .nav-btns li .package-sidebar-vertical .package-widget .cw-subtotal a,
+.package-sidebar .package-widget .cw-subtotal .pricing-tables .p-table .desc,
+.pricing-tables .p-table .package-sidebar .package-widget .cw-subtotal .desc,
+.package-sidebar-vertical .package-widget .cw-subtotal .pricing-tables .p-table .desc,
+.pricing-tables .p-table .package-sidebar-vertical .package-widget .cw-subtotal .desc,
+.package-sidebar .package-widget .cw-subtotal .blog-post-nav .prev-btn,
+.blog-post-nav .package-sidebar .package-widget .cw-subtotal .prev-btn,
+.package-sidebar-vertical .package-widget .cw-subtotal .blog-post-nav .prev-btn,
+.blog-post-nav .package-sidebar-vertical .package-widget .cw-subtotal .prev-btn,
+.package-sidebar .package-widget .cw-subtotal .blog-post-nav .next-btn,
+.blog-post-nav .package-sidebar .package-widget .cw-subtotal .next-btn,
+.package-sidebar-vertical .package-widget .cw-subtotal .blog-post-nav .next-btn,
+.blog-post-nav .package-sidebar-vertical .package-widget .cw-subtotal .next-btn,
+.sidebar .tags-widget .tag-list li .package-sidebar .package-widget .cw-subtotal a,
+.sidebar .tags-widget .tag-list li .package-sidebar-vertical .package-widget .cw-subtotal a,
+.package-sidebar .package-widget .cw-subtotal .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .package-sidebar .package-widget .cw-subtotal span,
+.package-sidebar-vertical .package-widget .cw-subtotal .contact-1 .contact-wrapper .contact-info-wrapper address .address-group span,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .package-sidebar-vertical .package-widget .cw-subtotal span,
+.package-sidebar .package-widget .cw-subtotal .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .package-sidebar .package-widget .cw-subtotal a,
+.package-sidebar-vertical .package-widget .cw-subtotal .contact-1 .contact-wrapper .contact-info-wrapper address .address-group a,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .package-sidebar-vertical .package-widget .cw-subtotal a,
+.package-sidebar .package-widget .cw-subtotal .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .package-sidebar .package-widget .cw-subtotal p,
+.package-sidebar-vertical .package-widget .cw-subtotal .contact-1 .contact-wrapper .contact-info-wrapper address .address-group p,
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group .package-sidebar-vertical .package-widget .cw-subtotal p,
+.package-sidebar .package-widget .cw-subtotal .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a,
+.contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .package-sidebar .package-widget .cw-subtotal a,
+.package-sidebar-vertical .package-widget .cw-subtotal .contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a,
+.contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link .package-sidebar-vertical .package-widget .cw-subtotal a,
+.package-sidebar .package-widget .cw-subtotal .landing-hero .heading-wrapper .cta-btn,
+.landing-hero .heading-wrapper .package-sidebar .package-widget .cw-subtotal .cta-btn,
+.package-sidebar-vertical .package-widget .cw-subtotal .landing-hero .heading-wrapper .cta-btn,
+.landing-hero .heading-wrapper .package-sidebar-vertical .package-widget .cw-subtotal .cta-btn,
+.package-sidebar .package-widget .cw-subtotal .filter-widget label,
+.package-sidebar .filter-widget .package-widget .cw-subtotal label,
+.package-sidebar-vertical .package-widget .cw-subtotal .filter-widget label,
+.package-sidebar-vertical .filter-widget .package-widget .cw-subtotal label,
+.package-sidebar .package-widget .cw-subtotal .tags-widget .tag-list li a,
+.package-sidebar .tags-widget .tag-list li .package-widget .cw-subtotal a,
+.package-sidebar-vertical .package-widget .cw-subtotal .tags-widget .tag-list li a,
+.package-sidebar-vertical .tags-widget .tag-list li .package-widget .cw-subtotal a,
+.package-sidebar .package-widget .cw-subtotal .checkout-table tbody tr td:first-child,
+.checkout-table tbody tr .package-sidebar .package-widget .cw-subtotal td:first-child,
+.package-sidebar-vertical .package-widget .cw-subtotal .checkout-table tbody tr td:first-child,
+.checkout-table tbody tr .package-sidebar-vertical .package-widget .cw-subtotal td:first-child,
+.package-sidebar .package-widget .cw-subtotal .prod-reviews .tp-review .tpr-name,
+.prod-reviews .tp-review .package-sidebar .package-widget .cw-subtotal .tpr-name,
+.package-sidebar-vertical .package-widget .cw-subtotal .prod-reviews .tp-review .tpr-name,
+.prod-reviews .tp-review .package-sidebar-vertical .package-widget .cw-subtotal .tpr-name {
     padding-bottom: 5px;
 }
 
-.shop-sidebar .filter-widget p,
-.shop-sidebar-vertical .filter-widget p {
+.package-sidebar .filter-widget p,
+.package-sidebar-vertical .filter-widget p {
     margin-top: 20px;
     margin-bottom: 0;
 }
 
-.shop-sidebar .filter-widget label,
-.shop-sidebar-vertical .filter-widget label {
+.package-sidebar .filter-widget label,
+.package-sidebar-vertical .filter-widget label {
     font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
     font-weight: 300;
 }
 
-.shop-sidebar .filter-widget input[type="text"],
-.shop-sidebar-vertical .filter-widget input[type="text"] {
+.package-sidebar .filter-widget input[type="text"],
+.package-sidebar-vertical .filter-widget input[type="text"] {
     border: none;
     font-size: 12px;
     font-weight: 400;
     letter-spacing: .5px;
 }
 
-.shop-sidebar .filter-widget .ui-slider-handle,
-.shop-sidebar-vertical .filter-widget .ui-slider-handle {
+.package-sidebar .filter-widget .ui-slider-handle,
+.package-sidebar-vertical .filter-widget .ui-slider-handle {
     border-radius: 0;
     width: 20px;
     height: 20px;
@@ -520,34 +520,34 @@
     background: #fff;
 }
 
-.shop-sidebar .filter-widget .ui-slider-handle:focus,
-.shop-sidebar-vertical .filter-widget .ui-slider-handle:focus {
+.package-sidebar .filter-widget .ui-slider-handle:focus,
+.package-sidebar-vertical .filter-widget .ui-slider-handle:focus {
     outline: none;
 }
 
-.shop-sidebar .filter-widget .ui-slider,
-.shop-sidebar-vertical .filter-widget .ui-slider,
-.shop-sidebar .filter-widget .ui-slider-range,
-.shop-sidebar-vertical .filter-widget .ui-slider-range {
+.package-sidebar .filter-widget .ui-slider,
+.package-sidebar-vertical .filter-widget .ui-slider,
+.package-sidebar .filter-widget .ui-slider-range,
+.package-sidebar-vertical .filter-widget .ui-slider-range {
     border: none;
     border-radius: 0;
     background: #ececec;
 }
 
-.shop-sidebar .filter-widget .ui-slider,
-.shop-sidebar-vertical .filter-widget .ui-slider {
+.package-sidebar .filter-widget .ui-slider,
+.package-sidebar-vertical .filter-widget .ui-slider {
     display: block;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.shop-sidebar .categories-widget .header-widget,
-.shop-sidebar-vertical .categories-widget .header-widget {
+.package-sidebar .categories-widget .header-widget,
+.package-sidebar-vertical .categories-widget .header-widget {
     margin-bottom: 20px;
 }
 
-.shop-sidebar .categories-widget .widget-item a,
-.shop-sidebar-vertical .categories-widget .widget-item a {
+.package-sidebar .categories-widget .widget-item a,
+.package-sidebar-vertical .categories-widget .widget-item a {
     padding-bottom: 5px;
     margin-bottom: 5px;
     font-size: 1.3em;
@@ -559,31 +559,31 @@
     transition: all 0.3s;
 }
 
-.shop-sidebar .categories-widget .widget-item a span,
-.shop-sidebar-vertical .categories-widget .widget-item a span {
+.package-sidebar .categories-widget .widget-item a span,
+.package-sidebar-vertical .categories-widget .widget-item a span {
     color: #ccc;
 }
 
-.shop-sidebar .categories-widget .widget-item a:hover,
-.shop-sidebar-vertical .categories-widget .widget-item a:hover {
+.package-sidebar .categories-widget .widget-item a:hover,
+.package-sidebar-vertical .categories-widget .widget-item a:hover {
     padding-bottom: 3px;
     border-bottom: 1px solid #111111;
     color: #111;
 }
 
-.shop-sidebar .search-widget,
-.shop-sidebar-vertical .search-widget {
+.package-sidebar .search-widget,
+.package-sidebar-vertical .search-widget {
     padding-left: 15px;
     padding-right: 15px;
 }
 
-.shop-sidebar .search-widget .form-group,
-.shop-sidebar-vertical .search-widget .form-group {
+.package-sidebar .search-widget .form-group,
+.package-sidebar-vertical .search-widget .form-group {
     position: relative;
 }
 
-.shop-sidebar .search-widget .form-group .inside-input-btn,
-.shop-sidebar-vertical .search-widget .form-group .inside-input-btn {
+.package-sidebar .search-widget .form-group .inside-input-btn,
+.package-sidebar-vertical .search-widget .form-group .inside-input-btn {
     display: block;
     position: absolute;
     width: 20px;
@@ -598,32 +598,32 @@
     transition: color 0.5s;
 }
 
-.shop-sidebar .search-widget .form-group .inside-input-btn:hover,
-.shop-sidebar-vertical .search-widget .form-group .inside-input-btn:hover {
+.package-sidebar .search-widget .form-group .inside-input-btn:hover,
+.package-sidebar-vertical .search-widget .form-group .inside-input-btn:hover {
     color: #111;
 }
 
-.shop-sidebar .search-widget .form-group .inside-input-btn:focus,
-.shop-sidebar-vertical .search-widget .form-group .inside-input-btn:focus,
-.shop-sidebar .search-widget .form-group .inside-input-btn:visited,
-.shop-sidebar-vertical .search-widget .form-group .inside-input-btn:visited {
+.package-sidebar .search-widget .form-group .inside-input-btn:focus,
+.package-sidebar-vertical .search-widget .form-group .inside-input-btn:focus,
+.package-sidebar .search-widget .form-group .inside-input-btn:visited,
+.package-sidebar-vertical .search-widget .form-group .inside-input-btn:visited {
     outline: none;
 }
 
-.shop-sidebar .tags-widget .tag-list,
-.shop-sidebar-vertical .tags-widget .tag-list {
+.package-sidebar .tags-widget .tag-list,
+.package-sidebar-vertical .tags-widget .tag-list {
     padding: 0;
     margin: 0;
 }
 
-.shop-sidebar .tags-widget .tag-list li,
-.shop-sidebar-vertical .tags-widget .tag-list li {
+.package-sidebar .tags-widget .tag-list li,
+.package-sidebar-vertical .tags-widget .tag-list li {
     list-style: none;
     display: inline-block;
 }
 
-.shop-sidebar .tags-widget .tag-list li a,
-.shop-sidebar-vertical .tags-widget .tag-list li a {
+.package-sidebar .tags-widget .tag-list li a,
+.package-sidebar-vertical .tags-widget .tag-list li a {
     display: block;
     padding: 0 10px;
     margin-bottom: 5px;
@@ -634,33 +634,33 @@
     transition: all 0.5s;
 }
 
-.shop-sidebar .tags-widget .tag-list li a:hover,
-.shop-sidebar-vertical .tags-widget .tag-list li a:hover {
+.package-sidebar .tags-widget .tag-list li a:hover,
+.package-sidebar-vertical .tags-widget .tag-list li a:hover {
     border-color: #777;
     color: #111;
 }
 
 
-/* ---- 27.4 Shop Sidebar - (vertical) ---- */
+/* ---- 27.4 package Sidebar - (vertical) ---- */
 
-.shop-sidebar-vertical {
+.package-sidebar-vertical {
     margin-top: 3rem !important;
     padding: 30px 20px;
     border-top: 1px solid #f8f8f8;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 1px rgba(255, 255, 255, 0.8);
     background: #fff;
 }
 
-.shop-sidebar-vertical .shop-widget {
+.package-sidebar-vertical .package-widget {
     margin-bottom: 50px;
 }
 
-.shop-sidebar-vertical .search-widget {
+.package-sidebar-vertical .search-widget {
     padding-left: 0;
     padding-right: 0;
 }
 
-.shop-sidebar-vertical .tags-widget {
+.package-sidebar-vertical .tags-widget {
     margin-bottom: 10px;
 }
 
