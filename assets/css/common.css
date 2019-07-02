@@ -55,13 +55,26 @@ textarea::-webkit-scrollbar-thumb {
     font-weight: 500 !important;
 }
 
+.page-header-lg[filter-color="green"] {
+    background: rgba(220, 227, 91, .2);
+    /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to right, rgba(220, 227, 91, .3), rgb(46, 204, 113, 0.4));
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to right, rgba(220, 227, 91, .3), rgb(46, 204, 113, 0.4));
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgba(220, 227, 91, .3), rgb(46, 204, 113, 0.4));
+    /* Standard syntax */
+}
+
 
 /* Modifying Navbars */
 
 .navbar.sticky-header {
     background: #DCE35B;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #DCE35B, #2ecc71);
+    background: -webkit-linear-gradient(to right, #dce35b, #2ecc71);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #DCE35B, #2ecc71);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -89,10 +102,18 @@ textarea::-webkit-scrollbar-thumb {
     color: #fff;
 }
 
+h1.logo {
+    color: #323232;
+    font-weight: 500;
+}
+
 .navbar .navbar-translate a.navbar-brand h6 {
     color: #323232;
     font-weight: 500;
     font-size: 21px;
+    margin: 0;
+    line-height: 0;
+    display: block;
 }
 
 .navbar .navbar-brand:focus {
