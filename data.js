@@ -17,16 +17,16 @@ let elements = [
     },
     {
         "id": 1,
-        "trip_name": "Cloverdale Tanzania",
+        "trip_name": "Explore Locale",
         "days": 5,
-        "places": "Alden - Glenville - Balm",
+        "places": "Kumbalangi - Kuttanad - Wayanad",
         "link": "#Bartley",
-        "category": "Day Excursions",
-        "img_path": "shop/",
+        "category": "Enviable",
+        "img_path": "enviablepics/",
         "img": [
-            "shop-img-1.jpg",
-            "shop-img-6.jpg",
-            "shop-img-8.jpg"
+            "kumbalangi01.jpeg",
+            "kuttanad01.jpeg",
+            "wayanad.jpeg"
         ]
     },
     {
@@ -38,9 +38,9 @@ let elements = [
         "category": "Honeymoon",
         "img_path": "honeymoonpics/",
         "img": [
-            "shop-img-1.jpg",
-            "shop-img-6.jpg",
-            "shop-img-8.jpg"
+            "wayanad05.jpeg",
+            "coorg01.jpeg",
+            "coorg02.jpeg"
         ]
     },
     {
@@ -82,6 +82,7 @@ let elements = [
         "img": [
             "aleppey03.jpeg",
             "munnar13.jpeg",
+            "athirappally.jpeg",
             "thekkady04.jpeg"
         ]
     },
