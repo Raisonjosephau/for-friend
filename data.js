@@ -31,7 +31,7 @@ let elements = [
     },
     {
         "id": 2,
-        "trip_name": "Boling Kuwait",
+        "trip_name": "In the Wild",
         "days": 6,
         "places": "Wayanad - Coorg - Calicut",
         "link": "#Lorraine",
