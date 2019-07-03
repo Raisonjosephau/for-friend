@@ -105,7 +105,7 @@ $(document).ready(function() {
             clickableIcons: false,
 
             // The latitude and longitude to center the map (always required)
-            center: new google.maps.LatLng(9.9651212, 76.2446716), // Fort Kochi
+            center: new google.maps.LatLng(10.187380749999999, 76.21292450447827), // Fort Kochi
 
             // How you would like to style the map. 
             // This is where you would paste any style found on Snazzy Maps.
@@ -257,15 +257,11 @@ $(document).ready(function() {
 
 
     var data = [
-        new Location('Fort Kochi Beach', "Chinavala", 9.9637, 76.2375),
-        new Location('St. Francis church', "St Francis Church", 9.9660685, 76.2408039),
-        new Location('Dutch Cemetry', "Dutch Cemetery", 9.9639789, 76.2384805),
-        new Location('Jew Town', "Jew Town Mattancherry", 9.9553412, 76.2602222),
-        new Location('Synagogue', "Jewish Synagogue", 9.9574785, 76.2593805),
-        new Location('Coonan Cross', "Coonan Cross Church ", 9.9649886, 76.2549045),
-        new Location('Princess Street', "The princess Street", 9.9668931, 76.2428051),
-        new Location('Park', "Subhash Bose Park", 9.9714883, 76.2794095),
-        new Location('Broadway', "Broadway Street Shopping ", 9.9793672, 76.2772516),
+        new Location('Gothuruth', "Church, Performance Center", 10.187380749999999, 76.21292450447827),
+        new Location('Gothuruth', "Church, Performance Center", 10.187380749999999, 76.21292450447827),
+        new Location('Paliam Palace', "Paliam Palace", 9.9672888, 76.2826666),
+        new Location('Kottayil Kovilakam', "Chendamangalam Synagogue", 10.16895705,76.25006835149102),
+       
     ];
 
     var content_start = '<div id="iw-container">' +
