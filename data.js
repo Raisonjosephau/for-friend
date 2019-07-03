@@ -99,20 +99,7 @@ let elements = [
             "aleppey02.jpg",
             "tvm.jpg"
         ]
-    },
-    {
-        "id": 7,
-        "trip_name": "Clarksburg Turkmenistan",
-        "days": 8,
-        "places": "Rivera - Greenfields - Chamberino",
-        "link": "#Sunnyside",
-        "category": "Luxury",
-        "img_path": "shop/",
-        "img": [
-            "shop-img-1.jpg",
-            "shop-img-6.jpg",
-            "shop-img-8.jpg"
-        ]
     }
+    
 ]
 var packages = elements;
