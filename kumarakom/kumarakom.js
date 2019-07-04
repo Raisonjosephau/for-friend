@@ -99,7 +99,7 @@ $(document).ready(function() {
         // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
         var mapOptions = {
             // How zoomed in you want the map to start at (always required)
-            zoom: 16,
+            zoom: 12,
 
             scrollwheel: false,
             clickableIcons: false,
@@ -258,10 +258,9 @@ $(document).ready(function() {
 
     var data = [
         new Location('Bird Sanctuary', "Bird Sanctuary", 9.6311548, 76.4226266),
-        new Location('Bird Sanctuary', "Bird Sanctuary", 9.6311548, 76.4226266),
         new Location('Vembanad Lake', "Vembanad Lake", 9.594922, 76.39421134710621),
         new Location('Houseboat', "Houseboat", 9.594922, 76.3945),
-       
+
     ];
 
     var content_start = '<div id="iw-container">' +
@@ -295,33 +294,36 @@ $(document).ready(function() {
     $('ul.itenary-steps li').click(function(e) {
 
         index = this.getAttribute("data-toggle-map");
+        if (index !== -1) {
+            if (activeInfoWindow) { activeInfoWindow.close(); }
 
-        if (activeInfoWindow) { activeInfoWindow.close(); }
+            map.panTo(data[index].marker.position);
 
-        map.panTo(data[index].marker.position);
+            data[index].infowindow.open(map, data[index].marker);
 
-        data[index].infowindow.open(map, data[index].marker);
+            // Reference to the DIV that wraps the bottom of infowindow
+            var iwOuter = $('.gm-style-iw');
 
-        // Reference to the DIV that wraps the bottom of infowindow
-        var iwOuter = $('.gm-style-iw');
+            /* Since this div is in a position prior to .gm-div style-iw.
+             * We use jQuery and create a iwBackground variable,
+             * and took advantage of the existing reference .gm-style-iw for the previous div with .prev().
+             */
 
-        /* Since this div is in a position prior to .gm-div style-iw.
-         * We use jQuery and create a iwBackground variable,
-         * and took advantage of the existing reference .gm-style-iw for the previous div with .prev().
-         */
+            var iwBackground = iwOuter.prev();
+            iwBackground.hide();
 
-        var iwBackground = iwOuter.prev();
-        iwBackground.hide();
+            // Removes background shadow DIV
+            // Reference to the div that groups the close button elements.
+            var iwCloseBtn = iwOuter.next();
 
-        // Removes background shadow DIV
-        // Reference to the div that groups the close button elements.
-        var iwCloseBtn = iwOuter.next();
+            // Apply the desired effect to the close button
+            iwCloseBtn.addClass('btn-info-close');
+            iwCloseBtn.children("img").remove();
 
-        // Apply the desired effect to the close button
-        iwCloseBtn.addClass('btn-info-close');
-        iwCloseBtn.children("img").remove();
+            activeInfoWindow = data[index].infowindow;
+        }
 
-        activeInfoWindow = data[index].infowindow;
+
     });
 
 
