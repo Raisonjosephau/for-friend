@@ -59,16 +59,16 @@ let elements = [
     },
     {
         "id": 4,
-        "trip_name": "Boykin Monaco",
+        "trip_name": "Temple ways",
         "days": 4,
-        "places": "Grandview - Urie - Brooktrails",
+        "places": "Madurai - Rameswaram - Kanyakumari - Thiruvananthapuram",
         "link": "#Beaulieu",
-        "category": "Weekend",
-        "img_path": "shop/",
+        "category": "Pilgrimage",
+        "img_path": "pigrimage/",
         "img": [
-            "shop-img-1.jpg",
-            "shop-img-6.jpg",
-            "shop-img-8.jpg"
+            "Madhurai.jpg",
+            "rameswaram.jpg",
+            "tvm.jpg"
         ]
     },
     {
@@ -99,20 +99,7 @@ let elements = [
             "aleppey02.jpg",
             "tvm.jpg"
         ]
-    },
-    {
-        "id": 7,
-        "trip_name": "Clarksburg Turkmenistan",
-        "days": 8,
-        "places": "Rivera - Greenfields - Chamberino",
-        "link": "#Sunnyside",
-        "category": "Luxury",
-        "img_path": "shop/",
-        "img": [
-            "shop-img-1.jpg",
-            "shop-img-6.jpg",
-            "shop-img-8.jpg"
-        ]
     }
+    
 ]
 var packages = elements;
