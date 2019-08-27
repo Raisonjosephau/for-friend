@@ -105,7 +105,7 @@ $(document).ready(function() {
             clickableIcons: false,
 
             // The latitude and longitude to center the map (always required)
-            center: new google.maps.LatLng(9.9651212, 76.2446716), // Fort Kochi
+            center: new google.maps.LatLng(8.393040, 76.974457), // Trivandrum
 
             // How you would like to style the map. 
             // This is where you would paste any style found on Snazzy Maps.
@@ -257,15 +257,11 @@ $(document).ready(function() {
 
 
     var data = [
-        new Location('Fort Kochi Beach', "Chinavala", 9.9637, 76.2375),
-        new Location('St. Francis church', "St Francis Church", 9.9660685, 76.2408039),
-        new Location('Dutch Cemetry', "Dutch Cemetery", 9.9639789, 76.2384805),
-        new Location('Jew Town', "Jew Town Mattancherry", 9.9553412, 76.2602222),
-        new Location('Synagogue', "Jewish Synagogue", 9.9574785, 76.2593805),
-        new Location('Coonan Cross', "Coonan Cross Church ", 9.9649886, 76.2549045),
-        new Location('Princess Street', "The princess Street", 9.9668931, 76.2428051),
-        new Location('Park', "Subhash Bose Park", 9.9714883, 76.2794095),
-        new Location('Broadway', "Broadway Street Shopping ", 9.9793672, 76.2772516),
+        new Location('Kovalam Beach', "Thiruvananthapuram",8.393040, 76.974457),
+        new Location('Sree Chithra Art Gallery', "A collection of Raja Ravivarma Paintings", 8.509409, 76.956396),
+        new Location('Napier Museum', "Napier Museum", 8.508938, 76.955148),
+        new Location('Kuthiramalika Palace', "Kuthiramalika Palace", 8.484750, 76.941840),
+        new Location('Thiruvananthapuram Zoo', "Zoo", 8.547720, 76.920210)
     ];
 
     var content_start = '<div id="iw-container">' +
